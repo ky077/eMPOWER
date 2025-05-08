@@ -1,0 +1,92 @@
+.nav-sidebar-theme {
+    font-size:0.85rem; 
+    ul{ padding: 0; }
+    li{ list-style: none; }
+    li{
+        a{
+            display: block;
+            margin: .25rem .5rem;
+            padding: .5rem .75rem .5rem calc(.75rem + .9rem + .4rem);
+            border-radius: .25rem;
+            text-indent: -.9rem - .4rem;
+            text-decoration: none;
+            &:hover, &:focus, &:active{
+                background-color: darken($color-bg, 2%);
+            }
+            >i{
+                width: .9rem;
+                height: auto;
+                margin-right: .4rem;
+                display:inline-block;
+                font-size: .8rem;
+                vertical-align:middle;
+                text-align:center;
+                text-indent: 0; 
+                margin-top: -.15rem; 
+            }
+            &.disabled{
+                cursor: default;
+                background-color: transparent;
+            }
+        }
+    }
+    > li{//第一層
+        >a{
+            color: $color-default-gray;  
+        }
+        &.active >a{
+            background-color: lighten($color-main-sky, 50%);
+            color: $color-main-sky; 
+        } 
+    }
+    > li >ul>li{//第二層
+        >a{
+            color: lighten($color-default-gray, 10%);
+            &::before{
+                content: "";
+                display: inline-block;
+                width: .3rem;
+                height: .3rem;
+                margin-left: .3rem;
+                margin-right: .3rem + .4rem;
+                border-radius: 100%;
+                background-color: lighten($color-default-gray, 10%);
+                vertical-align: middle;  
+            }
+        }
+        &.active >a{
+            color: darken($color-default-gray, 10%);
+            font-weight: 500;
+            &::before{
+                width: .5rem;
+                height: .5rem;
+                margin-left: .2rem;
+                margin-right: .2rem + .4rem;
+                background-color: $color-main-sky;  
+            }
+        }
+    }
+    > li >ul>li >ul>li {//第三層
+        >a{
+            color: lighten($color-default-gray, 10%);
+            &::before{
+                content: "";
+                display: inline-block;
+                width: .3rem;
+                height: 1px;
+                margin-left: .9rem + .4rem + .3rem;
+                margin-right: .3rem;
+                border-radius: 100%;
+                background-color: lighten($color-default-gray, 10%);
+                vertical-align: middle;  
+            }
+        }
+        &.active >a{
+            color: $color-main-sky;
+            font-weight: 500;
+            &::before{
+                background-color: $color-main-sky;  
+            }
+        }
+    }
+}

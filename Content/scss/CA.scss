@@ -1,0 +1,188 @@
+@import "base/color";
+@import "base/UI";
+
+.view-T{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0,0,0, .5);
+    color: #fff;
+    padding: .5rem 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0, .25);
+    @media print{
+    display: none;        
+    } 
+}
+.copied{
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+    background-color: rgba(0,0,0, .75);
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .25rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0, .25);
+}
+.CA-close .CA-logo img{
+    -webkit-filter:drop-shadow(5px 5px #fff);
+    -moz-filter:drop-shadow(5px 5px #fff); 
+    -ms-filter:drop-shadow(5px 5px #fff); 
+    -o-filter:drop-shadow(5px 5px #fff); 
+    filter:drop-shadow(5px 5px #fff); 
+}
+.btn-undo{
+    width: 3.6rem;
+    height: 3.6rem;
+    line-height: 3rem;
+    > i{
+        font-size: 1.4rem;
+        -webkit-transform:translateY(.05em) rotate(45deg);
+        -moz-transform:translateY(.05em) rotate(45deg);
+        -ms-transform:translateY(.05em) rotate(45deg);
+        -o-transform:translateY(.05em) rotate(45deg);
+        transform:translateY(.05em) rotate(45deg);
+    }
+}
+.CA-logo__colors{
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    .change-color{ 
+        position:absolute;
+        top:0;
+        bottom: 0;
+        text-indent: -9999px;
+        color: transparent;
+        &:hover{
+            cursor: pointer;
+        }
+        &.E{ width: 21%;     left: 0; }
+        &.m{ width: 20%;     left: 21%; }
+        &.p{ width: 10.5%;   left: 21% + 20%; }
+        &.o{ width: 11.5%;   left: 21% + 20% + 10.5%; }
+        &.w{ width: 15.5%;   left: 21% + 20% + 10.5% + 11.5%; }
+        &.e{ width: 11%;     left: 21% + 20% + 10.5% + 11.5% + 15.5%; }
+        &.r{ width: 10.5%;   left: 21% + 20% + 10.5% + 11.5% + 15.5% + 11%; }
+    }
+    .change-color.active{
+        &::before{ 
+            content: "";
+            display: block;
+            width: .5rem;
+            height: .5rem;
+            border-radius: 100%;
+            background-color: $gray-700;
+            position: absolute;
+            top: -.75em;
+            left: 50%;
+        }
+    }
+}
+.CA-end__modal{
+    .modal-content{
+        background-color: transparent !important;
+        .modal-body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("../images/classActivity/fireworks.png"), url("../images/classActivity/fireworks.png");
+            background-repeat: no-repeat, no-repeat;
+            background-position: left 5% top 5%, right 5% top 15%;
+            background-size: 25% auto, 15% auto;
+            .CA-end__h2{
+                color: #fff;
+                font-size: 3.2rem;
+                font-weight: bold;
+            }
+            .CA-end__content{
+                background-color: rgba(255,255,255, .75);
+                border-radius: .75rem;
+                min-width: 90%;
+                margin-top: 1rem;
+                text-align: center;
+                padding: 1rem;
+                @media screen and (min-width: 576px) {
+                min-width: 380px;    
+                }
+            }
+            .CA-end__time{
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 1rem;
+                color: $blue;
+            }
+        }
+    }
+}
+.modal-backdrop.show{
+    opacity: 0.65;
+}
+.CA-ranking{
+    .CA-ranking-item{
+        .contestant{
+            @media screen and (min-width: 768px) {
+            height: calc(64px + 64px*0.15);
+            line-height: 64px; 
+            width: 100%;
+            display: block;
+            margin:.25rem 0;    
+            }
+            .avater{
+                margin-bottom: 0.25rem;
+                display: inline-block;
+                width: 64px;
+                height: 64px;
+                float: right;
+                line-height: 1; 
+                position: relative;
+                @media screen and (min-width: 768px) {
+                margin:0 .5rem 0 1rem;    
+                }    
+                &::after{
+                    content: "";
+                    display: block; 
+                    position: absolute;
+                    top: -10%;
+                    left: -11%;
+                    right: -11%;
+                    bottom: -12%;
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    background-position: bottom center;
+                    filter:drop-shadow(1px 1px 1px rgba(0,0,0, .3));
+                }
+                img{
+                    width: 64px;
+                    height: 64px;
+                }
+            }    
+        } 
+    }
+    
+    .progress{
+        background-color: #fff;
+        box-shadow: inset  1px  1px rgba($cyan, .15), 
+                    inset -1px -1px rgba($cyan, .15), 
+                    inset -1px  1px rgba($cyan, .15), 
+                    inset  1px -1px rgba($cyan, .15);
+    }
+}
+
+/*生字詞卡*/
+@import "pages/flashCard";
+
+/*聽打練習*/
+@import "pages/listeningEnter";
+
+/*翻轉卡片*/
+@import "pages/flipCard";

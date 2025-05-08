@@ -1,0 +1,88 @@
+{
+  "bookName": "新版實用視聽華語1",
+  "lesson": [{
+      "topic": "第1課",
+      "title": "您貴姓",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第2課",
+      "title": "早，您好",
+      "fileId": "1O44GDNlDFxqSQsNKFiimFgIGVwupdkpq"
+    },
+    {
+      "topic": "第3課",
+      "title": "我喜歡看電影",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第4課",
+      "title": "這枝筆多少錢？",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第5課",
+      "title": "我家有五個人",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第6課",
+      "title": "我想買一個新相機",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第7課",
+      "title": "你的法文念得真好聽",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第8課",
+      "title": "這是我們新買的電視機",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第9課",
+      "title": "你們學校在哪裡？",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第10課",
+      "title": "我到日本去了",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第11課",
+      "title": "你幾點鐘下課？",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    },
+    {
+      "topic": "第12課",
+      "title": "我到外國去了八個多月？",
+      "fileId": "1Ke1B9hqcrT7CuP9UycjDXHU8TUirmhJn"
+    }
+  ],
+  "teachingFocus": [
+    {
+      "topic": "教學重點",
+      "fileId": ""
+    }
+  ],
+  "pinyin": [
+    {
+      "topic": "漢語拼音",
+      "fileId": ""
+    }
+  ],
+  "vocabulary": [
+    {
+      "topic": "詞彙",
+      "fileId": ""
+    }
+  ],
+  "sentence": [
+    {
+      "topic": "句型",
+      "fileId": ""
+    }    
+  ]
+}

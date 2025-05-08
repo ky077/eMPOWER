@@ -1,0 +1,692 @@
+{
+  "topic": "L9 我的書在哪裡?",
+  "focus": [
+    "學習詢問地點、物品位置",
+    "學習簡單回答地點、物品位置"
+  ],
+  "lesson": [
+    {
+      "title": "第一課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你早餐吃什麼？<br>學生：我早餐吃包子。老師，你早餐吃什麼？",
+            "複習L8詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "介音w 和不同韻母搭配1: <br>w + u, o, a, ai, ei"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "配對",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "在、這裡、那裡<br>本子、書包、錢包、手機<br><span class='text-red'>背包</span>、<span class='text-red'>手錶</span>、<span class='text-red'>眼鏡</span>、<span class='text-red'>帽子</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "<span class='text-red'>鞋子</span>、<span class='text-red'>衣服</span>",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "我說你畫",
+              "outerP": [
+                "學生分成兩組，平均分配字卡，字卡內容不公開。A組說字卡詞彙，B組畫詞彙。完成後交換任務，B組說詞彙，A組畫。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 你的<u>本子</u><b>在</b>哪裡?<br>B: 我的<u>本子</u><b>在這裡</b>/<b>那裡</b>。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "問答接龍-看圖說句子",
+              "outerP": [
+                "老師：書包在哪裡?<br>學生A：書包在那裡。牛奶在哪裡?<br>學生B：牛奶在這裡。"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "尋尋覓覓",
+              "outerP": [
+                "學生分兩隊搶答，先找到物品的一組得一分。學生可用圖卡，或教室裡的物品進行活動，找到時全隊要一起大聲說：「____在這裡/那裡！」。<br>老師：書在哪裡？<br>學生：書在這裡！"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "在、手、包"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L9-1 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第二課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你的書包在哪裡?<br>學生：我的書包在這裡。",
+            "複習L9第一課時詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "介音w 和不同韻母搭配2: <br>w + an, en, ang, eng"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "賓果",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "裡、外、上、下<br>電視、床、桌子、<span class='text-red'>椅子</span><br>地上、房間、<span class='text-red'>房子</span><br>貓、<span class='text-red'>狗</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "本子、書包、手機、<span class='text-red'>筆</span>、<span class='text-red'>筆袋</span>、<span class='text-red'>背包</span>",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "我說你畫/我說你做",
+              "outerP": [
+                "學生分成兩組，平均分配字卡，字卡內容不公開。A組說，B組可以畫或是做動作。如果畫對了或做對了，就得一分。然後換B組說，A組畫或做動作。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 你的<u>貓</u>在哪裡?<br>B: 我的<u>貓</u>在<u>床<b>上</b> / 床<b>下</b> / 房間<b>裡</b> / 房間<b>外</b></u>。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "聽句子畫圖",
+              "outerP": [
+                "每個人說一句話，大家把聽到的畫下來。<br>老師：書包在椅子上。<br>學生A：電視在房間裡。<br>學生B：<span class='text-red'>狗</span>在桌子下。<br>學生C：麵包在桌子上。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "裡、房、床、地"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L9-2 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第三課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "15分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "複習第一和第二課時的詞彙及語法"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "詞彙消消樂",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "20分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "課文聆聽。<br>聽1到2遍課文，讓學生圈選他們聽到的字詞。",
+            "課文跟讀。<br>搭配課文插圖，帶學生閱讀。",
+            "課文理解。<br>老師提問學生回答。<br>問題：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;那是誰的書？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王麗的手機在哪裡？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;貓在哪裡？",
+            "學生兩兩練習課文。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文練習",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師將可替換的詞彙寫在白板上，先帶學生念一次，確認學生理解詞彙意思。學生兩人一組，選擇適合的詞彙放在課文挖空處，完成後進行口語練習。",
+            "A：這(本/個)_____是你的嗎?<br>B：那是____的。我的不在這裡，在____。<br>A：你的____在哪裡?<br>B：我的____在____。<br>A：貓在房間裡嗎?<br>B：貓不在房間裡。貓在那裡，在____。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "學生演示",
+          "time": "5分鐘",
+          "color": "sky",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師隨機抽點2-3組學生演示對話。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "L9-3 評量活動",
+            "eM課文細讀練習"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": ""   
+    },
+    {
+      "title": "第四課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你的手機在哪裡?<br>學生：我的手機在桌上。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動1",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "老師帶領學生進行L9-4 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動2",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "我說你畫",
+              "outerP": [
+                "全班分兩隊，一隊說，一隊畫。每隊說和畫的人要輪流。"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "我說你做",
+              "outerP": [
+                "全班分兩隊，一隊說，一隊把東西放到對方說的位置。每隊說和畫的人要輪流"
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    }
+  ]
+}
