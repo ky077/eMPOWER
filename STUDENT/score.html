@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS --> 
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Sindex"><a href="Sindex.html">首頁</a></li>
+              <li class="navTab-myCourse"><a href="myCourse.html">我的課本</a></li>
+              <li class="navTab-learning"><a href="learning.html">學習紀錄</a></li>
+              <li class="navTab-score"><a href="score.html">評量結果</a></li>
+              <li class="navTab-classAct"><a href="classAct.html">課堂活動</a></li>  
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，HUANGDADA！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- page-banner start -->
+  <div class="page-banner classMgt">
+    <div class="container-fluid">
+      <div class="page-banner__text">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xl-offset-1">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-11 col-lg-offset-1 col-xl-10 col-xl-offset-2">
+                <h2>評量結果</h2>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- page-banner end --> 
+  
+  <!-- 成績查詢 start -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-lg-12 col-xl-10 col-xl-offset-1"> 
+        <!--search-panel start-->
+        <div class="search-panel">
+          <div class="form-inline">
+            <div class="form-group">
+              <label for="">教材：</label>
+              <select class="form-control noRadius">
+                <option>請選擇...</option>
+                <option>漢字積木-字本位學習法I</option>
+                <option>中文真有趣</option>
+                <option>你好 HELLO</option>
+              </select>
+            </div>
+            &nbsp;&nbsp;
+            <div class="form-group">
+              <label for="">單元：</label>
+              <select class="form-control noRadius">
+                <option>請選擇...</option>
+                <option>第一課 問好</option>
+                <option>第二課 家庭</option>
+              </select>
+            </div>
+            &nbsp;&nbsp;
+            <div class="form-group">
+              <label for="">評量活動：</label>
+              <select class="form-control noRadius">
+                <option>請選擇...</option>
+                <option>活動一</option>
+                <option>活動二</option>
+              </select>
+            </div>
+            &nbsp;&nbsp;
+            <button type="submit" class="btn btn-main-blue noRadius" onClick=" $('#demo-noneData').hide();$('#demo-hasData').show();">搜尋</button>
+          </div>
+        </div>
+        <!--search-panel end--> 
+        <!--table start-->
+        <table class="table table-hover table-style-default" id="demo-table">
+          <thead>
+            <tr>
+              <th style="display:none;">ID</th>
+              <th>教材名稱</th>
+              <th>單元名稱</th>
+              <th>評量活動</th>
+              <th>測驗時間</th>
+            </tr>
+          </thead>
+          <tbody id="demo-noneData">
+            <tr>
+              <td colspan="5"><span class="text-muted">請於上方輸入搜尋資料。</span></td>
+            </tr>
+          </tbody>
+          <tbody id="demo-hasData" style="display:none;">
+            <tr>
+              <td style="display:none;">1</td>
+              <td>中文真有趣</td>
+              <td>第一課 問好</td>
+              <td>單元一</td>
+              <td><div class="form-inline">
+                  <input type="text" class="form-control noRadius" value="2021/09/12" disabled>
+                  <a class="btn btn-main-blue noRadius" href="score-content.html" role="button"><i class="fas fa-search"></i>&nbsp;查看</a> </div></td>
+            </tr>
+            <tr>
+              <td style="display:none;">1</td>
+              <td>中文真有趣</td>
+              <td>第一課 問好</td>
+              <td>單元一</td>
+              <td><div class="form-inline">
+                  <input type="text" class="form-control noRadius" value="2021/09/13" disabled>
+                  <a class="btn btn-main-blue noRadius" href="score-content.html" role="button"><i class="fas fa-search"></i>&nbsp;查看</a> </div></td>
+            </tr>
+          </tbody>
+        </table>
+        <!--table end--> 
+      </div>
+    </div>
+  </div>
+  <!-- 成績查詢 end --> 
+</main>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-score').addClass('active');
+});
+</script>
+</body>
+</html>

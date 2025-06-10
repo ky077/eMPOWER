@@ -1,0 +1,743 @@
+{
+  "topic": "L3 我生病了",
+  "focus": [
+    "能描述天氣和身體狀況，並使用相關詞彙。",
+    "能學會請假相關說法和表達無法參加課程的原因。",
+    "能聽、說、讀、寫、打本課詞彙。",
+    "能聽、說、讀、寫、打本課生字。",
+    "能運用本課句型「能」、「跟」、「Verbal 了」。"
+  ],
+  "lesson": [
+    {
+      "title": "第一課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "5分鐘",
+          "color": "green",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [ 
+              "課前打招呼",
+            "說明今天的課程內容",
+            "請學生看課文圖，用中文或英文回答問題，如：<br>・這裡是哪裡？<br>・穿白衣服的男生是做什麼的？<br>・他們可能在說什麼？"  
+          ],
+          "listStyle": "decimal",
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "課文聆聽：全篇課文聆聽一次",
+            "課文理解：教師針對第一段課文提問，如：<br>・大衛星期五下午去哪裡？<br>・那天天氣怎麼樣？<br>・他回到家覺得怎麼樣？",
+            "課文唸讀：<br>・教師帶讀一次第一段課文並糾音。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "10分鐘",
+          "color": "purple",
+          "skill": "目標詞彙：回到、覺得、身體、天氣、下雨、舒服",
+          "app": "eMPOWER",
+          "p": [
+            ""
+          ],
+          "list": [
+            "解釋詞彙，可視學生程度補充天氣的說法，如：<br>●雨天、晴天、陰天<br>●Q：今天天氣怎麼樣？<br>A：今天天氣很好/很不好/很熱/很冷。",
+            "詞彙認讀：學生登入eMPOWER平台練習詞彙並錄音"
+          ],
+          "listStyle": "decimal",
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "生字",
+          "time": "10分鐘",
+          "color": "purple-text",
+          "skill": "目標生字：氣、風、跟、雨、冷、到、小",
+          "app": "eMPOWER、Jamboard",
+          "p": [
+              ""
+          ],
+          "list": [
+            "生字解釋",
+            "筆順教學",
+            "筆順練習<br>●學生登入eMPOWER平台習寫生字。<br>●教師指定生字，學生一起在Jamboard上出來，教師可檢查學生是否掌握筆畫。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "10分鐘",
+          "color": "orange",
+          "skill": "目標句型：跟",
+          "app": "eMPOWER、PPT",
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型用法教學：教師以情境圖和簡短對話引導學生使用目標句型。例如，學生看下圖，教師問「他說什麼？」引導學生說出「他跟他的朋友說他要去學校。」{img:book2L3gen.jpg}",
+            "辨別「跟」的三種用法，如：<br>●例1：他跟他的朋友去書店買書。→他們一起去書店買書。<br>●例2：我跟我的朋友學打籃球。→我的朋友教我打籃球。<br>●例3：他跟媽媽說他不回家吃飯了。→他的媽媽知道他不回家吃飯。"
+          ],
+          "listStyle": "decimal",
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "評量與總結",
+          "time": "5分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+            ""
+          ],
+          "list": [
+            "學生登入eMPOWER平台做評量活動Practice 1",
+            "教師講解答案",
+            "指派作業：學生使用eMPOWER平台跟讀課文、認讀字詞和句型例句。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第二課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "5分鐘",
+          "color": "green",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+            ""
+          ],
+          "list": [
+            "複習上一節課教的字詞",
+            "認讀<b>第一段課文</b>"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "課文聆聽：第二段課文聆聽一次",
+            "課文唸讀：教師帶讀一次並糾音。",
+            "課文理解：教師針對第二段課文提問，如：<br>・醫生說大衛要做什麼？<br>・大衛明天要去上課嗎？"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "10分鐘",
+          "color": "purple",
+          "skill": "目標詞彙：看病、請假、生病、醫生、醫院",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "解釋詞彙，可視學生程度補充生病相關詞彙，如：<br>●頭痛、感冒、流鼻水、發燒<br>●吃藥、打針、住院、掛號",
+            "詞彙認讀：學生登入eMPOWER平台練習詞彙並錄音",
+            "詞彙複習：[段落填空] 利用Jamboard，學生分組將對應字卡放到正確的句子中，完成句子填空。最快完成的組別和答對率最高的組別獲勝。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": "book2L3vocabulary.jpg"
+            }
+          ]
+        },
+        {
+          "name": "生字",
+          "time": "10分鐘",
+          "color": "purple-text",
+          "skill": "目標生字：病、了、會、話、場、等",
+          "app": "eMPOWER、Jamboard",
+          "p": [
+              ""
+          ],
+          "list": [
+            "生字解釋",
+            "筆順教學",
+            "筆順練習：學生登入eMPOWER平台習寫生字。",
+            "生字複習：運用Jamboard，請學生寫出指定詞彙裡的漢字，如：電話、生病、球場。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "目標句型：Verbal 了",
+          "app": "eMPOWER、PPT",
+          "p": [
+            "句型用法教學：教師以情境圖和簡短對話引導學生使用目標句型，說明「了」用於表達已完成的動作。例如，學生看下圖，說出「他昨天看了電影」。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": "book2L3le.jpg"
+            }
+          ]
+        },
+        {
+          "name": "評量與總結",
+          "time": "5分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "學生登入eMPOWER平台做評量活動Practice 2",
+            "教師講解答案",
+            "指派作業：學生使用eMPOWER平台細讀課文、認讀字詞、認讀句型例句。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第三課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "5分鐘",
+          "color": "green",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "複習詞彙",
+            "認讀全篇課文"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "生字",
+          "time": "10分鐘",
+          "color": "purple-text",
+          "skill": "目標生字：了、能、假",
+          "app": "eMPOWER、Jamboard",
+          "p": [
+              ""
+          ],
+          "list": [
+            "生字解釋",
+            "筆順教學",
+            "生字複習：[計時搶字卡] 將學生分成兩組，各組學生輪流在三秒內說出想要的生字，並將生字移到自己組別的方框內，超過三秒直接換另一組。搶到最多字卡的組別勝利。教師可視學生程度增加本課曾出現的其它字。遊戲結束，學生唸一次全部生字。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": "book2L3character.jpg"
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "目標句型：能（Vaux）、Topic Sentence",
+          "app": "eMPOWER、PPT",
+          "p": [
+              ""
+          ],
+          "list": [
+            "句型用法教學—能（Vaux）<br>教師以情境圖和簡短對話引導學生使用「能（Vaux）」及「不能」。例如，學生看下圖，說出「她今天不能去學校。」{img:book2L3neng.jpg}",
+            "句型用法教學—Topic Sentence<br>教師以情境圖輔助，說明主題(topic)會放在句子最前面，後面會接評論(comment)。教師呈現句子，讓學生找出主題，例如：{img:book2L1topic.jpg}"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": "eMPOWER、PPT",
+          "p": [
+              ""
+          ],
+          "list": [
+            "複習課文：全篇課文跟讀一次。",
+            "角色扮演：一位學生扮演老師，一位學生扮演大衛，模擬大衛打電話向老師請假的通話內容。教師可先在第一輪對話扮演提問的一方，引導學生使用課文情境回答問題。範例：<br>老師：喂？<br>大衛：喂？老師好，我是大衛。<br>老師：大衛好，你怎麼了？<br>大衛：老師，我生病了。明天我不能去上學。……"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "評量與總結",
+          "time": "5分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "學生登入eMPOWER平台做評量活動Practice 3",
+            "教師講解答案",
+            "指派作業：學生使用eMPOWER平台習寫生字、認讀句型例句。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "第四課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "5分鐘",
+          "color": "green",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "請學生說一說上一節課學到了什麼。",
+            "說明本節的課程內容：本節課將會複習第三課的內容，學生需運用學到的撰寫請假訊息。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合複習",
+          "time": "10分鐘",
+          "color": "cyan",
+          "skill": "",
+          "app": "Jamboard、PPT",
+          "p": [
+              ""
+          ],
+          "list": [
+            "字詞複習：教師利用前三節課的PPT或eMPOWER複習生字及詞彙",
+            "打字：教師唸，學生打出正確的生字、詞彙或句子。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動",
+          "time": "20分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": "Jamboard",
+          "p": [
+              ""
+          ],
+          "list": [
+            "請學生在Jamboard上寫出一則向老師請假的訊息。教師可指定至少使用三個句型，視學生程度給學生一些引導問題，協助學生完成請假訊息。<br>●請假訊息範例：<br>老師好，<br>我是ＸＸ。我感冒了，所以我明天要請假。昨天下午雨很大，我沒帶傘，我回到家覺得很不舒服。晚上我去看醫生，醫生跟我說我要吃藥，也要多喝水。<br>●引導問題範例：<br>你什麼時候要請假？你的身體怎麼了？<br>你去醫院看醫生了嗎？醫生跟你說了什麼？",
+           "請學生唸出自己的請假訊息，或由學生輪流扮演老師，詢問請假的原因和身體狀況，模擬對話可參考第三節課。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "評量與總結",
+          "time": "15分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": "eMPOWER",
+          "p": [
+              ""
+          ],
+          "list": [
+            "學生登入eMPOWER平台做評量活動Quiz",
+            "其他同學做評量活動時，教師輪流單獨請學生至不同的聊天室進行認讀測驗及糾音。",
+            "教師講解答案並總結本單元的詞彙和語法等。"
+          ],
+          "listStyle": "decimal",  
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

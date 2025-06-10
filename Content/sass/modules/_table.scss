@@ -1,0 +1,54 @@
+.table-style-default{
+	thead{
+		tr{
+			th{
+				font-weight:400;
+				padding: .5rem .4rem;
+				vertical-align: middle;
+                font-size: .9rem;
+			}
+			td{
+				padding: .5rem .4rem;
+				vertical-align: middle;
+                font-size: .9rem;
+			}
+		}
+	}
+	tbody{
+		tr{
+			th{
+				font-weight:400;
+				padding: .5rem .4rem;
+				vertical-align: middle;
+			}
+			td{
+				padding: .5rem .4rem;
+				vertical-align: middle;
+			}
+		}
+	}
+    .td-no {
+        width: 4rem;
+    }
+    .td-class {
+        width: 8rem;
+    }
+    .td-sid {
+        width: 8rem;
+    }
+    .td-name {
+        width: 10rem;
+    }
+    .td-account {
+        width: 15rem;
+    }
+    .td-password {
+        width: 10rem;
+    }
+    .td-edit{
+        width: auto;
+    }
+    .td-delete{
+        width: 5rem;
+    }
+}

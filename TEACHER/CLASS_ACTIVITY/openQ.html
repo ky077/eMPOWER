@@ -1,0 +1,936 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>你問我答活動進行頁面 | eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../../Content/css/bootstrap_custom.css">
+<link rel="stylesheet" type="text/css" href="../../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+<!-- core CSS -->
+<link rel="stylesheet" type="text/css" href="../../Content/css/CA2.css">
+</head>
+
+<body>
+<form>
+  <div class="container-fluid CA-block CA-openQ">
+    <div class="row">
+      <!-- left start -->  
+      <div class="col-lg-4 bg-grid position-fixed"> 
+        <div class="row h-100 justify-content-center align-content-center">
+          <div class="col-12 py-3 order-1">
+            <div class="row justify-content-center">
+              <div class="col-4 col-lg-10 d-flex flex-column justify-content-center">
+                <div class="CA-logo"> <img src="../../Content/images/eMPOWER-img.svg" alt="eMPOWER"/>
+                  <h1 class="d-none d-lg-block">你問我答</h1>
+                </div>
+              </div>
+              <div class="col-8 col-lg-10 mb-lg-5 d-block d-lg-none">
+                <h2 class="mb-0 h3">你問我答</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 mb-4 order-last order-lg-2">
+            <div class="CA-progress STEP2">
+              <div class="progress rounded-pill">
+                <div class="progress-bar bg-cyan rounded-pill" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 mb-4 mt-lg-5 CA-code order-3">
+            <h2 class="h6 text-center mb-2 fw-normal">活動代碼</h2>
+            <div class="form-control rounded-0 text-center col-6 fs-2 fw-bold">545612</div>
+          </div>
+          <div class="w-100 order-4"></div>
+          <div class="col-6 CA-QRcode mb-4 order-5"> <img src="../../Content/temp/qr-listeningEnter.png" alt="" class="w-100"/> </div>
+        </div>
+      </div>
+      <!-- left end -->  
+      <!-- right start -->  
+      <div class="col-lg-8 bg-pure ms-auto"> 
+        <div class="row h-100 justify-content-center align-content-center py-4"> 
+          <!-- 歡迎標語 start -->
+          <div class="CA-welcomeWait mb-5 STEP1">
+            <h2>&nbsp;&nbsp;歡迎！</h2>
+            <h3>等待所有人加入</h3>
+          </div>
+          <!-- 歡迎標語 end --> 
+          
+          <!-- 題目與計時 start -->
+          <div class="CA-topic mb-4 STEP2">
+            <div class="row justify-content-center">
+              <div class="col-12 col-xxl-11">
+                <div class="row gx-2">
+                  <div class="col">
+                    <div class="CA-topic-circle"><span class="topic-circle-num">1</span> <span class="topic-circle-text">她為什麼不吃飯？</span></div>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn btn-light w-100 CA-lightbox">
+                    <div class="ratio ratio-4x3"> <img src="../../Content/images/index/canHelp-teacher-img.png" class="img-fluid" alt="Question image"/> </div>
+                    </button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn btn-light w-100 CA-lightbox">
+                    <div class="ratio ratio-4x3"> <img src="../../Content/images/index/canHelp-teacher-img.png" class="img-fluid" alt="Question image"/> </div>
+                    </button>
+                  </div>
+                  <div class="col-2">
+                    <button type="button" class="btn btn-light w-100 CA-lightbox">
+                    <div class="ratio ratio-4x3"> <img src="../../Content/images/index/canHelp-teacher-img.png" class="img-fluid" alt="Question image"/> </div>
+                    </button>
+                  </div>
+                  <div class="col-auto">
+                    <div class="CA-counter"><label id="COUNTER">00:59</label></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 題目與計時 end --> 
+          
+          <!-- 參加、作答情況 start -->
+          <div class="CA-board">
+            <div class="row justify-content-center">
+              <div class="col-12 col-xxl-11 position-relative">
+                <div class="board-btns">
+                  <button class="btn btn-lg btn-cyan" type="button" id="NEXT">開始/下一題/完成</button>
+                </div>
+                <div class="board-circles">
+                  <div class="CA-circle">
+                    <div class="circle-wrap bg-white text-cyan border-cyan">
+                      <div class="circle-text">
+                        <div>參加人數</div>
+                        <div class="display-6 fw-bold" id="JOINNUM">0</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="CA-circle STEP2">
+                    <div class="circle-wrap bg-cyan text-white border-cyan">
+                      <div class="circle-text">
+                        <div>完成人數</div>
+                        <div class="display-6 fw-bold" id="DONENUM">0</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="board-block">
+                  <div class="STEP1"> 
+                    <!-- 參加情況 start -->
+                    <div class="board-contestants">
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_1.png" alt=""/></div>
+                        Amy</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_21.png" alt=""/></div>
+                        Cathy</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_15.png" alt=""/></div>
+                        Brain</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_33.png" alt=""/></div>
+                        Daren D. Daren</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_12.png" alt=""/></div>
+                        Christina</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_7.png" alt=""/></div>
+                        Eddie</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_48.png" alt=""/></div>
+                        Zoe</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_56.png" alt=""/></div>
+                        Bob</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_25.png" alt=""/></div>
+                        John</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_48.png" alt=""/></div>
+                        Alex</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_46.png" alt=""/></div>
+                        Natividad</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_18.png" alt=""/></div>
+                        Merry</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_34.png" alt=""/></div>
+                        Kevin</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_37.png" alt=""/></div>
+                        Lawrence</div>
+                      <div class="contestant">
+                        <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_29.png" alt=""/></div>
+                        OliverOliver Oliver</div>
+                    </div>
+                    <!-- 參加情況 end --> 
+                  </div>
+                  <div class="STEP2"> 
+                    <!-- 作答情況 start -->
+                    <div class="ansMethod type">
+                      <button class="CA-collapse-list" type="button" data-bs-toggle="collapse" data-bs-target=".dialogueChat-name" aria-expanded="false">展開名單</button>   
+                      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">她喝太多咖啡了，肚子痛。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">因為她肚子痛。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">她喝太多咖啡了，肚子痛。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">她胃痛，所以不能吃飯。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">她喝太多咖啡了，肚子痛。</div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="CA-dialogueChat">
+                            <div class="dialogueChat-name collapse">Amy</div>
+                            <div class="dialogueChat-text">因為她肚子痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛。</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ansMethod pic">
+                      <button class="CA-collapse-list" type="button" data-bs-toggle="collapse" data-bs-target=".pic-name" aria-expanded="false">展開名單</button>   
+                      <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-4 row-cols-xxl-5 g-3 g-xl-3">
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"> <img src="https://placehold.co/1400x1000/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer" /> </div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/1400x1000/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer" /></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/800x500/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer" /></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/400x300/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer"/></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/400x300/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer"/></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/400x300/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer"/></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/400x300/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer"/></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/400x300/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer"/></div>
+                          </button>
+                        </div>
+                        <div class="col">
+                          <div class="pic-name collapse">Amy</div>
+                          <button type="button" class="btn btn-light w-100 CA-lightbox">
+                          <div class="ratio ratio-4x3"><img src="https://placehold.co/400x300/ECECEC/FFF?text=4:3" class="img-fluid" alt="Amy's answer"/></div>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 作答情況 end --> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 參加、作答情況 end -->  
+        </div>
+      </div>
+      <!-- right end -->   
+    </div>
+  </div>
+  <!-- 活動結束 start -->
+  <div class="modal CA-end" id="CA-end" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="end-title">活動結束</div>
+          <a href="../../Content/temp/openQ-pdf.pdf" class="end-download" download><i class="fas fa-download"></i></a>
+          <div class="end-remark">若需要此次活動紀錄，請馬上下載。<br>
+            關閉頁面就下載不到囉！<!--If you need records of this event, please download it now.<br>
+Once the page is closed, this record cannot be downloaded.--></div>
+          <div class="end-close">
+            <button class="btn btn-cyan" type="button" id="CLOSEWIN">關閉視窗</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 活動結束 end -->
+</form>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../../Script/bootstrap.bundle.min.js">//BS5 js</script> 
+<script src="../../Content/js/modal-lightbox.js">//modal lightbox</script> 
+<script>
+//僅demo 非正式前端
+const STEP1 = document.querySelectorAll('.STEP1'),
+      STEP2 = document.querySelectorAll('.STEP2');
+	
+const JOINNUM = document.querySelector('#JOINNUM'),
+	  DONENUM = document.querySelector('#DONENUM');
+	
+const NEXT = document.querySelector('#NEXT'); 
+	
+const COUNTER = document.querySelector('#COUNTER');
+    
+const dataQ = [
+    {
+        "topic": "她為什麼不吃飯？",
+        "ansMethod": "type",
+        "pic": ["../../Content/images/index/materials/jimu1bookcover.jpg", 
+                "../../Content/images/index/banner-img_zh-CN.png",
+                "../../Content/images/classActivity/avatar/avatar_21.png"],
+        "min": 1,
+        "sec": 30
+    },
+    {
+        "topic": "這是什麼？",
+        "ansMethod": "pic",
+        "pic": ["../../Content/images/index/materials/learn_1_cover.png", 
+                "../../Content/images/index/materials/learn_5_cover.png"],
+        "min": 1,
+        "sec": 30
+    }
+];  
+
+//STEP1
+function showSTEP1(){
+    STEP1.forEach(el => {
+      el.style.display = '';
+    }); 
+    STEP2.forEach(el => {
+      el.style.display = 'none';
+    });  
+}
+//STEP2
+function showSTEP2(){
+    STEP1.forEach(el => {
+      el.style.display = 'none';
+    }); 
+    STEP2.forEach(el => {
+      el.style.display = '';
+    }); 
+}        
+    
+//顯示題目    
+function showTopic(i){ 
+    //顯示STEP區域
+    showSTEP2(); 
+    
+    //顯示進度條
+    progress(i);
+
+    //顯示題號、題目
+    document.querySelector('.topic-circle-num').textContent = i+1; 
+    document.querySelector('.topic-circle-text').textContent = dataQ[i].topic;
+    
+    //清空圖片版型
+    let pics = document.querySelectorAll('.CA-topic .row .col-2');
+    pics.forEach(function(el) {
+        el.remove();
+    });
+    
+    //顯示圖片
+    let imgHTML = '';
+    for(let j=0; j<dataQ[i].pic.length; j++){
+        imgHTML += `<div class="col-2">
+                    <button type="button" class="btn btn-light w-100 CA-lightbox">
+                    <div class="ratio ratio-4x3"> <img src="`+ dataQ[i].pic[j] +`" class="img-fluid" alt="Question image"/> </div>
+                    </button>
+                  </div>`;
+    }
+    document.querySelector('.CA-topic-circle').closest('.col').insertAdjacentHTML('afterend', imgHTML);
+    
+    //顯示作答方式
+    let allMethods = document.querySelectorAll('.ansMethod');
+    allMethods.forEach(el => {
+        if (el.classList.contains(dataQ[i].ansMethod)) {
+            el.style.display = 'block';
+        } else {
+            el.style.display = 'none';
+        }
+    });
+    
+    //call lightbox
+    lightBox();
+    
+    //設定[展開/隱藏名單]位置             
+    CollapseBtnPosition();                  
+                      
+    //[展開/隱藏名單]文字切換、collapse效果
+    CollapseBtnToggle();
+}
+    
+//設定[展開/隱藏名單]位置
+function CollapseBtnPosition(){
+    const collapseButtons = document.querySelectorAll('.CA-collapse-list');
+    
+    collapseButtons.forEach(collapseButton => {
+        const rect = document.querySelector('.board-block').getBoundingClientRect(); 
+        let rectTop = rect.top 
+        let rectRight = rect.right;
+
+        collapseButton.style.top = rectTop + 15 + 'px';
+        collapseButton.style.left = rectRight - 20 + 'px'; 
+    });  
+}       
+window.addEventListener('scroll', CollapseBtnPosition); 
+window.addEventListener('resize', CollapseBtnPosition); 
+ 
+//[展開/隱藏名單]文字切換、collapse效果
+function CollapseBtnToggle(){
+    const collapseButtons = document.querySelectorAll('.CA-collapse-list');
+    
+    collapseButtons.forEach(collapseButton => {  
+        collapseButton.addEventListener('click', () => { 
+            let expanded = collapseButton.getAttribute('aria-expanded');
+            
+            if(expanded == 'true'){
+                collapseButton.textContent = '隱藏名單';   
+            }else{
+                collapseButton.textContent = '展開名單';    
+            }
+        });
+    });
+} 
+    
+//顯示進度
+function progress(i){
+    let progress = document.querySelector('.CA-progress .progress-bar'); 
+    
+    let p = Math.round(Number(i+1)/dataQ.length*100); 
+    progress.style.width = p+'%';
+    progress.setAttribute('aria-valuenow', p);
+    progress.textContent = p+'%';
+}    
+    
+//顯示按鈕文字
+function showBtn(i){  
+    if( i === 0 ){
+        NEXT.innerHTML = '開始';
+    }else if( i === dataQ.length ){
+        NEXT.innerHTML = '完成'; 
+    }else{
+        NEXT.innerHTML = '下一題'; 
+    }
+}
+    
+//卷軸捲動到下方
+function scrollToBottom() {
+    const scrollingDiv = document.querySelector('.board-block');   
+    scrollingDiv.scrollTop = scrollingDiv.scrollHeight;
+}  
+	
+//倒數計時
+let timerInterval;    
+function countdownTimer(min, sec) {
+    let totalSeconds = min * 60 + sec;
+
+    timerInterval = setInterval(() => {
+        let mins = Math.floor(totalSeconds / 60);
+        let secs = totalSeconds % 60;
+        let timeFormat = `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        COUNTER.textContent = timeFormat;
+
+        if (totalSeconds <= 0) {  
+            clearTimer();                 
+        }
+
+        totalSeconds--;
+    }, 1000);
+} 
+function clearTimer() {
+    clearInterval(timerInterval);
+} 
+	
+//參加人數
+function joinNum(){
+	let join = document.querySelectorAll('.board-contestants .contestant');
+    JOINNUM.innerHTML = join.length; 
+}
+	
+//完成人數
+function doneNum(ansMethod){
+	let done = document.querySelectorAll('.ansMethod.'+ansMethod+' > .row > div');
+    DONENUM.innerHTML = done.length; 
+}	
+
+//隨機數字 
+function getRandomNumber(min, max) {
+	return Math.floor(Math.random() * (max - min + 1)) + min;
+} 	
+
+//demo 學生進入
+function demoSenter(){
+	const dataAvater = [
+		{
+			"user": "Amy",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Brian",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Christina C. Kathy",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Daren D. Daren",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Eddie Van Halen",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Karen",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Zoe",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Bob",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "John",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Alex",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Natividad",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Merry",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Kevin",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Lawrence",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "OliverOliver Oliver",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Taylor Alison Swift",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Peter Gene Hernandez",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Halsey",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Kelly Clarkson",
+			"avater": getRandomNumber(1, 56) 
+		},
+		{
+			"user": "Justin",
+			"avater": getRandomNumber(1, 56) 
+		}    
+	];
+	
+	let i = 0;
+	
+	const content = document.querySelector('.board-contestants');
+		  content.innerHTML = '';
+	
+	let intervalId = setInterval(() => {
+		if (i >= dataAvater.length) {
+			clearInterval(intervalId);
+			return;
+		}
+
+		html = `<div class="contestant">
+                      <div class="avater"><img src="../../Content/images/classActivity/avatar/avatar_` + dataAvater[i].avater + `.png" alt=""/></div>
+                      ` + dataAvater[i].user + `</div>`;
+
+		content.insertAdjacentHTML('beforeend', html);
+		
+		//參加人數
+		joinNum();
+
+		//卷軸保持在下方
+		scrollToBottom(); 
+		
+		i++;
+	}, 1200);
+	
+	NEXT.addEventListener('click', () => {
+		if( JOINNUM.textContent != '0' ){
+			clearInterval(intervalId);
+		}
+	});
+}	
+
+//demo 學生回答	
+function demoSans(ansMethod){ 
+	let DataSans = [];
+	if(ansMethod === 'type'){
+		DataSans = [
+			{
+				"name": "Amy",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Justin",
+				"ans": "因為她肚子痛。"
+			},
+			{
+				"name": "Brian",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Kelly Clarkson",
+				"ans": "她胃痛，所以不能吃飯。"
+			},
+			{
+				"name": "Christina C. Kathy",
+				"ans": "她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Halsey",
+				"ans": "她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Daren D. Daren",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Peter Gene Hernandez",
+				"ans": "因為她肚子痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛。"
+			},
+			{
+				"name": "Eddie Van Halen",
+				"ans": "她胃痛，所以不能吃飯。"
+			},
+			{
+				"name": "Taylor Alison Swift",
+				"ans": "她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Karen",
+				"ans": "她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "OliverOliver Oliver",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Zoe",
+				"ans": "因為她肚子痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛痛。"
+			},
+            {
+				"name": "Lawrence",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Bob",
+				"ans": "因為她肚子痛。"
+			},
+            {
+				"name": "Kevin",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "John",
+				"ans": "因為她肚子痛。"
+			},
+			{
+				"name": "Merry",
+				"ans": "她喝太多咖啡了，肚子痛。"
+			},
+			{
+				"name": "Alex",
+				"ans": "她胃痛，所以不能吃飯。"
+			},
+			{
+				"name": "Natividad",
+				"ans": "她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了她喝太多咖啡了，肚子痛。"
+			},
+		];   
+	}
+	if(ansMethod ==='pic'){
+		DataSans = [
+			{
+				"name": "Merry",
+				"src": "https://placehold.co/1400x1000/CCFFFF/FFF?text=4:3"
+			},
+			{
+				"name": "Kevin",
+				"src": "https://placehold.co/1000x900/FFCCCC/FFF?text=4:3"
+			},
+			{
+				"name": "Lawrence",
+				"src": "https://placehold.co/1400x1000/F5F5DC/FFF?text=4:3"
+			},
+			{
+				"name": "OliverOliver Oliver",
+				"src": "https://placehold.co/1400x1000/FFF8DC/FFF?text=4:3"
+			},
+			{
+				"name": "Taylor Alison Swift",
+				"src": "https://placehold.co/1400x1000/E9967A/FFF?text=4:3"
+			},
+			{
+				"name": "Peter Gene Hernandez",
+				"src": "https://placehold.co/1400x1000/ECECEC/FFF?text=4:3"
+			},
+			{
+				"name": "Halsey",
+				"src": "https://placehold.co/1400x1000/FFD700/FFF?text=4:3"
+			},
+			{
+				"name": "Kelly Clarkson",
+				"src": "https://placehold.co/1400x1000/FF69B4/FFF?text=4:3"
+			},
+			{
+				"name": "Justin",
+				"src": "https://placehold.co/500x800/E6E6FA/FFF?text=4:3"
+			},
+			{
+				"name": "Amy",
+				"src": "https://placehold.co/400x600/FFB6C1/FFF?text=4:3"
+			},
+            {
+				"name": "Brian",
+				"src": "https://placehold.co/1400x1000/CCFFFF/FFF?text=4:3"
+			},
+			{
+				"name": "Christina C. Kathy",
+				"src": "https://placehold.co/1000x900/FFCCCC/FFF?text=4:3"
+			},
+			{
+				"name": "Daren D. Daren",
+				"src": "https://placehold.co/1400x1000/F5F5DC/FFF?text=4:3"
+			},
+			{
+				"name": "Eddie Van Halen",
+				"src": "https://placehold.co/1400x1000/FFF8DC/FFF?text=4:3"
+			},
+			{
+				"name": "Karen",
+				"src": "https://placehold.co/1400x1000/E9967A/FFF?text=4:3"
+			},
+			{
+				"name": "Zoe",
+				"src": "https://placehold.co/1400x1000/ECECEC/FFF?text=4:3"
+			},
+			{
+				"name": "Bob",
+				"src": "https://placehold.co/1400x1000/FFD700/FFF?text=4:3"
+			},
+			{
+				"name": "John",
+				"src": "https://placehold.co/1400x1000/FF69B4/FFF?text=4:3"
+			},
+			{
+				"name": "Alex",
+				"src": "https://placehold.co/500x800/E6E6FA/FFF?text=4:3"
+			},
+			{
+				"name": "Natividad",
+				"src": "https://placehold.co/400x600/FFB6C1/FFF?text=4:3"
+			}
+		];   
+	}
+	
+	let i = 0;
+	
+    const content = document.querySelector('.ansMethod.'+ansMethod+' .row');
+		  content.innerHTML = '';
+	
+	let html = '';
+
+    let intervalId = setInterval(() => {
+        //demo20人，若等不及開始，則完成人數不超過參加人數
+		if (i >= DataSans.length || i >= JOINNUM.textContent) {
+			clearInterval(intervalId);
+			return;
+		} 
+
+		if(ansMethod === 'type'){
+            let collapseBtn = document.querySelector('.ansMethod.type .CA-collapse-list');
+            let collapseExpanded = collapseBtn.getAttribute('aria-expanded'); 
+            
+            //判斷展開/隱藏狀態，給予html
+            if(collapseExpanded == 'true'){ //展開狀態中
+                html = `<div class="col">
+                            <div class="CA-dialogueChat">
+                                <div class="dialogueChat-name collapse show">` + DataSans[i].name + `</div>
+                                <div class="dialogueChat-text">` + DataSans[i].ans + `</div>
+                            </div>
+                        </div>`;
+            } else if (collapseExpanded == 'false') { //隱藏狀態中
+                html = `<div class="col">
+                            <div class="CA-dialogueChat">
+                                <div class="dialogueChat-name collapse">` + DataSans[i].name + `</div>
+                                <div class="dialogueChat-text">` + DataSans[i].ans + `</div>
+                            </div>
+                        </div>`;
+            }
+		}
+		if(ansMethod === 'pic'){
+            let collapseBtn = document.querySelector('.ansMethod.pic .CA-collapse-list');
+            let collapseExpanded = collapseBtn.getAttribute('aria-expanded'); 
+            
+            //判斷展開/隱藏狀態，給予html
+            if(collapseExpanded == 'true'){ //展開狀態中
+                html = `<div class="col">
+                            <div class="pic-name collapse show">` + DataSans[i].name + `</div>
+                            <button type="button" class="btn btn-light w-100 CA-lightbox">
+                                <div class="ratio ratio-4x3"> <img src="`+ DataSans[i].src +`" class="img-fluid" alt="`+ DataSans[i].name +`'s answer" /> </div>
+                            </button>
+                        </div>`;       
+            } else if (collapseExpanded == 'false') { //隱藏狀態中
+                html = `<div class="col">
+                            <div class="pic-name collapse">` + DataSans[i].name + `</div>
+                            <button type="button" class="btn btn-light w-100 CA-lightbox">
+                                <div class="ratio ratio-4x3"> <img src="`+ DataSans[i].src +`" class="img-fluid" alt="`+ DataSans[i].name +`'s answer" /> </div>
+                            </button>
+                        </div>`;    
+            }
+		}
+
+		content.insertAdjacentHTML('beforeend', html);
+        
+        //每出現題目 偵測當前展開/隱藏狀態
+        
+        
+
+		//call lightbox
+        lightBox();
+		
+		//完成人數
+		doneNum(ansMethod);
+
+		//卷軸保持在下方
+		scrollToBottom(); 
+		i++;
+	}, 1200);
+	
+	NEXT.addEventListener('click', () => {
+		clearInterval(intervalId);	  
+	});
+}
+
+let currentIndex = 0;    
+showSTEP1();
+showBtn(currentIndex);
+demoSenter();
+
+//[開始][下一題][完成]
+NEXT.addEventListener('click', () => { 
+	if( JOINNUM.textContent === '0' ){
+		alert('請等待所有人加入再開始。');
+	}else {
+        //[開始]後，版型比例修改
+        if(currentIndex === 0){
+            document.querySelector('.bg-grid').classList.replace('col-lg-4', 'col-lg-3'); 
+            document.querySelector('.bg-grid').classList.add('col-xxl-2'); 
+            document.querySelector('.bg-pure').classList.replace('col-lg-8', 'col-lg-9');
+            document.querySelector('.bg-pure').classList.add('col-xxl-10');
+        }
+        
+		if( currentIndex === dataQ.length ){
+		   let endModal = new bootstrap.Modal(document.querySelector('#CA-end'));
+		   endModal.show();
+		}else{ 
+		   //題目
+		   showTopic(currentIndex);
+
+		   //按鈕
+		   showBtn(currentIndex+1);
+
+		   clearTimer();
+		   //倒數秒數
+		   countdownTimer(dataQ[currentIndex].min, dataQ[currentIndex].sec);
+
+		   DONENUM.innerHTML='0';
+		   //demo顯示學生答案
+		   demoSans(dataQ[currentIndex].ansMethod);
+
+		   currentIndex ++; 
+		}
+	} 
+}); 
+    
+//[關閉視窗]   
+CLOSEWIN.addEventListener('click', ()=>{
+    window.close();
+});   
+</script>
+</body>
+</html>

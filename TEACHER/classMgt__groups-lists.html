@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS --> 
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Tindex"><a href="Tindex.html">首頁</a></li>
+              <li class="navTab-smartChinese"><a href="smartChinese.html">全方位中文系列</a></li>
+              <li class="navTab-chineseSeries"><a href="chineseSeries.html">教材資源區</a></li>
+              <li class="navTab-customized"><a href="customized.html">建立自編教材</a></li>
+              <li class="navTab-myLibs"><a href="myLibs.html">我的教材庫</a></li>
+              <li class="navTab-classMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">班級管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="classMgt__students.html">學生名單</a></li>
+                  <li><a href="classMgt__groups.html">指派教材</a></li>
+                  <li><a href="classMgt__learning.html">學習紀錄</a></li>
+                  <li><a href="classMgt__score.html">評量結果</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，張花花！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- page-banner start -->
+  <div class="page-banner classMgt">
+    <div class="container-fluid">
+      <div class="page-banner__text">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xl-offset-1"> 
+            <!--<div class="row">
+              <div class="col-xs-12 col-sm-9 col-sm-offset-3 col-lg-9 col-xl-10 col-xl-offset-2">-->
+            <h2>指派教材</h2>
+            <p></p>
+            <!--</div>
+            </div>--> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- page-banner end --> 
+  
+  <!-- 我的群組 start -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-lg-12 col-xl-10 col-xl-offset-1"> 
+        <!--search-panel start-->
+        <div class="search-panel">
+          <div class="form-inline">
+            <div class="form-group"> <label for="">課程/班級：</label>
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            &nbsp;&nbsp;
+            <div class="form-group"> <label for="">指派教材：</label>
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            &nbsp;&nbsp;
+            <button type="submit" class="btn btn-main-blue">搜尋</button>
+          </div>
+        </div>
+        <!--search-panel end--> 
+        <!--function-panel start-->
+        <div class="function-panel">
+          <button class="btn btn-main-blue" onClick="window.location='classMgt__groups-insert.html'">新增</button>
+          <button class="btn btn-main-blue" id="demo-edit">編輯</button>
+        </div>
+        <!--function-panel end--> 
+        <!--table start-->
+        <table class="table table-hover table-style-default" id="demo-table">
+          <thead>
+            <tr>
+              <th style="display:none;">ID</th>
+              <th>課程/班級</th>
+              <th>人數</th>
+              <th>指派教材</th>
+              <th>教材名稱</th>
+              <th>查看名單</th>
+              <th class="text-center" style="display:none;">修改</th>
+              <th class="text-center" style="display:none;">刪除</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="display:none;">0001</td>
+              <td>5A增能組</td>
+              <td>4</td>
+              <td><button class="btn btn-xs btn-main-blue" type="button" data-toggle="modal" data-target="#modal-assign">指派教材</button></td>
+              <td></td>
+              <td><button class="btn btn-xs btn-main-blue" type="button" data-toggle="modal" data-target="">查看名單</button></td>
+              <td class="text-center" style="display:none;"><button type="button" class="btn btn-info noRadius btn-xs" onClick="window.location='classMgt__groups-edit.html'">修改</button></td>
+              <td class="text-center" style="display:none;"><button type="button" class="btn btn-danger noRadius btn-xs">刪除</button></td>
+            </tr>
+            <tr>
+              <td style="display:none;">0002</td>
+              <td>5A外掛組</td>
+              <td>2</td>
+              <td><button class="btn btn-xs btn-main-blue" type="button" data-toggle="modal" data-target="#modal-assign">指派教材</button></td>
+              <td>新版實用聽華語；中文好好玩</td>
+              <td><button class="btn btn-xs btn-main-blue" type="button" data-toggle="modal" data-target="">查看名單</button></td>
+              <td class="text-center" style="display:none;"><button type="button" class="btn btn-info noRadius btn-xs" onClick="window.location='classMgt__groups-edit.html'">修改</button></td>
+              <td class="text-center" style="display:none;"><button type="button" class="btn btn-danger noRadius btn-xs">刪除</button></td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr style="display:none;">
+              <td colspan="6"></td>
+            </tr>
+          </tfoot>
+        </table>
+        <!--table end--> 
+      </div>
+      <!-- 右邊內容start --> 
+    </div>
+  </div>
+  <!-- 我的群組 end --> 
+</main>
+<!-- Modal#modal-assign start -->
+<div class="modal fade modal-assign" id="modal-assign" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="">指派教材</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- 搜尋 -->
+        <div class="modal-grayBg">
+          <div class="input-group">
+            <input type="text" class="form-control noRadius" placeholder="搜尋課程" value="">
+            <span class="input-group-btn">
+            <button class="btn btn-default-gray noRadius" type="button" id="">搜尋</button>
+            </span> </div>
+        </div>
+        <div class="assign-tab"> 
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active"><a href="#myLibs" aria-controls="myLibs" role="tab" data-toggle="tab">我的教材庫<span class="label">0</span></a></li>
+              <li role="presentation"><a href="#smartChinese" aria-controls="smartChinese" role="tab" data-toggle="tab">全方位中文<span class="label">0</span></a></li>
+              <li role="presentation"><a href="#textbookResource" aria-controls="textbookResource" role="tab" data-toggle="tab">教材資源區<span class="label">0</span></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="myLibs">
+                <table class="table table-hover table-style-default">
+                  <thead>
+                    <tr>
+                      <th style="display:none;">ID</th>
+                      <th><div class="checkbox icheck-main-blue icheck-inline">
+                          <input type="checkbox" id="my-checkAll" name="my">
+                          <label for="my-checkAll">全選</label> </div></th>
+                      <th>教材名稱</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="display:none;">2</td>
+                      <td><div class="checkbox icheck-main-blue">
+                          <input type="checkbox" id="my2-checkItem" name="my">
+                          <label for="my2-checkItem"></label> </div></td>
+                      <td><label for="my2-checkItem">中文好好玩</label></td>
+                    </tr>
+                    <tr>
+                      <td style="display:none;">3</td>
+                      <td><div class="checkbox icheck-main-blue">
+                          <input type="checkbox" id="my3-checkItem" name="my">
+                          <label for="my3-checkItem"></label> </div></td>
+                      <td><label for="my3-checkItem">當代中文</label></td>
+                    </tr>
+                    <tr>
+                      <td style="display:none;">4</td>
+                      <td><div class="checkbox icheck-main-blue">
+                          <input type="checkbox" id="my4-checkItem" name="my">
+                          <label for="my4-checkItem"></label> </div></td>
+                      <td><label for="my4-checkItem">五百字說華語</label></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="smartChinese">
+                <table class="table table-hover table-style-default" id="">
+                  <thead>
+                    <tr>
+                      <th style="display:none;">ID</th>
+                      <th><div class="checkbox icheck-main-blue icheck-inline">
+                          <input type="checkbox" id="sc-checkAll" name="sc">
+                          <label for="sc-checkAll">全選</label> </div></th>
+                      <th>教材名稱</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="display:none;">1</td>
+                      <td><div class="checkbox icheck-main-blue">
+                          <input type="checkbox" id="sc1-checkItem" name="sc">
+                          <label for="sc1-checkItem"></label> </div></td>
+                      <td><label for="sc1-checkItem">全方位中文1 (正體)</label></td>
+                    </tr>
+                    <tr>
+                      <td style="display:none;">2</td>
+                      <td><div class="checkbox icheck-main-blue">
+                          <input type="checkbox" id="sc2-checkItem" name="sc">
+                          <label for="sc2-checkItem"></label> </div></td>
+                      <td><label for="sc2-checkItem">全方位中文1 (簡體)</label></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="textbookResource">
+                <table class="table table-hover table-style-default" id="">
+                  <thead>
+                    <tr>
+                      <th style="display:none;">ID</th>
+                      <th><div class="checkbox icheck-main-blue icheck-inline">
+                          <input type="checkbox" id="tr-checkAll" name="tr">
+                          <label for="tr-checkAll">全選</label> </div></th>
+                      <th>教材名稱</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="display:none;">1</td>
+                      <td><div class="checkbox icheck-main-blue">
+                          <input type="checkbox" id="tr1-checkItem" name="tr">
+                          <label for="tr1-checkItem"></label> </div></td>
+                      <td><label for="tr1-checkItem">新版實用聽華語1</label></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        </div>     
+      </div>
+      <div class="modal-footer"> 
+        <div class="text-center">
+          <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+          <button type="button" class="btn btn-main-blue" id="btn-assign-confirm">確定</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script src="../Content/js/checkAll.js">//全選</script>     
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-classMgt').addClass('active');
+	
+	//demo
+	//編輯
+	$('#demo-edit').click(function(){
+		$('#demo-table thead tr th:last-child').show().prev('th').show();//刪除
+		$('#demo-table tbody tr td:last-child').show().prev('td').show();//修改
+		$('#demo-editBtns').show();
+	});
+	//刪除
+	$('#demo-table tbody tr td:last-child .btn').click(function(){
+		 confirm('是否確定刪除XXX?')
+		$(this).parents('tr').hide();
+	});
+    
+    
+    //指派教材 勾選計算
+    $('.assign-tab input[type="checkbox"]').change(function(){
+        var tabId = $(this).closest('.tab-pane').attr('id');  
+        var checkedCount = $('#' + tabId + ' input[id*="checkItem"]:checked').length;
+        
+        $('.assign-tab a[href="#' + tabId + '"] .label').text(checkedCount);
+    });  
+    
+    //指派教材[確定]
+    $('#btn-assign-confirm').click(function(){
+        $('#modal-assign').modal('hide');
+        
+        //do something... (寫入表格教材名稱)
+    });  
+});
+</script>
+</body>
+</html>

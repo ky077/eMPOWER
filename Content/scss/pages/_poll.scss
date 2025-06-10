@@ -1,0 +1,105 @@
+//選你所想
+.CA-poll{
+    @include CAstyle($color-poll);
+}
+
+//TEACHER LIVE 
+.CA-poll-bar{ 
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 1.2rem*1.5;
+    padding-right: .9rem*3;
+    &:first-child{ 
+        margin-top: 0;
+    }
+    &:last-child{
+        margin-bottom: 0;
+    }
+    .poll-bar-title{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: -1.2rem*1.5; 
+        > span:nth-child(1){ 
+            display: inline-block;
+            width: 1.2rem*1.5;
+        }
+    }
+    .poll-bar-bar{ 
+        font-size: .9rem;
+        color: $gray-600;
+        height: 1.2rem;
+        background-color: $color-CA;
+        display: flex;
+        align-items: center;
+        margin-top: .5rem;
+        position: relative;
+        > span { 
+            position: absolute;
+            right: -.9rem*3;
+            display: inline-block;
+            width: .9rem*3;
+            text-align: center;
+            &::after{
+                content: "";
+                display: none;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 .5rem .75rem .5rem;
+                border-color: transparent transparent rgba($gray-500, .25) transparent;
+                position: absolute;
+                top: calc(100% - 1px);
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .poll-bar-bar.show{
+        > span { 
+            &::after{
+                display: block;
+            }
+        }
+    }
+    .poll-bar-name{
+        background-color: rgba($gray-500, .25);
+        padding: .5rem;
+        margin-top: .75rem;
+        margin-right: -.9rem*3;
+        color: $gray-700;
+    } 
+    .poll-bar-bar[style="width: 0%;"],
+    .poll-bar-bar[style="width:0%;"],
+    .poll-bar-bar[style="width: 0%"],
+    .poll-bar-bar[style="width:0%"] {
+         > span { 
+            &::after{
+                opacity: 0;
+            }
+        }
+        + .poll-bar-name{
+            opacity: 0;    
+        }    
+    }
+}
+.CA-poll-bar.top1{
+    .poll-bar-bar{
+        background-color: #0088FF;
+        > span { 
+            &::after{
+                border-color: transparent transparent rgba(#0088FF, .25) transparent;
+            }
+        }
+    }
+    .poll-bar-name{
+        background-color: rgba(#0088FF, .25);
+    }
+}
+.checkArea{/*student LIVE*/
+    height: 100% !important; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: .75rem 1.5rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,686 @@
+{
+  "topic": "L8 多少錢?",
+  "focus": [
+    "學習點餐（買早餐）",
+    "學習詢問價錢 "
+  ],
+  "lesson": [
+    {
+      "title": "第一課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你們的興趣是什麼?<br>學生A：我喜歡打球。<br>學生B：我喜歡唱歌。",
+            "複習L7詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "介音y和不同韻母搭配1: <br>y + i, a, e, u, ao, ou, üe"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "配對",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "早餐、包子、麵包、牛奶、茶<br>喝、杯<br> 和",
+            "要<br> 水、<span class='text-red'>果汁</span>、<span class='text-red'>咖啡</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "<span class='text-red'>杯子</span>、<span class='text-red'>碗</span>",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "我說你放-早餐圖卡版",
+              "outerP": [
+                "學生分成兩組，一開始老師先問：「早餐吃什麼?」。<br>A隊說出早餐要吃的四樣東西，如「麵包、包子、牛奶、<span class='text-red'>果汁</span>」。<br>B隊聽到了，就要拿出圖卡按照聽到的物品順序排好。",
+                "A、B兩隊交換（2~3輪）"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 你早餐吃什麼?<br>B: 我吃<u>一個包子</u><b>和</b><u>一個麵包</u>。",
+            "句型二<br>A: 你<b>要</b>什麼?<br>B: 我<b>要</b><u>一個麵包</u>和<u>一杯</u><u class='text-red'>果汁</u>。<br>B隊聽到了，就要拿出圖卡按照聽到的物品順序排好。<br>A、B兩隊交換（2~3輪）"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "看圖說句子",
+              "outerP": [
+                "學生分成兩隊，老師拿圖，兩隊學生看圖搶答，答錯就讓另一隊說。<br>（圖1）<br>老師：他吃什麼?<br>A隊：他吃兩個麵包和一杯牛奶。<br>（圖2）<br>老師：他們喝什麼?<br>B隊：他們喝三杯茶和兩杯牛奶。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "喝、杯、子、水、茶、牛、和"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L8-1 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第二課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你早餐吃什麼?<br>學生：我吃麵包和牛奶。",
+            "複習L8第一課時詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "介音y和不同韻母搭配2: <br>y + an, in, un, ang, ing, ong"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "賓果",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "<span class='text-red'>蛋糕</span>、<span class='text-red'>蘋果</span>",
+            "請問、多少、錢<br>零、兩、百、<span class='text-red'>塊</span>、<span class='text-red'>毛</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "包子、麵包",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "數字聽寫-多少錢 ?",
+              "outerP": [
+                "學生分成兩隊，老師提供食物和價錢圖卡。A隊隨機選擇食物，B隊算出價錢。A、B兩隊交換1~2輪。",
+                "A隊：兩個包子、一杯茶，多少錢?<br>B隊：____塊。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 你要<b>幾個</b><u>包子</u>?<br>B: 我要<u>五個包子</u>。",
+            "句型二<br>A: 請問<b>多少</b>錢?<br>B: <u>兩百零五</u><b>塊</b>。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "問答接龍-看圖說句子",
+              "outerP": [
+                "(圖1)<br>老師：他吃幾個包子?<br>學生A：他吃兩個包子。",
+                "(圖2)<br>學生B：他喝幾杯咖啡?<br>學生C：他喝一杯咖啡。",
+                "(圖3)<br>老師：請問包子多少錢?<br>學生D：一個包子20塊。",
+                "(圖4)<br>學生A：請問麵包多少錢?<br>學生B：一個麵包15塊。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "少、問"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L8-2 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第三課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "15分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "複習第一和第二課時的詞彙及語法"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "詞彙消消樂",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "20分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "課文聆聽。<br>聽1到2遍課文，讓學生圈選他們聽到的字詞。帶入尚未學習的詞彙（<b>給</b>）。",
+            "課文跟讀。<br>搭配課文插圖，帶學生閱讀。",
+            "課文理解。<br>老師提問學生回答。<br>問題：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一個包子多少錢？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一杯茶多少錢？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;高明吃什麼？<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大衛吃早餐嗎？",
+            "學生兩兩練習課文。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文練習",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師將可替換的詞彙寫在白板上，先帶學生念一次，確認學生理解詞彙意思。學生兩人一組，選擇適合的詞彙放在課文挖空處，完成後進行口語練習。",
+            "A：早。請問你吃什麼? 喝什麼? <br>B：我要____、____和____。請問多少錢?<br>A：____塊。我們也有茶和水，一杯____塊。你要嗎?<br>B：____，謝謝。我給你____塊。<br>A：謝謝。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "學生演示",
+          "time": "5分鐘",
+          "color": "sky",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師隨機抽點2-3組學生演示對話。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "L8-3 評量活動",
+            "eM課文細讀練習"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    },
+    {
+      "title": "第四課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你的書多少錢?<br>學生A：我的書一百塊。<br>老師：你的筆多少錢?<br>學生B：我的筆十塊錢。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ], 
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動1",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "老師帶領學生進行L8-4 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動2",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "角色扮演",
+              "outerP": [
+                "每個同學拿字卡輪流當老闆，問同學要吃什麼。老闆分別和二到三個人對話後，換下一位同學當老闆。",
+                "例：<br>老闆：你吃什麼？喝什麼？<br>客人：我要<u>一個包子</u>和<u>一杯茶</u>。請問多少錢?<br>老闆：<u>五十</u>塊。<br>客人：給你<u>五十</u>塊。<br>老闆：謝謝！"
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    }
+  ]
+}

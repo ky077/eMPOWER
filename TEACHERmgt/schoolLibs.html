@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS --> 
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-TMindex"><a href="../TEACHERmgt/TMindex.html">管理中心</a></li>
+              <li class="navTab-stuMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">學生管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../TEACHERmgt/stuMgt__contest.html">設定競賽</a></li>
+                  <li><a href="../TEACHERmgt/stuMgt__student.html">學生資料</a></li>
+                </ul>
+              </li>
+              <li class="navTab-schoolScore"><a href="../TEACHERmgt/schoolScore.html">成績查詢</a></li>
+              <li class="navTab-schoolLibs"><a href="../TEACHERmgt/schoolLibs.html">本校教材</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">張主任</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- 標題/搜尋start -->
+  <div class="myLibsHeader pb-5 schoolLibs">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-xl-10 col-xl-offset-1">
+          <div class="row">
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3 col-xl-2"><img src="../Content/images/libs/books.png" class="img-responsive center-block" alt=""/></div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+              <div class="row">
+                <div class="col-sm-12 col-lg-2 pl-lg-0">
+                  <h2>本校教材</h2>
+                </div>
+                <div class="col-sm-12 pr-md-4 col-lg-8">
+                  <div class="input-group input-group-lg">
+                    <input type="text" class="form-control noRadius" placeholder="輸入關鍵字...">
+                    <span class="input-group-btn">
+                    <button class="btn btn-main-blue noRadius" type="button">搜尋</button>
+                    </span> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 標題/搜尋end --> 
+  
+  <!-- 我的教材庫 start -->
+  <div class="myLibs bg-gradient-gray py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-xl-10 col-xl-offset-1">
+          <div class="row"> 
+            <!-- -->
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"> <a href="../TEACHERmgt/schoolLibs__content.html?uid=1"><img src="../Content/images/textbooks/chinese-characters-1/bookFront.jpg" class="embed-responsive-item" alt="教材封面"></a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-CEFR">A2~B1</label><label class="label label-std-TBCL">TBCL 3~5</label></div>
+                      </div>
+                      <h3 class="textbookName" title="漢字積木-字本位學習法I"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系統教材" title="系統教材" height="20">漢字積木-字本位學習法I</h3>
+                      <div class="info">
+                        <p><label>20</label> 個單元</p>
+                        <p>建立時間：<label>2021/8/5 12:00</label> </p>
+                        <p>建立教師：<label>中文教材系列</label> </p>
+                        <p>使用人數：<label>6</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"><a href="../TEACHERmgt/schoolLibs__content.html?uid=01020304050607080910"> <img src="../Content/images/default-textBook.png" class="embed-responsive-item" alt="教材封面"> </a></div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 2</label></div>
+                      </div>
+                      <h3 class="textbookName" title="中文真有趣"><img src="../Content/images/eMPOWER-icon-orange.svg" alt="自編教材圖示" title="自編教材" height="20">中文真有趣</h3>
+                      <div class="info">
+                        <p><label>2</label> 個單元</p>
+                        <p>建立時間：<label>2021/8/5 13:00</label> </p>
+                        <p>建立教師：<label>張花花</label> </p>
+                        <p>使用人數：<label>6</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"> <a href="../TEACHERmgt/schoolLibs__content.html?uid=01020304050607080911"><img src="../Content/images/temp/cusTextBook-2.png" class="embed-responsive-item" alt="教材封面"></a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-HSK">HSK 1~2</label><label class="label label-std-TBCL">TBCL 2</label></div>
+                      </div>
+                      <h3 class="textbookName" title="中文真有趣"><img src="../Content/images/eMPOWER-icon-orange.svg" alt="自編教材圖示"  title="自編教材" height="20">你好 HELLO</h3>
+                      <div class="info">
+                        <p><label>3</label> 個單元</p>
+                        <p>建立時間：<label>2021/9/1 12:00</label> </p>
+                        <p>建立教師：<label>張花花</label> </p>
+                        <p>使用人數：<label>2</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"> <a href="../TEACHERmgt/schoolLibs__content.html?uid=01020304050607080912"><img src="../Content/images/temp/cusTextBook-1.png" class="embed-responsive-item" alt="教材封面"> </a></div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 2</label></div>
+                      </div>
+                      <h3 class="textbookName" title="中文真有趣"><img src="../Content/images/eMPOWER-icon-orange.svg" alt="自編教材圖示" title="自編教材" height="20">大家一起來學中文！</h3>
+                      <div class="info">
+                        <p><label>6</label> 個單元</p>
+                        <p>建立時間：<label>2021/9/1 12:00</label> </p>
+                        <p>建立教師：<label>王老師</label> </p>
+                        <p>使用人數：<label>2</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"> <a href="../TEACHERmgt/schoolLibs__content.html?uid=6ee250da34df49908d8d3ae0c5549b5d"><img src="https://empowerchinese.net/Course/assets/graph/ace1a1f9cdfe469d87dfe918d71ee574.jpg" class="embed-responsive-item" alt="教材封面"></a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-CEFR">CEFR Pre A1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                      </div>
+                      <h3 class="textbookName" title="全方位中文1"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系統教材圖示" title="系統教材" height="20">全方位中文1</h3>
+                      <div class="info">
+                        <p><label>10</label> 個單元</p>
+                        <p>建立時間：<label>2023/06/15</label> </p>
+                        <p>建立教師：<label>empowerTEACHER</label> </p>
+                        <p>使用人數：<label>1</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"> <a href="../TEACHERmgt/schoolLibs__content.html?uid=687a0145a70a48d4b63b4de1c5579c99"><img src="https://empowerchinese.net/Course/assets/graph/205d618ab9274e1786cf004d28675a1b.jpg" class="embed-responsive-item" alt="教材封面"></a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                      </div>
+                      <h3 class="textbookName" title="全方位中文2"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系統教材圖示" title="系統教材" height="20">全方位中文2</h3>
+                      <div class="info">
+                        <p><label>10</label> 個單元</p>
+                        <p>建立時間：<label>2023/1/13 09:39</label> </p>
+                        <p>建立教師：<label>empowerTEACHER</label> </p>
+                        <p>使用人數：<label>1</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- --> 
+            <div class="col-md-6 col-lg-6 px-3">
+              <div class="myLibs-item">
+                <div class="row">
+                  <div class="col-xsm-4 col-sm-3 col-md-5 col-lg-4 col-xl-3 pr-0">
+                    <div class="myLibs-item__front">
+                      <div class="embed-responsive embed-responsive-125pre"> <a href="../TEACHERmgt/schoolLibs__content.html?uid=84b1ed21063846e8b44035b4f319a96f"><img src="https://empowerchinese.net/course/assets/graph/586d4f814f9f4b41b4a64305a1bbe473.jpg" class="embed-responsive-item" alt="教材封面"></a> </div>
+                    </div>
+                  </div>
+                  <div class="col-xsm-8 col-sm-9 col-md-7 col-lg-8 col-xl-9">
+                    <div class="myLibs-item__content">
+                      <div class="application">
+                        <div class="lang">正體</div>
+                        <div class="standard"><label class="label label-std-TBCL">TBCL 1~2</label></div>
+                      </div>
+                      <h3 class="textbookName" title="新版實用視聽華語1"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系統教材圖示" title="系統教材" height="20">新版實用視聽華語1</h3>
+                      <div class="info">
+                        <p><label>31</label> 個單元</p>
+                        <p>建立時間：<label>---</label> </p>
+                        <p>建立教師：<label>中文教材系列</label> </p>
+                        <p>使用人數：<label>1</label></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->   
+          </div>
+          
+          <!-- 頁碼 start -->
+          <div class="text-center">
+            <ul class="pagination em-pagination">
+              <li class="disabled"><a href="#" aria-label="Previous"><i class="fas fa-chevron-left"></i></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><span>...</span></li>
+              <li><a href="#">10</a></li>
+              <li><a href="#">11</a></li>
+              <li><a href="#" aria-label="Next"><i class="fas fa-chevron-right"></i></a></li>
+            </ul>
+          </div>
+          <!-- 頁碼 end --> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 我的教材庫 end --> 
+  <!-- 頁碼 start--> 
+  <!-- 頁碼 end--> 
+</main>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-schoolLibs').addClass('active');
+});
+</script> 
+<script src="../Content/js/defaultText.js">//預設圖片+名稱</script>
+    
+<!-- 中文小天才 -->
+<link rel="stylesheet" type="text/css" href="../Content/css/chineseGenius.css">
+<script src="../Content/js/chineseGenius.js">//中文小天才</script> 
+<script> 
+$(document).ready(function() {
+    const CGData = ["1", "01020304050607080910"];
+        
+    //中文小天才 標籤
+    chineseGeniusTag(CGData, '.myLibs-item');
+});
+</script>     
+</body>
+</html>

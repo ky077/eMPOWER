@@ -1,3 +1,4 @@
+/* viewUnit__* */
 .text-ST{
 	color: #314675;
 }
@@ -6,4 +7,15 @@
 }
 .sidebar-right .nav-viewUnit > li.text-ST .editUnit-icon img{
 	transform: scale(1.1);
+}
+
+/* smartChinese__content */
+.ST-ai-icon{ 
+	transform: scale(.8);
+	transform-origin: left center;
+	margin-top: calc(-.8%*2);
+	margin-bottom: calc(-.8%*2);
+}
+.ST-ai-icon .editUnit-icon{
+	margin-left: 0;
 }

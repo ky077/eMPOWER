@@ -1,0 +1,168 @@
+//看影片回答問題 video /////////////////////////////////////////////////
+.CA-video{
+    @include CAstyle($color-video);
+    .ansMethod{
+        textarea{/*type*/
+            resize: none; 
+            &:focus{
+                box-shadow: none;    
+            }
+        } 
+    }
+    
+    .CA-backdrop{
+        .topic-circle-text{ 
+            overflow-y: auto;
+            max-height: calc((100vh - (2rem + .75rem*2) - 5rem)*.2);
+            @media screen and (min-width: 576px) {
+            max-height: calc((100vh - (2rem + .75rem*2))*.2); 
+            }
+            &::-webkit-scrollbar{  
+                width: 16px;  
+                background-color: transparent;
+            }  
+            &::-webkit-scrollbar-track {
+                background-color: transparent;
+            } 
+            &::-webkit-scrollbar-thumb {
+                background-color: $color-CA;
+                border-radius: 16px;
+            }
+        }
+        .CA-counter{
+            max-width: calc((100vh - (2rem + .75rem*2) - 5rem)*.2);
+            max-height: calc((100vh - (2rem + .75rem*2) - 5rem)*.2);
+            margin-bottom: -1.5rem;    
+            @media screen and (min-width: 576px) {
+            max-width: calc((100vh - (2rem + .75rem*2))*.2);
+            max-height: calc((100vh - (2rem + .75rem*2))*.2); 
+            }
+            @media screen and (min-width: 768px) and (max-width: 991px) {
+            font-size: 1.4rem;    
+            }
+        }
+        .CA-board .board-block{
+            max-height: calc((100vh - (2rem + .75rem*2) - 5rem)*.65);   
+            @media screen and (min-width: 576px) {
+            max-height: calc((100vh - (2rem + .75rem*2))*.65);  
+            }
+        }
+    }
+}
+
+.CA-video-Qsection{
+    position: relative;
+    height: 100%; 
+    z-index: 1;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    &.CA-backdrop{
+        height: calc(100vh - (2rem + .75rem*2)); 
+        z-index: 2;
+        padding-top: 0;
+        padding-bottom: 0;
+        
+        .topic-circle-text{
+            color: #fff;
+        }
+    }
+}
+
+.CA-video-Vsection{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    z-index: 1;
+    /*&::before{
+        content: "";
+        display: block;
+        width: 100%;
+        height: calc(100% - (2rem + .75rem*2)); 
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0,0,0, .9);
+    }*/
+}
+
+.CA-video-iframe{ 
+    min-height: calc(100% - (2rem + .75rem*2));
+    >img{
+        width: 100%;
+        height: calc(100vh - (2rem + .75rem*2));
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    >iframe{
+        display: block;
+        width: 100%;
+        height: calc(100vh - (2rem + .75rem*2));
+    }
+}
+
+.CA-video-player{
+    .em-player{
+        background-color: #928AFF;
+        .em-player__control{
+            @media screen and (max-width: 577px) {
+            order: 1;  
+            margin-right: 1rem;        
+            }
+            .em-btn{
+                border-color: $color-CA;
+            }    
+        }
+        .em-player__progress{
+            min-width: calc(100% - (2rem + 1rem) - (.5rem + 3rem  + .25rem)*2);
+            width:     calc(100% - (2rem + 1rem) - (.5rem + 3rem  + .25rem)*2);
+            @media screen and (max-width: 577px) {
+            margin: 0;
+            min-width: calc(100% - (2rem + 1rem) - (.5rem + 3rem) - (3rem + .25rem));
+            width:     calc(100% - (2rem + 1rem) - (.5rem + 3rem) - (3rem + .25rem));    
+            }
+            .progress.ui-slider{
+                .ui-slider-range{ 
+                    background-color:  $color-CA;
+                }
+                .ui-slider-topic{
+                    background-color:  $color-CA;
+                }
+                .ui-slider-topic{
+                    background-color: $color-CA;  
+                    z-index: 2;
+                }
+            }
+        }
+        .em-player__Nowsec, 
+        .em-player__totalSec{
+            color: #fff;
+            @media screen and (max-width: 577px) {
+            margin-right: 0;
+            }
+        }
+    }
+}
+
+
+.CA-video-lookAhead{
+    width: 100%; 
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-align: center;
+    flex-direction: column;
+    font-weight: 500;
+    .lookAhead-img{
+        max-width: 60%;
+        height: auto;
+        margin-top: .75rem;
+    }
+}
+
+

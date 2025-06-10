@@ -1,0 +1,683 @@
+{
+  "topic": "L3 我的一天",
+  "focus": [
+    "招呼語：早上好、上午好、下午好",
+    "詢問去哪裡",
+    "日常生活活動"
+  ],
+  "lesson": [
+    {
+      "title": "第一課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>(利用照片)<br>老師: 這是我弟弟，他叫XX。<br>學生: 他多大?<br>老師: 他____歲。",
+            "複習L2詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "聲母: g, k, h",
+            "韻母: u"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "賓果",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "早上好、上午好、下午好",
+            "上課、回家、<span class='text-red'>下課</span>、<span class='text-red'>起床</span>、<span class='text-red'>走路</span>、<span class='text-red'>說話</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "我、你、他、她",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "比手畫腳",
+              "outerP": [
+                "學生兩人一組，平均分配字卡，字卡內容不公開。兩人輪流，一個人做字卡內容動作，另一個人猜，字卡全部完成後，兩人大喊：「好了 (Hǎo le)!」。最快的一組獲勝。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 早上好。<br>B: 早上好。<br>A: 下午好。<br>B: 下午好。",
+            "句型二 (SVO)<br>我<u>上課</u>。<br>他<u>回家</u>。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "槌槌樂",
+              "outerP": [
+                "學生分成兩組，每次每組各派一個學生上台，老師用本課時的詞彙說SVO句子，學生聽句子敲對應的詞彙，最快的得分。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "早、午、上、下、回、家"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L3-1 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第二課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師: 下午好。<br>學生: 下午好。<br>老師: XX，那是誰?<br>學生: 那是____老師。<br>老師: ____老師多大?<br>學生: ____老師____歲。<br>",
+            "複習L3第一課時詞彙及句型。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "聲母: g, k, h",
+            "韻母: e"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "槌槌樂",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "<span class='text-red'>書</span>、<span class='text-red'>鞋子</span>、<span class='text-red'>衣服</span>",
+            "去、哪裡<br>圖書館、<span class='text-red'>公園</span>、<span class='text-red'>教室</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "這、那、爸爸、媽媽、弟弟、<span class='text-red'>哥哥</span>、<span class='text-red'>姐姐</span>、<span class='text-red'>妹妹</span>",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "配對遊戲",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 那是誰的<u class='text-red'>書</u>?<br>B: 那是我的<u class='text-red'>書</u>。",
+            "句型二<br>A: 你去<b>哪裡</b>？<br>B: 我去<u>圖書館</u>。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "節奏接龍",
+              "outerP": [
+                "老師：那是誰的<span class='text-red'>書</span>？<br>學生A：那<br>學生B：那是<br>學生C：那是XX<br>學生D：那是XX的<br>學生E：那是XX的<span class='text-red'>書</span>"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "的、哪"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L3-2 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第三課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "15分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "複習L3第一和第二課時的詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "詞彙消消樂",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "20分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "課文聆聽。<br>聽1到2遍課文，讓學生圈選他們聽到的字詞。",
+            "課文跟讀。<br>搭配課文插圖，帶學生閱讀。",
+            "課文理解。<br>老師提問學生回答。<br>問題：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;王麗去哪裡?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大衛去哪裡?",
+            "學生兩兩練習課文。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文練習",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師將可替換的詞彙寫在白板上，先帶學生念一次，確認學生理解詞彙意思。學生兩人一組，選擇適合的詞彙放在課文挖空處，完成後進行口語練習。",
+            "A：____好。<br>B：____好。<br>A：你去哪裡？<br>B：我____。你去哪裡？<br>A：我____。<br>B：再見。<br>A：再見。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "學生演示",
+          "time": "5分鐘",
+          "color": "sky",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師隨機抽點2-3組學生演示對話。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "L3-3 評量活動",
+            "eM課文細讀練習"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    },
+    {
+      "title": "第四課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師: 這是誰的書?<br>學生: 那是XX的書。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動1",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "老師帶領學生進行L3-4 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動2",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "看圖說故事",
+              "outerP": [
+                "老師準備圖卡，讓學生用學到的詞彙和句型描述圖片內容。（若圖片有部分內容超出學生語言能力，不需要求學生做完整的描述，該練習主要在讓學生複習及活用所學的詞彙及句型。）"
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    }
+  ]
+}

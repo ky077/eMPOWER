@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS --> 
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERpaper.css">
+</head>
+
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xl-offset-1">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-lg-12 col-xl-10 col-xl-offset-1 px-0"> 
+          <!-- ------- ------- ------- ------- ------- ------- ------- -->
+          <div class="paper-block">
+            <div class="paper-data">
+              <div class="row">
+                <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0 col-md-3 col-lg-2 col-lg-offset-1"> <img src="../Content/images/paper/score-img.png" class="img-responsive center-block" alt="學習歷程"/> </div>
+                <div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+                  <h1 class="sr-only">eMPOWER華語文字詞句教學平台</h1>
+                  <h2>評量結果</h2>
+                  <ul class="row">
+                    <li class="col-sm-12 col-md-8 col-lg-6"><span>群組：
+                      <label>5A增能組</label>
+                      </span> </li>
+                    <li class="col-sm-12 col-md-4 col-lg-6"><span>人數：
+                      <label>5</label>
+                      人 </span> </li>
+                    <li class="col-sm-12 col-md-12 col-lg-6"><span>教材：
+                      <label>中文真有趣</label>
+                      </span> </li>
+                    <li class="col-sm-12 col-md-12 col-lg-6"><span>單元：
+                      <label>第一課 問好</label>
+                      </span> </li>
+                    <li class="col-sm-12 col-md-12 col-lg-6"><span>活動名稱：
+                      <label>活動一</label>
+                      </span> </li>
+                    <li class="col-sm-12 col-md-12 col-lg-6"><span>查詢區間：
+                      <label>2021/8/10</label>
+                      &nbsp;~&nbsp;
+                      <label>2021/9/10</label>
+                      </span> </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="score-Gpaper__content"> 
+              <!-- -->
+              <h3 class="deco-line">評量活動提交人數<small>點擊&nbsp;<i class="far fa-list-alt"></i>&nbsp;可查看已提交/未提交名單</small></h3>
+              <div class="row px-3">
+                <div class="col-md-5 col-lg-5">
+                  <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1">
+                      <div class="chart-canvas__block">
+                        <div class="title">活動一</div>
+                        <canvas id="chart-Warm" height="170"></canvas>
+                        <div class="legends"> <span class="legend-item" data-toggle="modal" data-target="#modal-pieAlert" data-source="warm-done"><span style="background-color: #f3a07d;"></span>已進行&nbsp;<i class="far fa-list-alt"></i></span> <span class="legend-item" data-toggle="modal" data-target="#modal-pieAlert" data-source="warm-notyat"><span style="background-color: #fce7de;"></span>未進行&nbsp;<i class="far fa-list-alt"></i></span> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7 col-lg-7">
+                  <div class="Gpaper-correctBlock">
+                    <canvas id="chart-correct"></canvas>
+                  </div>
+                </div>
+              </div>
+              <!-- -->
+              <h3 class="deco-bg">查詢個人成績</h3>
+              <table class="table table-hover table-style-default">
+                <thead>
+                  <tr>
+                    <th style="display:none;">ID</th>
+                    <th>姓名</th>
+                    <th>學號/座號</th>
+                    <th>查詢</th>
+                  </tr>
+                </thead>
+                <tbody id="demo-hasData">
+                  <tr>
+                    <td style="display:none;">3</td>
+                    <td>王XX</td>
+                    <td>0001</td>
+                    <td><a href="../STUDENT/score-Spaper.html" target="_blank" class="btn btn-main-blue">查看</a></td>
+                  </tr>
+                  <tr>
+                    <td style="display:none;">3</td>
+                    <td>王XX</td>
+                    <td>0001</td>
+                    <td><a href="../STUDENT/score-Spaper.html" target="_blank" class="btn btn-main-blue">查看</a></td>
+                  </tr>
+                  <tr>
+                    <td style="display:none;">3</td>
+                    <td>王XX</td>
+                    <td>0001</td>
+                    <td><a href="../STUDENT/score-Spaper.html" target="_blank" class="btn btn-main-blue">查看</a></td>
+                  </tr>
+                </tbody>
+              </table>
+              <!-- --> 
+            </div>
+          </div>
+          <!-- ------- ------- ------- ------- ------- ------- ------- --> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-pieAlert start -->
+<div class="modal fade" id="modal-pieAlert" tabindex="-1" role="dialog" aria-labelledby="pieAlertLabel">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="pieAlertLabel">活動一已進行未進行名單</h4>
+      </div>
+      <div class="modal-body text-center">
+        <p>吳XX</p>
+        <p>金XX</p>
+        <p>林XX</p>
+        <p>高XX</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-pieAlert end --> 
+<!-- Modal -->
+<div class="modal fade modal-correctDetail" id="modal-correctDetail" tabindex="-1" role="dialog" aria-labelledby="correctDetailLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="correctDetailLabel">Modal title</h4>
+      </div>
+      <div class="modal-body p-0"> 
+        <!-- -->
+        <table class="table table-style-default correctDetail-table">
+          <thead>
+            <tr>
+              <th>題號</th>
+              <th>題目</th>
+              <th>正確率</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>他是我的媽媽</td>
+              <td><div class="correctDetail-progress">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skin" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                  </div>
+                  <span class="correctDetail-progress-value">60%</span></div></td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>他是我的媽媽</td>
+              <td><div class="correctDetail-progress">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-skin" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div>
+                  </div>
+                  <span class="correctDetail-progress-value">100%</span></div></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- --> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Content/widgets/Chart.js-2.9.4/dist/Chart.js"></script> 
+<script>
+//評量活動/////// /////// /////// /////// /////// /////// ///////
+var ctx1 = document.getElementById("chart-Warm");
+var myPieChart1 = new Chart(ctx1, {
+	type: 'pie',
+	data: {
+		datasets: [{
+        	data: [86, 14],
+			backgroundColor: [
+                "#f3a07d",
+				"#fce7de",
+            ],
+			borderColor: [
+                "rgba(255,255,255,0)",
+				"rgba(255,255,255,0)",
+            ],
+    	}],
+		labels: [
+        	"已提交",
+			"未提交",
+        ],
+	},
+	options: {
+      legend: {
+        display: false,
+		position:'bottom',
+		labels: {
+        	fontSize : 16,
+			fontColor:'#5c6466',
+			padding: 20
+        },  
+      },
+      title: {
+        display: false,
+		text:'評量活動',
+		fontSize: 20,
+		fontColor:'#5c6466',  
+      },
+    } 
+});	
+//提交者正確率/////// /////// /////// /////// /////// /////// ///////
+var ctx2 = document.getElementById("chart-correct"); 
+var myChart2 = new Chart(ctx2, {
+	type: 'bar',
+	data: {
+		labels: ["是非題", "選擇題", "文章閱讀", "連連看", "聽力測驗", "生詞配對", "重組題"],
+    	datasets: [{
+			label: "正確率",
+			data: [80, 90, 78, 58, 49, 88, 68],
+			backgroundColor: "#f3a07d",
+			categoryPercentage: 0.4, 
+			barPercentage: 0.9 
+		}]
+	}, 
+	options: {
+		title: {
+			display: true,
+			text:'已提交者正確率',
+			fontSize:20,
+			fontColor:"#003366"
+		},
+		legend: {
+			display: false,
+		},
+        hover: {
+          onHover: function(e) {
+             var point = this.getElementAtEvent(e);
+             if (point.length) e.target.style.cursor = 'pointer';
+             else e.target.style.cursor = 'default';
+          }
+       },
+		scales: {
+			xAxes: [{
+				scaleLabel: {
+					display: false,
+					labelString: '活動題型',
+				},
+				gridLines: {
+                    display: false,
+                    color: "#ccc",
+                },
+				display: true,
+				stacked: false,
+				ticks: {
+					fontSize: 16,
+					fontColor:'#5c6466',
+					beginAtZero:true,
+				},
+			}],
+			yAxes:[{
+				scaleLabel: {
+					display: false,
+					labelString: '正確率',
+				},
+				gridLines: {
+                    color: "#ccc",
+                },
+				display: true,
+				ticks: {
+					fontSize: 14,
+					fontColor:'#5c6466',
+					min: 0,
+                    max: 100,
+                    stepSize: 10,
+					callback: function(value, index, values) {
+                        return  value + '%';
+                    }
+				},	
+			}]	
+		}
+	}
+});	
+//點chart bar
+ctx2.onclick = function(evt) {
+  var activePoints = myChart2.getElementsAtEvent(evt);
+  if (activePoints[0]) {
+    var chartData = activePoints[0]['_chart'].config.data;
+    var idx = activePoints[0]['_index'];
+    var label = chartData.labels[idx];
+    var value = chartData.datasets[0].data[idx];
+
+    //點bar 出現modal，及題型icon (若有語系問題請協助改寫)   
+    $('#modal-correctDetail').modal('show').on('shown.bs.modal', function (e) {
+        switch (label) {
+            case "是非題": 
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/1.png" alt="是非題圖示" height="32">&nbsp;' + label);
+                break;
+            case "選擇題":
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/2.png" alt="選擇題圖示" height="32">&nbsp;' + label);
+                break;
+            case "文章閱讀":
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/3.png" alt="文章閱讀圖示" height="32">&nbsp;' + label);
+                break;
+            case "連連看":
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/4.png" alt="連連看圖示" height="32">&nbsp;' + label);
+                break;
+            case "聽力測驗":
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/6.png" alt="聽力測驗圖示" height="32">&nbsp;' + label);
+                break;
+            case "生詞配對":
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/7.png" alt="生詞配對圖示" height="32">&nbsp;' + label);
+                break;
+            case "重組題":
+                $('.modal-title').html('<img src="../Content/images/editUnit/Papers/ui-147/8.png" alt="重組題圖示" height="32">&nbsp;' + label);
+                break;    
+        }
+    });  
+  }
+};   
+</script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/widgets/bootstrap-fileinput-master/css/fileinput-eM.css">
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar"> <span class="sr-only">展開左側選單</span> <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-left"></i></button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Tindex"><a href="Tindex.html">首頁</a></li>
+              <li class="navTab-smartChinese"><a href="smartChinese.html">全方位中文系列</a></li>
+              <li class="navTab-chineseSeries"><a href="chineseSeries.html">教材資源區</a></li>
+              <li class="navTab-customized"><a href="customized.html">建立自編教材</a></li>
+              <li class="navTab-myLibs"><a href="myLibs.html">我的教材庫</a></li>
+              <li class="navTab-classMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">班級管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="classMgt__students.html">學生名單</a></li>
+                  <li><a href="classMgt__groups.html">指派教材</a></li>
+                  <li><a href="classMgt__learning.html">學習紀錄</a></li>
+                  <li><a href="classMgt__score.html">評量結果</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，張花花！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- page-banner start -->
+  <div class="page-banner customized">
+    <div class="container-fluid">
+      <div class="page-banner__text">
+        <div class="row">
+          <div class="col-xs-12 col-lg-12 col-xl-10 col-xl-offset-1">
+            <div class="row">
+              <div class="col-xs-12 col-xl-9 col-xl-offset-1">
+                <h2>建立自編教材
+                  <button class="btn btn-main-blue btn-lg pull-right" type="button" data-toggle="modal" data-target="#modal-customizedTextbook">立即開始</button>
+                </h2>
+                <p>跟我們一起融合課本和線上資源，打造互動式中文教材。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- page-banner end --> 
+  
+  <!-- 步驟說明 start -->
+  <div class="customized-step py-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-lg-12 col-xl-10 col-xl-offset-1">
+          <div class="row px-md-3 for-step1">
+            <div class="col-xs-12 col-md-6 col-xl-5 col-xl-offset-1">
+              <h3><big>Step1</big>創建專屬教材庫</h3>
+              <p>先建立教材，再增添單元，量身訂做符合自己教學習慣的中文教材。可依照課程內容設定教材適用程度或編寫教材簡介，提供給學生參考。</p>
+              <p>複製並修改整套教材，不用重作，也不怕原始資料遺失。</p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-xl-6"><img src="../Content/images/customized/step1.png" class="img-responsive center-block" alt=""/></div>
+          </div>
+          <div class="row px-md-3 for-step2">
+            <div class="col-xs-12">
+              <h3><big>Step2</big>編輯單元</h3>
+              <p>eMPOWER提供完整又靈活的編輯架構，包含五個環節：課前暖身、課文、認識字詞、句型練習與評量活動，敬請挑選符合教學需求的環節，設計單元內容。</p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-12 col-md-offset-0">
+              <div class="ui-84">
+                <div class="row px-md-2">
+                  <div class="col-md-2_4 px-md-1">
+                    <div class="ui-item">
+                      <div class="ui-top bg-green">
+                        <div class="ui-item__icon"><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示" class="img-responsive center-block"></div>
+                        <h2>課前暖身</h2>
+                      </div>
+                      <div class="circle"></div>
+                      <div class="ui-bottom">
+                        <p>向學生提問或說明本單元內容，結合影音或圖片引起學生的學習動機。</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2_4 px-md-1">
+                    <div class="ui-item">
+                      <div class="ui-top bg-yellow">
+                        <div class="ui-item__icon"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示" class="img-responsive center-block"></div>
+                        <h2>課文</h2>
+                      </div>
+                      <div class="circle"> </div>
+                      <div class="ui-bottom">
+                        <p>輸入文章或對話，系統自動生成拼音和語音，並提供四種聽讀教學模式；文字、圖片、影片自由搭配出8種課文型態。輸入文章或對話，系統自動生成拼音和語音，並提供四種聽讀教學模式；文字、圖片、影片自由搭配出8種課文型態。輸入文章或對話，系統自動生成拼音和語音，並提供四種聽讀教學模式；文字、圖片、影片自由搭配出8種課文型態。</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2_4 px-md-1">
+                    <div class="ui-item">
+                      <div class="ui-top bg-purple">
+                        <div class="ui-item__icon"><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示" class="img-responsive center-block"></div>
+                        <h2>認識字詞</h2>
+                      </div>
+                      <div class="circle"> </div>
+                      <div class="ui-bottom">
+                        <p>系統提供常用字詞的發音、解釋與手寫教學，教師可以增加例句和圖片，幫助學生理解與應用字詞。</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2_4 px-md-1">
+                    <div class="ui-item">
+                      <div class="ui-top bg-orange">
+                        <div class="ui-item__icon"><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示" class="img-responsive center-block"></div>
+                        <h2>句型練習</h2>
+                      </div>
+                      <div class="circle"> </div>
+                      <div class="ui-bottom">
+                        <p>針對課文所運用的句型，編輯用法說明與例句，系統自動為所有例句生成語音。</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-2_4 px-md-1">
+                    <div class="ui-item">
+                      <div class="ui-top bg-skin">
+                        <div class="ui-item__icon"><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示" class="img-responsive center-block"></div>
+                        <h2>評量活動</h2>
+                      </div>
+                      <div class="circle"> </div>
+                      <div class="ui-bottom">
+                        <p>運用7種題型設計線上評量活動，檢核學生的學習成效。教師也可以匯出題目，利用紙本評量進行檢核。運用7種題型設計線上評量活動，檢核學生的學習成效。教師也可以匯出題目，利用紙本評量進行檢核。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row px-md-3 for-step3">
+            <div class="col-xs-12 col-md-6 col-md-push-6 col-xl-5">
+              <h3><big>Step3</big>指派教材</h3>
+              <p>編輯結束後，將整套教材指派給學生，學生立即看到內容，隨時隨地學習中文。系統自動紀錄所有環節的學習次數，協助教師生評估學生學習情況。</p>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-0 col-md-pull-6 col-xl-pull-5"> <img src="../Content/images/customized/step2.png" class="img-responsive center-block" alt=""/></div>
+          </div>
+          <div class="text-center py-5">
+            <button class="btn btn-main-blue btn-lg" type="button" data-toggle="modal" data-target="#modal-customizedTextbook">我已了解，馬上開始建立自編教材</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 步驟說明 end --> 
+</main>
+<!-- Modal#modal-customizedTextbook start -->
+<div class="modal fade modal-customizedTextbook" id="modal-customizedTextbook" tabindex="-1" role="dialog" aria-labelledby="modal-courseInsert1Label">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">建立自編教材</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- -->
+        <div class="form-horizontal form-style-2">
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0"><span class="text-red">*</span>教材名稱</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">教材封面</label>
+            <div class="col-sm-8">
+              <input id="file-front-insertTextbook" name="file-front-insertTextbook" type="file" class="fileUpload-pic">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">圖檔格式為jpg/png，大小上限500KB，建議以直立長寬比例為5:4的圖像為主。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">教材權限</label>
+            <div class="col-sm-8">
+              <select id="program-status" class="form-control noRadius input-inline">
+                <option value=""><i class="fas fa-link"></i>公開</option>
+                <option value=""><i class="fas fa-unlink"></i>不公開</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">適用程度</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">多個標籤可使用,或;分隔。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">教材簡介</label>
+            <div class="col-sm-8">
+              <textarea class="form-control noRadius" rows="5"></textarea>
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+        </div>
+        <!-- --> 
+      </div>
+      <div class="modal-footer noBorder">
+        <div class="text-center">
+          <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+          <button id="program-done" type="button" class="btn btn-main-blue" onClick="alert('成功建立自編教材，即將前往我的教材庫。');window.location='myLibs.html'">送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-customizedTextbook end --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/fileinput.min.js"></script> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/locales/zh-TW.js"></script> 
+<script>
+   
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-customized').addClass('active');
+	
+	//上傳圖片
+	$(".fileUpload-pic").fileinput({
+		language: 'zh-TW',
+		allowedFileExtensions : ['jpg', 'png','jpeg'],
+		maxFileSize : 500,
+		maxFilesNum : 1,
+		dropZoneEnabled: false,
+		previewClass: "file-eMstyle noRadius", 			//預覽區class
+		showClose: false, 								//預覽區close
+		mainClass: "file-caption-eMstyle",				//按鈕欄位class
+		captionClass: "noRadius",						//檔案標題欄位class
+		browseClass: "btn btn-default-gray noRadius", 	//按鈕class
+		layoutTemplates :{
+			footer: '', 								//預覽區footer資訊
+		},
+	});
+    
+    //step2 文字同高
+    $(window).trigger('resize');
+});
+$(window).on('resize',function() {
+    //step2 文字同高
+    if( $(window).width()>970 ){
+        var maxValue = 0;
+        $('.ui-item .ui-bottom p').each(function(){
+            var value = parseInt($(this).height());
+            //console.log(value);
+            maxValue = (value > maxValue) ? value : maxValue;
+        });
+        $('.ui-item .ui-bottom').height(maxValue + 10 + 10);
+    }     
+});     
+$(window).load(function() {
+    //step2 文字同高
+    $(window).trigger('resize');
+});    
+</script>
+</body>
+</html>
