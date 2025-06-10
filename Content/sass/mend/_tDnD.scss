@@ -1,0 +1,8 @@
+.tDnD_whileDrag{
+    box-shadow: 0 0 5px rgba(0,0,0, .5);
+    background: rgba($color-main-sky, .4);
+    background: -moz-linear-gradient(top,  rgba($color-main-sky, .3) 0%, rgba($color-main-sky, .4)  100%);
+    background: -webkit-linear-gradient(top,  rgba($color-main-sky, .3)  0%,rgba($color-main-sky, .4) 100%); 
+    background: linear-gradient(to bottom,  rgba($color-main-sky, .3)  0%,rgba($color-main-sky, .4) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgba($color-main-sky, .3), endColorstr=rgba($color-main-sky, .4),GradientType=0 );
+}

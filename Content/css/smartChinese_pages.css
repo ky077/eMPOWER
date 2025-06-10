@@ -1,0 +1,95 @@
+﻿/*color*/
+:root{
+    --color-main-blue:		#0c6db9; 
+    --color-main-sky:		#00b0ec; 
+    --color-main-green:		#14a83b; 
+    --color-main-yellow:	#f8bc00;
+    --color-main-purple:	#bc87ba; 
+    --color-main-orange:	#db600e;
+    --color-main-skin:		#f37d7d; 
+    --color-main-cyan:		#3dbcba;
+
+    --color-default-black:	#2e3233;
+    --color-default-gray:	#5c6466;
+
+    --color-text-red:		#ff5151;
+}
+/*mend*/
+.bg-white{
+    background-color:  #fff;
+}
+
+.panel-group-checkbox .panel{
+    box-shadow: none;
+    border-radius: 0;
+}
+.panel-group-checkbox .panel + .panel{
+    margin-top: -1px;
+}
+.panel-group-checkbox .panel .panel-heading .panel-title label{
+    font-weight: 500 !important;
+}
+.panel-group-checkbox .panel .panel-heading .panel-title a{
+    text-decoration: none;
+}
+.panel-group-checkbox .panel .panel-body{
+    padding: 0;    
+}
+.panel-group-checkbox .panel .panel-body .table{
+    margin: -1px; 
+}
+.panel-group-checkbox .panel .panel-body .table th, 
+.panel-group-checkbox .panel .panel-body .table td {
+    padding: 15px;
+    padding-right: 15px;
+}
+
+.table-style-default.table-hover>tbody>tr:hover {
+    background-color: rgba(var(--color-main-blue), .75);
+}
+/**/
+/*.sc-pagination {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.sc-pagination .page-link {
+  border-color: transparent;
+  background-color: transparent;
+}
+.sc-pagination .page-link.disabled {
+  opacity: .5;
+}
+.sc-pagination .sc-pagination-input {
+  width: 3rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+.sc-pagination-prev, .sc-pagination-next{}*/
+.em-pagination >li >a.disabled{
+    opacity: .65;
+    cursor: default;
+}
+
+.spinner {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s ease-out, visibility 0s linear .5s;
+}
+.spinner.show {
+  transition: opacity .5s ease-out, visibility 0s linear 0s;
+  visibility: visible;
+  opacity: 1;
+}
+.spinner .spinner-border {
+  width: 3rem;
+  height: 3rem;
+  animation: spinner-border .75s linear infinite, spinner-color 3s linear infinite;
+}

@@ -1,0 +1,131 @@
+@mixin CWSblock($color, $get-name) {
+    margin-left: calc(-15px - 15px - .25rem);
+    margin-right: calc(-15px - 15px);
+    @media screen and (min-width: 992px) {
+	margin-left: calc(-15px - 15px - .25rem - 2rem - .25rem);
+    }    
+	.editCourse-tab{ 
+		.nav-tabs { 
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 10px;
+            border-bottom: none;
+            @media screen and (min-width: 992px) {
+            padding: 0 calc(30px + 2rem + .25rem);
+            }
+			>li{
+				float: left;
+                display: flex;
+                flex-direction: row;
+                max-width: 33.33%;
+				>a{
+					border-radius: .5rem .5rem 0 0;
+					color:lighten($color-default-gray, 30%);
+					font-weight:400;
+					width: 32vw;
+					max-width:15rem;
+					text-align:center;
+					border-top:.25rem solid transparent;
+					i{ 
+						display:inline-block;
+						width:2rem;
+						height:2rem;
+						line-height:2rem;
+						font-size:1.5rem;
+					}
+					.tab-title{
+						font-size:.9rem;
+                        line-height: 1.2;
+					}
+				}
+				>a:hover{
+					color:lighten($color-default-gray, 10%);
+					border-color:transparent;
+					border-bottom-color: #ddd;
+				}
+			}
+			>li.active{
+				>a, >a:hover, >a:focus, >a:active,{
+					border-radius: .5rem .5rem 0 0;
+					color:$color;
+					border-color:#ddd;
+					border-top:.25rem solid $color;
+					border-bottom-color: #fff;
+					.tab-title{
+						color:$color-default-gray;
+					}
+				}
+			}
+		}
+	}
+	.editCourse-tab-content{
+		background-color: #FFF;
+        padding: 0 10px;
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        @media screen and (min-width: 992px) {
+        padding: 0 calc(30px + 2rem + .25rem);
+        }
+		.tab-content{
+			padding:.75rem .75rem 3rem .75rem;
+			.tab-content-title{
+				color:$color;
+				font-size: 1rem;
+				margin-top:1rem;
+				margin-bottom:1rem;
+                font-weight: 500;
+			}
+			.editCourse-pointArea{
+                font-size: 1rem;
+                line-height: 2;
+				color:$color-default-gray;
+			}
+			/*[class^="btn-main-"]{
+				@extend .btn-main-#{$get-name};
+			} 
+            [class*="btn-main-"][class$="white"] {
+				@extend .btn-main-#{$get-name}-white;
+			}*/
+		}
+	}
+	.editCourse-literalPlace{
+		.literalPlace-title{
+			color:#FFF;
+			background-color:$color;
+			padding-left:calc(30px + 2rem);
+			padding-top:.25rem;
+			padding-bottom:.25rem;
+			font-size: .9rem;
+			font-weight:400;
+		}
+		.editCourse-literalTable{
+			background-color: #FFF;
+			border-bottom: 1px solid #ddd;
+			min-width:970px;
+			margin-bottom:0;
+			thead{
+				tr th{
+					text-align:center;
+					background-color:#ddd;
+					border-bottom-width: 2px;
+				}
+			}
+			tbody{
+				tr td{
+					color:$color-default-gray;
+					text-align:center;
+					&.delate{
+						[class*="btn-main-"]{
+							@extend .btn-main-#{$get-name}-white;
+						}
+					}
+					&.upload{
+						[class*="btn-main-"]{
+							@extend .btn-main-#{$get-name};
+						}
+					} 
+				}
+			}
+		}
+	}
+}

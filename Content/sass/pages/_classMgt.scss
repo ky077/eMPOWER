@@ -1,0 +1,63 @@
+.function-panel{
+	margin-top:2rem;
+	margin-bottom:0.5rem;
+}
+
+.modal-insertNote{
+	.insertNote-content{ 
+		font-size:0.85rem;
+		color: $color-default-gray;
+		h5{
+			font-size:0.85rem;
+			font-weight: 400;
+		}
+	}
+}
+.modal-insertBat{
+	.insertBat-stepContent { 
+		font-size:0.8em;
+		color: $color-default-gray;
+		padding-top:2rem;
+		padding-bottom:2rem;
+		margin-top:1rem;
+		.insertBat-stepContent__btns{
+			margin-top:2rem;
+			text-align:center;
+		}
+	}
+}
+.modal-editMsg{
+	.editMsg-content { 
+		font-size:0.8em;
+		color: $color-default-gray;
+	}
+}
+
+
+/*insert*/
+.page-stepper{
+	.stepper{
+		ul.nav.nav-tabs{
+			padding-bottom:2rem;
+		}
+		.tab-content{
+			border-top:1px solid #ddd;
+			padding-top:2rem;
+		}
+	}
+}
+.insertGroups-stepContent{
+	font-size:0.8em;
+	color: $color-default-gray;
+	.insertGroups-stepContent__btns{
+		margin-top:2rem;
+		text-align:center;
+	}
+}
+
+/**/
+.forPaperUP-content{ 
+	background-color: transparent;
+	margin-top: -200px;
+	margin-bottom: 15px;
+}
