@@ -1,0 +1,692 @@
+{
+  "topic": "L6 我的家人",
+  "focus": [
+    "學習敘述日期",
+    "學習歡迎招呼客人",
+    "禮貌用語"
+  ],
+  "lesson": [
+    {
+      "title": "第一課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：我昨天晚上不上課。你昨天晚上上課嗎?<br>學生：我昨天晚上上課。",
+            "複習L5詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "韻母: ai, ei, ia, ie"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "賓果",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "哪",
+            "很<br>可愛、<span class='text-red'>漂亮</span>、<span class='text-red'>帥</span>、<span class='text-red'>聰明</span><br>謝謝"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "哥哥、姐姐、弟弟、妹妹、本、書、<span class='text-red'>杯子</span>",
+              "outerP": [
+                " (搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "翻牌配對",
+              "outerP": [
+                "（漢字/拼音或圖片）"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br> A: <b>哪一個</b>是你<u>弟弟</u>?<br>B: 這是我<u>弟弟</u>。",
+            "句型二<br>A: 你姐姐<b>很</b><u class='text-red'>漂亮</u>。<br>B: 謝謝。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "看圖問答",
+              "outerP": [
+                "請學生準備自己的家庭合照<br>學生A：哪一個是你弟弟?<br>學生B：這是我弟弟。"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "節奏接龍",
+              "outerP": [
+                "老師：他...?<br>（拿出圖1和「很」字卡）<br>學生A：他很<br>學生B：他很可愛。<br>老師（拿出圖2）<br>學生C：姐姐很<br>學生D：姐姐很漂亮。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "可、很、人"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L6-1 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第二課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：哪一本書是你的? <br>學生：這一本書是我的。",
+            "複習L6第一課時詞彙及句型"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢語拼音",
+          "time": "10分鐘",
+          "color": "purple-part",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "韻母: ao, ou, ua, uo, iao, iu"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "配對",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "詞彙",
+          "time": "15分鐘",
+          "color": "purple",
+          "skill": "語言技能：聽、說、認讀",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "生日、年、月、號<br><span class='text-red'>生日快樂</span>",
+            "都<br><span class='text-red'>孩子</span>、<span class='text-red'>青少年</span>"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "複習",
+              "outerText": "一~三十一、學生、男生、女生",
+              "outerP": [
+                "(搭配句型練習)"
+              ],
+              "img": ""
+            },
+            {
+              "innerText": "活動",
+              "outerText": "我寫你說",
+              "outerP": [
+                "分兩隊，A隊寫年月日，B隊說，然後互換。<br>A隊寫：26.9.1961<br>B隊說：1961年9月26號",
+                "* 注意學生有沒有依照中文正確時間順序說。<br>* A、B兩隊交換3~4輪"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "句型",
+          "time": "15分鐘",
+          "color": "orange",
+          "skill": "語言技能：聽、說",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "句型一<br>A: 你的生日是<b>幾月幾號</b>?<br>B: 我的生日是<u>五月一號</u>。",
+            "句型二<br>A: 你是<u class='text-red'>敘利亞人</u>嗎?<br>B: 我是<u class='text-red'>敘利亞人</u>。<br>A: 我也是<u class='text-red'>敘利亞人</u>。<br>A、B: 我們<b>都</b>是<u class='text-red'>敘利亞人</u>。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "記憶活動-家人的生日",
+              "outerP": [
+                "老師準備2~3張家庭圖卡，上面有每個家人的生日訊息（設定其中有一人的生日是上課當天）。給學生40秒左右時間記，之後蓋起來。<br>老師隨機問家人成員的生日。<br>老師：爸爸的生日是幾月幾號？<br>學生：爸爸的生日是6月3號。",
+                "* 要是生日和上課當天同一天，學生就要一起說「<span class='text-red'>生日快樂</span>」。"
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "漢字",
+          "time": "10分鐘",
+          "color": "blue",
+          "skill": "語言技能：認讀、寫",
+          "app": true,
+          "p": [
+            "月、生、都、坐"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "eM漢字手寫練習",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "L6-2 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "*標示<span class='text-red'>紅色</span>的詞彙不需要認讀漢字，語言技能要求為<b>聽和說</b>。" 
+    },
+    {
+      "title": "第三課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "15分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "複習第一和第二課時的詞彙及語法"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "詞彙消消樂",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文",
+          "time": "20分鐘",
+          "color": "yellow",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "課文聆聽。<br>聽1到2遍課文，讓學生圈選他們聽到的字詞。帶入尚未學習的詞彙（<b>請進、請坐、家人</b>）。",
+            "課文跟讀。<br>搭配課文插圖，帶學生閱讀。",
+            "課文理解。<br>老師提問學生回答。<br>問題：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;弟弟的生日是幾月幾號?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;誰很可愛?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大衛家有幾個人?",
+            "學生兩兩練習課文。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "課文練習",
+          "time": "10分鐘",
+          "color": "yellow",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師將可替換的詞彙寫在白板上，先帶學生念一次，確認學生理解詞彙意思。學生兩人一組，選擇適合的詞彙放在課文挖空處，完成後進行口語練習。",
+            "A：請進，請坐。<br>B：謝謝。<br>A：不客氣。<br>B：他們是誰？<br>A：他們是我的家人。這是我____，那是我____。<br>B：哪一個是你____？<br>A：他/她是我____。他/她的生日是___月___號。<br>B：你____很可愛。<br>A：謝謝。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "學生演示",
+          "time": "5分鐘",
+          "color": "sky",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            "老師隨機抽點2-3組學生演示對話。"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "作業",
+          "time": "",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            ""
+          ],
+          "list": [
+            "L6-3 評量活動",
+            "eM課文細讀練習"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    },
+    {
+      "title": "第四課時",
+      "content": [
+        {
+          "name": "暖身",
+          "time": "10分鐘",
+          "color": "green",
+          "skill": "",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            "利用學過的詞彙和學生進行簡短互動。<br>老師：你的生日是幾月幾號?<br>學生：我的生日是十月十號。"
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動1",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "",
+          "app": true,
+          "p": [
+            "老師帶領學生進行L6-4 評量活動"
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "",
+              "outerText": "",
+              "outerP": [
+                ""
+              ],
+              "img": ""
+            }
+          ]
+        },
+        {
+          "name": "綜合活動2",
+          "time": "20分鐘",
+          "color": "skin",
+          "skill": "課文詞彙替換練習",
+          "app": false,
+          "p": [
+            ""
+          ],
+          "list": [
+            ""
+          ],
+          "table": [
+            [
+              ""
+            ],
+            [
+              ""
+            ]
+          ],  
+          "square": [
+            {
+              "innerText": "活動",
+              "outerText": "主題小演說：介紹朋友的生日",
+              "outerP": [
+                "同學們先分組，相互問對方的姓名、年齡、生日和家人成員，再找出與對方相同的事（用「都」來說）。最後請每位同學各自介紹自己的同學和相同的事。",
+                "例：<br>她是<u>安娜</u>，她<u>十六</u>歲，她的生日是<u>5</u>月<u>23</u>號。她家有<u>爸爸、媽媽…</u>。我和她都是學生。"
+              ],
+              "img": ""
+            }
+          ]
+        }
+      ],
+      "remark": "" 
+    }
+  ]
+}
