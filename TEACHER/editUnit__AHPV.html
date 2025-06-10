@@ -1,0 +1,1428 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/widgets/bootstrap-fileinput-master/css/fileinput-eM.css">
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar"> <span class="sr-only">展開左側選單</span> <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-left"></i></button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Tindex"><a href="Tindex.html">首頁</a></li>
+              <li class="navTab-smartChinese"><a href="smartChinese.html">全方位中文系列</a></li>
+              <li class="navTab-chineseSeries"><a href="chineseSeries.html">教材資源區</a></li>
+              <li class="navTab-customized"><a href="customized.html">建立自編教材</a></li>
+              <li class="navTab-myLibs"><a href="myLibs.html">我的教材庫</a></li>
+              <li class="navTab-classMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">班級管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="classMgt__students.html">學生名單</a></li>
+                  <li><a href="classMgt__groups.html">指派教材</a></li>
+                  <li><a href="classMgt__learning.html">學習紀錄</a></li>
+                  <li><a href="classMgt__score.html">評量結果</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，張花花！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main>
+  <div class="container-fluid">
+    <div class="row"> 
+      <!-- 左邊選單start -->
+      <div class="col-sm-3 col-md-2 sidebar navbar-collapse collapse" id="sidebar">
+        <div class="editUnit-item">
+          <h3 class="textbookName">中文真有趣</h3>
+          <div class="unitFront">
+            <div class="embed-responsive embed-responsive-16by9"> <img src="../Content/images/default-unit.png" class="embed-responsive-item" alt="單元封面"> </div>
+          </div>
+          <h4 class="unitName">第一課 問好</h4>
+        </div>
+      </div>
+      <!-- 左邊選單end --> 
+      <!-- 右邊內容start -->
+      <div class="col-sm-12 col-md-10 col-md-offset-2 sidebar-main">
+        <div class="sidebar-main-block"> 
+          <!-- 標題 -->
+          <h2 class="text-yellow editUnit-title"><span class="bg-yellow editUnit-icon"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示" disabled /></span>課文</h2>
+          <!-- 內容 -->
+          <div class="editUnit-content editCourse-content__AHPV">
+            <h3 class="editUnit-subtitle">請輸入課文，並選擇是否要搭配圖片、影片：</h3>
+            <div class="editCourse-CWSblock">
+              <div class="editCourse-tab">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#link-one" aria-controls="link-one" role="tab" data-toggle="tab"><i class="far fa-file-alt"></i>
+                    <div class="tab-title">課文</div>
+                    </a></li>
+                  <li role="presentation"><a href="#link-two" aria-controls="link-two" role="tab" data-toggle="tab"><i class="far fa-image"></i>
+                    <div class="tab-title">圖片</div>
+                    </a></li>
+                  <li role="presentation"><a href="#link-three" aria-controls="link-three" role="tab" data-toggle="tab"><i class="fas fa-film"></i>
+                    <div class="tab-title">影片</div>
+                    </a></li>
+                </ul>
+              </div>
+              <div class="editCourse-tab-content">
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active" id="link-one"> 
+                    <!-- 課文start -->
+                    <div class="editCourse-content__AH">
+                      <div class="form-horizontal form-style-2 pt-5">
+                        <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red"></span>課文標題</label>
+                          <div class="col-md-9 col-lg-9 col-xl-8">
+                            <input type="text" class="form-control" id="" placeholder="">
+                          </div>
+                        </div>
+                        <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red">*</span>課文內容</label>
+                          <div class="col-md-9 col-lg-9 col-xl-8">
+                            <div>
+                              <input id="file-pdf" name="file-pdf" type="file" class="fileUpload-pdf">
+                            </div>
+                            <div class="small my-1">或</div>
+                            <div>
+                              <textarea id="CKEditor_article" class="form-control noRadius py-1" style="min-height: 250px; line-height: 2;" placeholder="輸入文字..."></textarea>
+                              <div class="mark-block editCourse-AH__textMark">欲指定某段文字不發音，請使用{ }標示文字。</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-2 col-xl-8">
+                            <button id="btnTransArtiDHP" type="button" class="btn btn-main-yellow noRadius editCourse-AH__btnTrans btn-block"><img src="../Content/images/icon-circular-arrows.svg" alt="" class="iconSVG-circular-arrows white"/>&nbsp;點擊轉換成漢語拼音及翻譯</button>
+                          </div>
+                        </div>
+                        <div id="transResult" style="display: none;">
+                          <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red">*</span>漢語拼音</label>
+                            <div class="col-md-9 col-lg-9 col-xl-8">
+                              <div id="CKEditor_articleDHP" class="form-control noRadius rubyEditor" style="padding-right: 2.5rem; border-radius: 4px 4px 0 0;"><!--{A: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>這</rb>
+                                    <rb>是</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Zhè</rt>
+                                    <rt>shì</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>你</rb>
+                                    <rb>們</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>nǐ</rt>
+                                    <rt>men</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>新</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>xīn</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>買</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>mǎi</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>的</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>de</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>電</rb>
+                                    <rb>視</rb>
+                                    <rb>機</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>diàn</rt>
+                                    <rt>shì</rt>
+                                    <rt>jī</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>嗎</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>ma</rt>
+                                  </rtc>
+                                </ruby>
+                                ？ <br>
+                                {B: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>是</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Shì</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>啊</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>a</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>
+                                {A: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>你</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Nǐ</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>常</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>cháng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>看</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>kàn</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>電</rb>
+                                    <rb>視</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>diàn</rt>
+                                    <rt>shì</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>嗎</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>ma</rt>
+                                  </rtc>
+                                </ruby>
+                                ？ <br>
+                                {B: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>常</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Cháng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>看</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>kàn</rt>
+                                  </rtc>
+                                </ruby>
+                                ，
+                                <ruby>
+                                  <rbc>
+                                    <rb>我</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>wǒ</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>最</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>zuì</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>愛</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>ài</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>看</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>kàn</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>王</rb>
+                                    <rb>英</rb>
+                                    <rb>英</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Wáng</rt>
+                                    <rt>Yīng</rt>
+                                    <rt>yīng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>唱</rb>
+                                    <rb>歌</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>chàng</rt>
+                                    <rt>gē</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>
+                                {A: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>對</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Duì</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>啊</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>a</rt>
+                                  </rtc>
+                                </ruby>
+                                ，
+                                <ruby>
+                                  <rbc>
+                                    <rb>她</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tā</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>唱</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>chàng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>的</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>de</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>歌</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>gē</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>都</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>dōu</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>很</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>hén</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>好</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>hǎo</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>聽</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tīng</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>
+                                {B: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>她</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Tā</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>跳</rb>
+                                    <rb>舞</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tiào</rt>
+                                    <rt>wǔ</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>也</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>yě</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>跳</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tiào</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>得</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>de</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>不</rb>
+                                    <rb>錯</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>bú</rt>
+                                    <rt>cuò</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>
+                                {A: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>她</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Tā</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>穿</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>chuān</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>的</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>de</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>衣</rb>
+                                    <rb>服</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>yī</rt>
+                                    <rt>fú</rt>
+                                  </rtc>
+                                </ruby>
+                                ，
+                                <ruby>
+                                  <rbc>
+                                    <rb>我</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>wǒ</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>也</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>yě</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>喜</rb>
+                                    <rb>歡</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>xǐ</rt>
+                                    <rt>huān</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>
+                                {B: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>聽</rb>
+                                    <rb>說</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Tīng</rt>
+                                    <rt>shuō</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>她</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tā</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>還</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>hái</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>會</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>huì</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>唱</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>chàng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>不</rb>
+                                    <rb>少</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>bù</rt>
+                                    <rt>shǎo</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>外</rb>
+                                    <rb>國</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>wài</rt>
+                                    <rt>guó</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>歌</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>gē</rt>
+                                  </rtc>
+                                </ruby>
+                                ，
+                                <ruby>
+                                  <rbc>
+                                    <rb>她</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tā</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>的</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>de</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>英</rb>
+                                    <rb>文</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Yīng</rt>
+                                    <rt>wén</rt>
+                                  </rtc>
+                                </ruby>
+                                、
+                                <ruby>
+                                  <rbc>
+                                    <rb>法</rb>
+                                    <rb>文</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Fǎ</rt>
+                                    <rt>wén</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>也</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>yě</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>都</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>dōu</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>說</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>shuō</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>得</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>de</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>很</rb>
+                                    <rb>好</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>hěn</rt>
+                                    <rt>hǎo</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>
+                                {A: }
+                                <ruby>
+                                  <rbc>
+                                    <rb>我</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>Wǒ</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>想</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>xiǎng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>她</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>tā</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>一</rb>
+                                    <rb>定</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>yí</rt>
+                                    <rt>dìng</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>有</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>yǒu</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>很</rb>
+                                    <rb>多</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>hěn</rt>
+                                    <rt>duō</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>外</rb>
+                                    <rb>國</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>wài</rt>
+                                    <rt>guó</rt>
+                                  </rtc>
+                                </ruby>
+                                <ruby>
+                                  <rbc>
+                                    <rb>朋</rb>
+                                    <rb>友</rb>
+                                  </rbc>
+                                  <rtc>
+                                    <rt>péng</rt>
+                                    <rt>yǒu</rt>
+                                  </rtc>
+                                </ruby>
+                                。 <br>--> 
+                              </div>
+                              <div class="row my-2">
+                                <div class="col-xs-12 col-sm-4 mb-1 mb-sm-0 pr-sm-1">
+                                  <button id="Wcorrection" type="button" class="btn btn-main-yellow btn-block btn-wordsfun"><i class="fas fa-pen"></i>&nbsp;字詞校正</button>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 mb-1 mb-sm-0 px-sm-1">
+                                  <button id="Wbreak" type="button" class="btn btn-main-yellow btn-block btn-wordsfun"><i class="fas fa-cut"></i>&nbsp;字詞斷詞</button>
+                                </div>
+                                <div class="col-xs-12 col-sm-4 mb-1 mb-sm-0 pl-sm-1">
+                                  <button id="Wmerge" type="button" class="btn btn-main-yellow btn-block btn-wordsfun"><i class="fas fa-tape"></i>&nbsp;字詞合併</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red">*</span>英文翻譯</label>
+                            <div class="col-md-9 col-lg-9 col-xl-8">
+                              <textarea id="CKEditor_articleTran" class="form-control noRadius py-1" style="min-height: 250px; line-height: 2;"><!--A: Is this your new TV?
+B: yes.
+A: Do you often watch TV?
+B: Often, I love watching Wang Yingying sing.
+A: Yes, she sings very nice songs.
+B: She dances well too.
+A: I like the clothes she wears too.
+B: I heard that she can sing a lot of foreign songs, and she can speak English and French very well.
+A: I think she must have many foreign friends.--></textarea>
+                            </div>
+                          </div>
+                          <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red">*</span>課文語音</label>
+                            <div class="col-md-9 col-lg-9 col-xl-8"> 
+                              <!-- 全篇統一人聲 -->
+                              <div class="Dradio-main-yellow AH__radio">
+                                <input type="radio" id="s-all" name="s" value="all">
+                                <label for="s-all">全篇統一人聲</label> </div>
+                              <ul id="allList" class="list-group editCourse-AH__setVoiceList setVoice-all pl-5" style="display: none;">
+                                <li class="list-group-item">
+                                  <select id="allVoice" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;(試聽全篇)</button>
+                                  </div>
+                                </li>
+                              </ul>
+                              <!-- 全篇統一人聲 --> 
+                              <!-- 逐段設定人聲 -->
+                              <div class="Dradio-main-yellow AH__radio">
+                                <input type="radio" id="s-sentence" name="s" value="sentence">
+                                <label for="s-sentence">逐段設定人聲</label> </div>
+                              <ul id="sentenceList" class="list-group editCourse-AH__setVoiceList setVoice-sentence pl-5" style="display: none;">
+                                <li class="list-group-item">
+                                  <select id="sentence0" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;{A: } 這是你們新買的電視機嗎？</button>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <select id="sentence1" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;{B: } 是啊。</button>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <select id="sentence2" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;{A: } 你常看電視嗎？</button>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <select id="sentence3" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;{B: } 常看，我最愛看王英英唱歌。</button>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <select id="sentence4" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;{A: } 對啊，她唱的歌都很好聽。</button>
+                                  </div>
+                                </li>
+                                <li class="list-group-item">
+                                  <select id="sentence5" class="form-control input-inline noRadius">
+                                    <option value="0">選擇聲音...</option>
+                                    <option value="f1">女聲1</option>
+                                    <option value="f2">女聲2</option>
+                                    <option value="m1">男聲1</option>
+                                    <option value="m2">男聲2</option>
+                                  </select>
+                                  <div class="setVoiceList__sentence">
+                                    <button class="btn setVoiceList__audition" type="button" disabled><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>&nbsp;{B: } 她跳舞也跳得不錯。</button>
+                                  </div>
+                                </li>
+                              </ul>
+                              <!-- 逐段設定人聲 --> 
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 課文end --> 
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="link-two"> 
+                    <!-- 圖片start -->
+                    <div class="editCourse-content__AP">
+                      <div class="form-horizontal form-style-2 pt-5">
+                        <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red"></span>上傳圖片</label>
+                          <div class="col-md-9 col-lg-9 col-xl-8">
+                            <input id="picUpload" name="" type="file" class="fileUpload-pic">
+                            <div class="mark-block">圖檔格式為jpg/png，大小上限500KB。 </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 圖片end --> 
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="link-three"> 
+                    <!-- 影片start -->
+                    <div class="editCourse-content__AV">
+                      <div class="form-horizontal form-style-2 pt-5">
+                        <div class="form-group"> <label for="" class="col-md-3 col-lg-2 pr-0 control-label"><span class="text-red"></span>設定影片</label>
+                          <div class="col-md-9 col-lg-9 col-xl-8">
+                            <div class="editCourse-preview" style="display:none;">
+                              <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" frameborder="0" allowfullscreen=""></iframe>
+                              </div>
+                            </div>
+                            <div class="input-group">
+                              <input type="text" class="form-control noRadius" placeholder="YouTube影片連結網址" value="">
+                              <span class="input-group-btn">
+                              <button class="btn btn-main-yellow noRadius" type="button" id="videolink">預覽</button>
+                              </span> </div>
+                            <div class="mark-block"> </div>
+                            <div class="help-block text-red" style="display:none;"> YouTube影片連結錯誤。 </div>
+                            <div class="help-block text-green" style="display:none;"> 連結取得成功！ </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- 影片end --> 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 按鈕 -->
+          <div class="text-center py-5"> <a class="btn btn-main-yellow-white btn-lg" role="button" href="myLibs__content.html">返回目錄</a> <a class="editNext btn btn-main-yellow btn-lg" type="submit">下一步</a> </div>
+          <!-- --> 
+        </div>
+      </div>
+      <!-- 右邊內容end --> 
+    </div>
+  </div>
+</main>
+
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script src="../Content/js/defaultText.js">//預設圖片+單元名</script> 
+<script src="../Content/js/modalBlack.js">//處理中黑頻modal</script> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/fileinput.min.js"></script> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/locales/zh-TW.js"></script> 
+<script>
+$(document).ready(function() {
+    //nowPage 
+	$('.navTab-myLibs').addClass('active');
+    
+    //上傳pdf設定
+	$('.fileUpload-pdf').fileinput({
+		language: 'zh-TW',
+		allowedFileExtensions : ['pdf'],
+		//maxFileSize : 2048,                   //工程師設定
+		dropZoneEnabled: false,
+        dropZoneTitle:'拖曳PDF檔案至此&hellip;',
+        showPreview: false,
+        previewClass: "file-eMstyle", 			//預覽區class
+		showClose: false, 						//預覽區close按鈕顯示
+        layoutTemplates :{
+			footer: '', 						//預覽區footer資訊
+		},
+        msgPlaceholder: '選擇PDF...',
+        showUpload: false,
+        browseClass: "btn btn-main-yellow", 	//按鈕class
+        previewSettings: {
+            pdf: {width: '100%', height: '210px', 'position': 'relative'},
+        },
+        autoReplace: true
+	});
+    
+    //課文語音 [全篇統一人聲/開始逐段設定]radio切換
+    $('input[name="s"]').change(function () { 
+        var $_nowClick = $(this).val();
+        $('[class*=setVoice-]').hide();
+        $('.setVoice-'+$_nowClick).show();
+        
+        if( $(this).val() == "all"){//清空
+            $('#sentenceList').find('option').removeAttr('selected');
+            $('#sentenceList').find('.setVoiceList__audition').attr('disabled', 'disabled');
+        }
+        if( $(this).val() == "sentence"){
+            $('#allList').find('option').removeAttr('selected');
+            $('#allList').find('.setVoiceList__audition').attr('disabled', 'disabled');
+        }
+    });
+    
+    //上傳圖片設定
+	$(".fileUpload-pic").fileinput({
+		language: 'zh-TW',
+		allowedFileExtensions : ['jpg', 'png','jpeg'],
+		maxFileSize : 500,                              //工程師設定
+		maxFilesNum : 1,
+		dropZoneEnabled: false,
+		previewClass: "file-eMstyle noRadius", 			//預覽區class
+		showClose: false, 								//預覽區close
+		mainClass: "file-caption-eMstyle",				//按鈕欄位class
+		captionClass: "noRadius",						//檔案標題欄位class
+        showUpload: false,
+		browseClass: "btn btn-main-yellow noRadius", 	//按鈕class
+		layoutTemplates :{
+			footer: '', 								//預覽區footer資訊
+		},
+	});
+    
+    //demo 設定影片
+	$('#videolink').click(function(){
+		$('.editCourse-preview').show().find('.embed-responsive-item').attr('src', 'https://www.youtube.com/embed/rp-FAlPNQIA');
+		$('.help-block.text-green').show();//demo success
+	});
+});
+</script> 
+<script> 
+//demo 課文內容選擇PDF後...   
+$('.fileUpload-pdf').on('filebatchselected', function(event, files) {
+    //處理進度條
+    showModalBlack('sm', `<div class="mb-3">PDF處理中</div>
+                             <div class="progress">
+                              <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style=""></div>
+                            </div>`);
+
+    //demo 進度條時間
+    let num = 0, 
+        time = 100; //預計花費時間
+    let interval = setInterval(function() {
+        num++;
+
+        $('#modal-black .progress-bar').attr('aria-valuenow', num);
+        $('#modal-black .progress-bar').css('width', num+'%');
+        $('#modal-black .progress-bar').text(num+'%');
+
+        if (num == 100) {
+            clearInterval(interval);
+
+            let timeout = setTimeout(function() {
+                $('#modal-black').modal('hide');
+
+                $('#CKEditor_article').val(`A: 這是你們新買的電視機嗎？\nB: 是啊。\nA: 你常看電視嗎？\nB: 常看，我最愛看王英英唱歌。\nA: 對啊，她唱的歌都很好聽。\nB: 她跳舞也跳得不錯。\nA: 她穿的衣服，我也喜歡。\nB: 聽說她還會唱不少外國歌，她的英文、法文也都說得很好。\nA: 我想她一定有很多外國朋友。`);
+            }, 1000);  
+        }
+    }, time/100);
+})
+//demo 課文內容移除PDF...     
+  .on('fileclear', function(event, files) {  
+    $('#CKEditor_article').val('');
+})
+//demo 課文內容異步上傳錯誤...       
+  .on('fileerror', function(event, data, msg) {
+    $('#CKEditor_article').val('');
+});
+
+//demo [點擊轉換成漢語拼音] 
+$('#btnTransArtiDHP').click(function(){
+    if( $('#CKEditor_article').val().trim()=='' ){
+        alert('請選擇PDF或輸入課文內容。');    
+    }else{ 
+        if( $('#transResult:visible').length == 0 ){
+            btnTrans_result(); 
+            $('#transResult').show();
+            $(this).blur();   
+        }else{
+            if(confirm('您修改的漢語拼音可能將遺失，請問是否要繼續?')){
+                btnTrans_result(); 
+                $('#transResult').show();
+                $(this).blur();  
+            }
+        }
+        
+        $('html, body').animate({scrollTop:$('#btnTransArtiDHP').offset().top - 120}, 800);
+    }
+}); 
+  
+//demo 漢語拼音及翻譯 假資料    
+function btnTrans_result(){
+    $('#CKEditor_articleDHP').html('{A: }<ruby><rbc><rb>這</rb><rb>是</rb></rbc><rtc><rt>Zhè</rt><rt>shì</rt></rtc></ruby><ruby><rbc><rb>你</rb><rb>們</rb></rbc><rtc><rt>nǐ</rt><rt>men</rt></rtc></ruby><ruby><rbc><rb>新</rb></rbc><rtc><rt>xīn</rt></rtc></ruby><ruby><rbc><rb>買</rb></rbc><rtc><rt>mǎi</rt></rtc></ruby><ruby><rbc><rb>的</rb></rbc><rtc><rt>de</rt></rtc></ruby><ruby><rbc><rb>電</rb><rb>視</rb><rb>機</rb></rbc><rtc><rt>diàn</rt><rt>shì</rt><rt>jī</rt></rtc></ruby><ruby><rbc><rb>嗎</rb></rbc><rtc><rt>ma</rt></rtc></ruby>？ <br>{B: }<ruby><rbc><rb>是</rb></rbc><rtc><rt>Shì</rt></rtc></ruby><ruby><rbc><rb>啊</rb></rbc><rtc><rt>a</rt></rtc></ruby>。 <br>{A: }<ruby><rbc><rb>你</rb></rbc><rtc><rt>Nǐ</rt></rtc></ruby><ruby><rbc><rb>常</rb></rbc><rtc><rt>cháng</rt></rtc></ruby><ruby><rbc><rb>看</rb></rbc><rtc><rt>kàn</rt></rtc></ruby><ruby><rbc><rb>電</rb><rb>視</rb></rbc><rtc><rt>diàn</rt><rt>shì</rt></rtc></ruby><ruby><rbc><rb>嗎</rb></rbc><rtc><rt>ma</rt></rtc></ruby>？ <br>{B: }<ruby><rbc><rb>常</rb></rbc><rtc><rt>Cháng</rt></rtc></ruby><ruby><rbc><rb>看</rb></rbc><rtc><rt>kàn</rt></rtc></ruby>，<ruby><rbc><rb>我</rb></rbc><rtc><rt>wǒ</rt></rtc></ruby><ruby><rbc><rb>最</rb></rbc><rtc><rt>zuì</rt></rtc></ruby><ruby><rbc><rb>愛</rb></rbc><rtc><rt>ài</rt></rtc></ruby><ruby><rbc><rb>看</rb></rbc><rtc><rt>kàn</rt></rtc></ruby><ruby><rbc><rb>王</rb><rb>英</rb><rb>英</rb></rbc><rtc><rt>Wáng</rt><rt>Yīng</rt><rt>yīng</rt></rtc></ruby><ruby><rbc><rb>唱</rb><rb>歌</rb></rbc><rtc><rt>chàng</rt><rt>gē</rt></rtc></ruby>。 <br>{A: }<ruby><rbc><rb>對</rb></rbc><rtc><rt>Duì</rt></rtc></ruby><ruby><rbc><rb>啊</rb></rbc><rtc><rt>a</rt></rtc></ruby>，<ruby><rbc><rb>她</rb></rbc><rtc><rt>tā</rt></rtc></ruby><ruby><rbc><rb>唱</rb></rbc><rtc><rt>chàng</rt></rtc></ruby><ruby><rbc><rb>的</rb></rbc><rtc><rt>de</rt></rtc></ruby><ruby><rbc><rb>歌</rb></rbc><rtc><rt>gē</rt></rtc></ruby><ruby><rbc><rb>都</rb></rbc><rtc><rt>dōu</rt></rtc></ruby><ruby><rbc><rb>很</rb></rbc><rtc><rt>hén</rt></rtc></ruby><ruby><rbc><rb>好</rb></rbc><rtc><rt>hǎo</rt></rtc></ruby><ruby><rbc><rb>聽</rb></rbc><rtc><rt>tīng</rt></rtc></ruby>。 <br>{B: }<ruby><rbc><rb>她</rb></rbc><rtc><rt>Tā</rt></rtc></ruby><ruby><rbc><rb>跳</rb><rb>舞</rb></rbc><rtc><rt>tiào</rt><rt>wǔ</rt></rtc></ruby><ruby><rbc><rb>也</rb></rbc><rtc><rt>yě</rt></rtc></ruby><ruby><rbc><rb>跳</rb></rbc><rtc><rt>tiào</rt></rtc></ruby><ruby><rbc><rb>得</rb></rbc><rtc><rt>de</rt></rtc></ruby><ruby><rbc><rb>不</rb><rb>錯</rb></rbc><rtc><rt>bú</rt><rt>cuò</rt></rtc></ruby>。 <br>{A: }<ruby><rbc><rb>她</rb></rbc><rtc><rt>Tā</rt></rtc></ruby><ruby><rbc><rb>穿</rb></rbc><rtc><rt>chuān</rt></rtc></ruby><ruby><rbc><rb>的</rb></rbc><rtc><rt>de</rt></rtc></ruby><ruby><rbc><rb>衣</rb><rb>服</rb></rbc><rtc><rt>yī</rt><rt>fú</rt></rtc></ruby>，<ruby><rbc><rb>我</rb></rbc><rtc><rt>wǒ</rt></rtc></ruby><ruby><rbc><rb>也</rb></rbc><rtc><rt>yě</rt></rtc></ruby><ruby><rbc><rb>喜</rb><rb>歡</rb></rbc><rtc><rt>xǐ</rt><rt>huān</rt></rtc></ruby>。 <br>{B: }<ruby><rbc><rb>聽</rb><rb>說</rb></rbc><rtc><rt>Tīng</rt><rt>shuō</rt></rtc></ruby><ruby><rbc><rb>她</rb></rbc><rtc><rt>tā</rt></rtc></ruby><ruby><rbc><rb>還</rb></rbc><rtc><rt>hái</rt></rtc></ruby><ruby><rbc><rb>會</rb></rbc><rtc><rt>huì</rt></rtc></ruby><ruby><rbc><rb>唱</rb></rbc><rtc><rt>chàng</rt></rtc></ruby><ruby><rbc><rb>不</rb><rb>少</rb></rbc><rtc><rt>bù</rt><rt>shǎo</rt></rtc></ruby><ruby><rbc><rb>外</rb><rb>國</rb></rbc><rtc><rt>wài</rt><rt>guó</rt></rtc></ruby><ruby><rbc><rb>歌</rb></rbc><rtc><rt>gē</rt></rtc></ruby>，<ruby><rbc><rb>她</rb></rbc><rtc><rt>tā</rt></rtc></ruby><ruby><rbc><rb>的</rb></rbc><rtc><rt>de</rt></rtc></ruby><ruby><rbc><rb>英</rb><rb>文</rb></rbc><rtc><rt>Yīng</rt><rt>wén</rt></rtc></ruby>、<ruby><rbc><rb>法</rb><rb>文</rb></rbc><rtc><rt>Fǎ</rt><rt>wén</rt></rtc></ruby><ruby><rbc><rb>也</rb></rbc><rtc><rt>yě</rt></rtc></ruby><ruby><rbc><rb>都</rb></rbc><rtc><rt>dōu</rt></rtc></ruby><ruby><rbc><rb>說</rb></rbc><rtc><rt>shuō</rt></rtc></ruby><ruby><rbc><rb>得</rb></rbc><rtc><rt>de</rt></rtc></ruby><ruby><rbc><rb>很</rb><rb>好</rb></rbc><rtc><rt>hěn</rt><rt>hǎo</rt></rtc></ruby>。 <br>{A: }<ruby><rbc><rb>我</rb></rbc><rtc><rt>Wǒ</rt></rtc></ruby><ruby><rbc><rb>想</rb></rbc><rtc><rt>xiǎng</rt></rtc></ruby><ruby><rbc><rb>她</rb></rbc><rtc><rt>tā</rt></rtc></ruby><ruby><rbc><rb>一</rb><rb>定</rb></rbc><rtc><rt>yí</rt><rt>dìng</rt></rtc></ruby><ruby><rbc><rb>有</rb></rbc><rtc><rt>yǒu</rt></rtc></ruby><ruby><rbc><rb>很</rb><rb>多</rb></rbc><rtc><rt>hěn</rt><rt>duō</rt></rtc></ruby><ruby><rbc><rb>外</rb><rb>國</rb></rbc><rtc><rt>wài</rt><rt>guó</rt></rtc></ruby><ruby><rbc><rb>朋</rb><rb>友</rb></rbc><rtc><rt>péng</rt><rt>yǒu</rt></rtc></ruby>。 <br>');
+
+    $('#CKEditor_articleTran').val('A: Is this your new TV?\nB: yes.\nA: Do you often watch TV?\nB: Often, I love watching Wang Yingying sing.\nA: Yes, she sings very nice songs.\nB: She dances well too.\nA: I like the clothes she wears too.\nB: I heard that she can sing a lot of foreign songs, and she can speak English and French very well.\nA: I think she must have many foreign friends.'); 
+} 
+
+//[字詞校正][字詞斷詞][字詞合併]按鈕效果    
+$('.btn-wordsfun').click(function(){  
+    let id = $(this).attr('id');
+    $('#CKEditor_articleDHP').toggleClass(id);
+    
+    $('#'+id).toggleClass('active');
+    
+    if( $('#'+id).hasClass('active') ){
+        switch (id){
+            case "Wcorrection": //字詞校正
+                $('#CKEditor_articleDHP').removeClass('Wbreak Wmerge');
+                $('#Wbreak, #Wmerge').removeClass('active');
+
+                showToast('點擊字詞可校正字詞及拼音');   
+                Wcorrection();
+
+                break;
+
+            case "Wbreak": //字詞斷詞
+                $('#CKEditor_articleDHP').removeClass('Wcorrection Wmerge');
+                $('#Wcorrection, #Wmerge').removeClass('active');
+
+                showToast('點擊字詞區塊中的虛線可用剪刀切斷字詞');
+                Wbreak_addDOM();
+
+                break;
+
+            case "Wmerge": //字詞合併
+                $('#CKEditor_articleDHP').removeClass('Wcorrection Wbreak');
+                $('#Wcorrection, #Wbreak').removeClass('active');
+                
+                showToast('點擊字詞區塊的間距可用膠帶合併字詞');
+                Wmerge_addDOM();
+
+                break; 
+
+            default: 
+                break; 
+        }    
+    }else{
+        $('.alertToasts').remove();    
+    }
+});
+
+//[字詞校正][字詞斷詞][字詞合併]點擊按鈕後的訊息
+function showToast(text){ 
+    if( $('.alertToasts').hasClass('on') ){
+        $('.alertToasts').remove();  
+        showToast(text);
+    }else{
+        $('body').append(`<div class="alertToasts top withClose on"></div>`);
+        $('.alertToasts').append('<div class="toast-item">'+text+'<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>'); 
+        
+        $('.alertToasts .close').click(function(){
+            $('.alertToasts').remove();    
+        });
+    }
+}    
+  
+//漢語拼音 modal字詞校正 點擊效果
+function Wcorrection(){
+    $('#CKEditor_articleDHP.Wcorrection ruby').click(function(){
+        if( $('#Wcorrection').hasClass('active') ){
+            //取得內容
+            let rt  ='';
+            $(this).find('rt').each(function(){
+                rt += $(this).text(); 
+            });
+
+            let rb ='';
+            $(this).find('rb').each(function(){
+                rb += $(this).text();
+            }); 
+            
+            //產生modal
+            let html= `<div class="modal fade" id="modal-correction" tabindex="-1" role="dialog" aria-labelledby="modal-correctionLabel" data-backdrop="static" data-keyboard="false">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content noRadius">
+                              <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="modal-correctionLabel">漢語拼音字詞校正</h4>
+                              </div>
+                              <div class="modal-body">
+                                <div class="form-style-2">
+                                  <div class="form-group">
+                                    <label for="correctTra" class="control-label">中文</label>
+                                    <input type="text" class="form-control noRadius input-lg" id="correctTra" value="`+rb+`">
+                                  </div>  
+                                  <div class="form-group">
+                                    <label for="correctPinyin" class="control-label">漢語拼音</label>
+                                    <input type="text" class="form-control noRadius input-lg" id="correctPinyin" value="`+rt+`">
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-main-sky-white" data-dismiss="modal">取消</button>
+                                <button type="button" class="btn btn-main-sky" id="editorSave">儲存</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>`;
+
+            $('body').append(html);
+
+            $('#modal-correction').modal('show');
+
+            $('#modal-correction').on('hidden.bs.modal', function (e) {
+                $(this).remove();
+            });
+
+            //校正 (英文翻譯也需一同校正?!)
+            $('#editorSave').click(function(){
+                //do something...    
+            });
+        }   
+    });
+} 
+
+//demo 字詞切割 增加切割DOM  
+function Wbreak_addDOM(){ 
+    if( $('#Wbreak').hasClass('active')){
+        $('#CKEditor_articleDHP.Wbreak ruby rbc rb+rb').before('<span class="rbCutLine"></span>');
+        $('#CKEditor_articleDHP.Wbreak ruby rtc rt+rt').before('<span class="rtCutLine"></span>');
+
+        Wbreak();
+    }else{
+        $('#CKEditor_articleDHP.Wbreak ruby .rbCutLine').remove(); 
+    }
+} 
+    
+//demo 字詞合併 增加合併DOM 
+function Wmerge_addDOM(){
+    if( $('#Wmerge').hasClass('active')){
+        $('#CKEditor_articleDHP.Wmerge ruby+ruby').before('<span class="rubyTape"></span>'); 
+        
+        let html = $('#CKEditor_articleDHP.Wmerge').html();
+        html = html.replaceAll('，<span class="rubyTape"></span>', '，')
+        $('#CKEditor_articleDHP.Wmerge').html(html);
+
+        Wmerge();
+    }else{
+        $('#CKEditor_articleDHP.Wmerge .rubyTape').remove(); 
+    }
+}      
+
+//demo 字詞切割 function   
+function Wbreak(){ 
+    $('.rbCutLine').click(function(){ 
+        //添加斷點class
+        let i = $(this).index();
+        let n = i+1;
+        $(this).parents('ruby').find('rbc :nth-child('+n+')').addClass('cut');
+        $(this).parents('ruby').find('rtc :nth-child('+n+')').addClass('cut');
+
+        //依斷點分割
+        let html_rbc = $(this).parents('ruby').find('rbc').html(); 
+        let arr_rbc = html_rbc.split('<span class="rbCutLine cut"></span>');
+        
+        var html_rtc = $(this).parents('ruby').find('rtc').html(); 
+        let arr_rtc = html_rtc.split('<span class="rtCutLine cut"></span>');
+
+        //重組html
+        $(this).parents('ruby').after(`<ruby>
+                                        <rbc>` + arr_rbc[1] + `</rbc>
+                                        <rtc>` + arr_rtc[1] + `</rtc>
+                                       </ruby>`);
+        $(this).parents('ruby').html(`<rbc>` + arr_rbc[0] + `</rbc>
+                                      <rtc>` + arr_rtc[0] +`</rtc>`);
+                                     
+        Wbreak_addDOM();                             
+    });
+} 
+    
+//demo 字詞合併 function   
+function Wmerge(){   
+    $('.rubyTape').click(function(){
+        //添加合併點class
+        $(this).addClass('merge');
+        
+        //取得rb、rt html
+        let prev_rb = $(this).prev('ruby').find('rbc').html();
+        let prev_rt = $(this).prev('ruby').find('rtc').html();
+        
+        let next_rb = $(this).next('ruby').find('rbc').html();
+        let next_rt = $(this).next('ruby').find('rtc').html();
+        
+        //重組html
+        $(this).next('ruby').html(`<rbc>` + prev_rb + next_rb + `</rbc>
+                                   <rtc>` + prev_rt + next_rt + `</rtc>`);
+        $(this).prev('ruby').remove();
+        $('.rubyTape.merge').remove();
+        
+        Wmerge_addDOM();
+    });
+}     
+    
+//demo 課文語音 打開試聽按鈕效果及試聽
+$('.editCourse-AH__setVoiceList select').change(function(e){
+    let _this = e.target.getAttribute('id');
+
+    //添加合成"處理中"特效
+    $('#'+_this).next('.setVoiceList__sentence').find('.btn').attr('disabled', 'disabled');
+    $('#'+_this).after('<span class="glyphicon glyphicon-stats" aria-hidden="true"></span>');
+
+    //預設3秒後，合成處理完成
+    setTimeout(function(_this) {
+        $('#'+_this).next('.glyphicon-stats').remove();
+        $('#'+_this).next('.setVoiceList__sentence').find('.btn').removeAttr('disabled');
+    }, 3000, _this);
+    
+    //試聽(請播整篇或該段選擇的聲音...)bug音效重複......
+    let audio = new Audio('');
+    $('.setVoiceList__audition').click(function(){
+        audio.pause();
+        audio.currentTime = 0;
+        
+        let id = $(this).parents('.setVoiceList__sentence').prev('select').attr('id');
+        
+        audio = new Audio('../Content/temp/'+id+'.mp3');
+        audio.play();
+        audio.loop = false;
+        audio.addEventListener('ended', ()=>{
+            $('#'+id).next('.setVoiceList__sentence').find('.btn').blur(); 
+        })
+    });  
+});  
+
+//demo [下一步].editNext
+$('.editNext[type="submit"]').click(function(){
+    //check data
+    var checker = true;
+    
+    //檢查是否有課文
+    if (checker) {
+        if ($('#CKEditor_article').val().trim() == "") {
+            alert('請選擇PDF或輸入課文內容。');
+            checker = false;
+        }
+    }
+    
+    //檢查是否轉換漢拼
+    if (checker) {
+        if ($('#CKEditor_articleDHP').html() == "") {
+            alert("請將文字轉換成拼音。");
+            checker = false;
+        }
+    }
+    
+    //檢查是否轉換翻譯
+    if (checker) {
+        if ($('#CKEditor_articleTran').val().trim() == "") {
+            alert("請將文字轉換成翻譯。");
+            checker = false;
+        }
+    }
+    
+    //檢查語音合成選項
+    if (checker) {
+        var method = $("input[type=radio][name='s']:checked").val();
+        console.log(method);
+
+        switch (method) {
+            case "all":
+                console.log($('#allVoice').val());
+                if ($('#allVoice').val() == "0" && checker) {
+                    checker = false;
+                    alert('請設定課文語音。');
+                }
+                break;
+
+            case "sentence":
+                 console.log($('#sentenceList select').val());
+                $('#sentenceList select').each(function () {
+                    if ($(this).val() == "0" && checker) {
+                        checker = false;
+                        alert('請設定課文語音。');
+                    }
+                });
+                break;
+
+            default:
+                checker = false;
+                alert('請設定課文語音。');
+        }
+    }
+    
+    //檢查圖片影片
+    if (checker) {
+        console.log($('#picUpload').val());
+        console.log($('#videolink').val());
+        if ( $('#picUpload').val() == "" && $('#videolink').parents('.input-group').find('input').val() == "" ) {  
+            if( confirm("您是否要為課文增加圖片或影片？") ){ 
+                $('.editCourse-tab [aria-controls="link-two"]')
+                    .parents('li').addClass('active').siblings().removeClass('active');
+                $('.editCourse-tab-content #link-two')
+                    .addClass('active').siblings().removeClass('active');
+                
+                checker = false;        
+            }
+        }    
+    }
+    
+    if (checker) {
+        showModalBlack('sm', `<div class="mb-3">文章處理中</div>
+                                 <div class="progress">
+                                  <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style=""></div>
+                                </div>`);
+        //demo 
+        let num = 0, 
+            time = 5000; //預計花費時間
+        let interval = setInterval(function() {
+            num++;
+
+            $('#modal-black .progress-bar').attr('aria-valuenow', num);
+            $('#modal-black .progress-bar').css('width', num+'%');
+            $('#modal-black .progress-bar').text(num+'%');
+
+            if (num == 100) {
+                clearInterval(interval);
+
+                let timeout = setTimeout(function() {
+                    $('#modal-black').modal('hide');
+                     window.location.href='editUnit__AL.html'; 
+                }, 1000);  
+            }
+        });
+    }
+});    
+</script>
+</body>
+</html>

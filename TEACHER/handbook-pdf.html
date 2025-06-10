@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+<!-- this page widgets CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/widgets/bootstrap-fileinput-master/css/fileinput-eM.css">
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+<style>
+    .handbook-content{
+        position: relative;
+    }
+    .handbook-pdf-spinner{
+        width: 100%;
+        height: calc(100vh - 4.85rem - 1.2rem*1.1 - 10px - 10px - 20px - 10px - 2rem - .5rem);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .handbook-pdf-spinner .progress{
+        width: 200px;
+        height: 15px;
+        margin-top: .25rem;
+    }
+    .handbook-pdf-iframe{ 
+        border: none;
+        width:  100%;
+        height: calc(100vh - 4.85rem - 1.2rem*1.1 - 10px - 10px - 20px - 10px - 2rem - .5rem);
+        margin-top: 1rem;
+        margin-bottom: -1rem;  
+    }
+</style>    
+</head>
+
+<body class="handbook-body">
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar"> <span class="sr-only">展開左側選單</span> <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-left"></i></button>
+            <div class="navbar-brand" href="#"> <img src="" alt="cover"/> </div>
+            <h1>《<span></span>》教學手冊 </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<main> </main>
+<div class="container-fluid">
+  <div class="row"> 
+    <!-- 左邊選單start -->
+    <div class="col-md-2 sidebar navbar-collapse collapse" id="sidebar">
+      <ul class="nav nav-sidebar-theme">
+        <li class="active"><a href="javascript:void(0)" class="disabled"><i class="fas fa-book-open"></i>教案</a>
+          <ul>
+            <li class="active"><a href="#L1">L1</a></li>
+            <li><a href="#L2">L2</a></li>
+            <li><a href="#L3">L3</a></li>
+            <li><a href="#L4">L4</a></li>
+            <li><a href="#L5">L5</a></li>
+            <li><a href="#L6">L6</a></li>
+            <li><a href="#L7">L7</a></li>
+            <li><a href="#L8">L8</a></li>
+            <li><a href="#L9">L9</a></li>
+            <li><a href="#L10">L10</a></li>
+          </ul>
+        </li>
+        <li><a href="javascript:void(0)" class="disabled"><i class="fas fa-chalkboard-teacher"></i>線上教學策略</a>
+          <ul>
+            <li><a href="#teachingFocus">教學重點</a></li>
+            <li><a href="javascript:void(0)" class="disabled">教學活動及遊戲介紹</a>
+              <ul>
+                <li><a href="#pinyin">漢語拼音</a></li>
+                <li><a href="#vocabulary">詞彙</a></li>
+                <li><a href="#sentence">句型</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- 左邊選單end --> 
+    <!-- 右邊內容start -->
+    <div class="col-sm-12 col-md-10 col-md-offset-2 sidebar-main">
+      <div class="sidebar-main-block">
+        <h2 class="handbook-topic" id="data_topic">L1 你好</h2>
+        
+        <!-- 教案內容 start -->
+        <div class="handbook-content lessonPlan" id="lessonPlan">
+          <div class="handbook-pdf-spinner">
+            <div>Loading</div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-gray progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+            </div>
+          </div>
+          <!--<iframe class="handbook-pdf-iframe" src="" allow="autoplay"></iframe>-->
+        </div>
+        <!-- 教案內容 end --> 
+        
+        <!-- 線上教學策略-教學重點 start -->
+        <div class="handbook-content strategyFocus" id="strategyFocus">
+          <div class="handbook-pdf-spinner">
+            <div>Loading</div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-gray progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+            </div>
+          </div>  
+          <!--<iframe class="handbook-pdf-iframe" src="" allow="autoplay"></iframe>-->
+        </div>
+        <!-- 線上教學策略-教學重點 end --> 
+        
+        <!-- 線上教學策略-教學活動及遊戲介紹 start -->
+        <div class="handbook-content strategyAG" id="strategyAG">
+          <div class="handbook-pdf-spinner">
+            <div>Loading</div>
+            <div class="progress">
+              <div class="progress-bar progress-bar-gray progress-bar-striped active" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+            </div>
+          </div>  
+          <!--<iframe class="handbook-pdf-iframe" src="" allow="autoplay"></iframe>-->
+        </div>
+        <!-- 線上教學策略-教學活動及遊戲介紹 end --> 
+        
+      </div>
+    </div>
+    <!-- 右邊內容end --> 
+  </div>
+</div>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script>
+$(document).ready(function() {
+    //預設:新版實用視聽華語>第1課>教案
+    let uid = '84b1ed21063846e8b44035b4f319a96f';
+    let href = '1';
+    
+    $('#lessonPlan').show().siblings('.handbook-content').hide();
+
+    //取得連結教材uid
+    let params = new URLSearchParams(document.location.search);
+    if (params.has('uid')) {
+        uid = params.get('uid');    
+    }
+    
+    //左邊選單教案預設清空
+    $('.nav-sidebar-theme > li:first-child > ul').html('');
+    
+    //取得json  
+    $.getJSON('../Content/data-handbook/' + uid + '/pdf.json', function (data) {
+        //顯示書標題
+        $('.navbar-brand img').attr('src', 'https://empowerchinese.net/Course/assets/graph/586d4f814f9f4b41b4a64305a1bbe473.jpg');
+        $('h1').text(data.bookName);
+        
+        //顯示左邊選單
+        callList(data);
+        
+        //左邊選單點擊切換
+        clickList(data);
+        
+        //顯示初始內容
+        callPlan(data, href);
+    });
+    
+    //鎖右鍵
+    /*$(document).get(0).oncontextmenu = function() {
+        return false;
+    };*/
+});
+    
+//左邊選單
+function callList(data){
+    //教案
+    let lessonList_html = '';
+    if (data.lesson.length == 0){
+        $('.nav-sidebar-theme>li:nth-child(1)').remove();  
+    }else{
+        for(let i=0; i<data.lesson.length; i++) {
+            lessonList_html += '<li><a href="#' + (i+1) + '">' + data.lesson[i].topic +  '</a></li>';    
+        }
+        $('.nav-sidebar-theme>li:nth-child(1)>ul').append(lessonList_html);
+        $('.nav-sidebar-theme>li:nth-child(1)>ul>li:first-child').addClass('active'); 
+    }
+
+    //線上教學策略
+    if (data.teachingFocus[0].fileId=='' && data.pinyin[0].fileId=='' && data.vocabulary[0].fileId=='' && data.sentence[0].fileId==''){
+        $('.nav-sidebar-theme>li:nth-child(2)').remove();    
+    }else{
+        //教學重點
+        if (data.teachingFocus[0].fileId==''){
+            $('.nav-sidebar-theme>li:nth-child(2) >ul>li:nth-child(1)').remove();     
+        }
+        
+        //教學活動及遊戲介紹
+        if (data.pinyin[0].fileId=='' && data.vocabulary[0].fileId=='' && data.sentence[0].fileId==''){
+            $('.nav-sidebar-theme>li:nth-child(2) >ul>li:nth-child(2)').remove();    
+        }else{
+            //漢語拼音
+            if (data.pinyin[0].fileId==''){
+                $('a[href="#pinyin"]').parent('li').remove();    
+            }
+            //詞彙
+            if (data.vocabulary[0].fileId==''){
+                $('a[href="#vocabulary"]').parent('li').remove(); 
+            }
+            //句型
+            if (data.sentence[0].fileId==''){
+                $('a[href="#sentence"]').parent('li').remove(); 
+            }
+        }
+    }
+}
+    
+//點擊左邊選單
+function clickList(data){
+    $('.nav-sidebar-theme a:not(.disabled)').click(function(){ 
+        $('.handbook-pdf-iframe').remove();
+        
+        $('.nav-sidebar-theme li').removeClass('active');
+        
+        $(this).parent('li').addClass('active')
+               .parent('ul').parent('li').addClass('active')
+               .parent('ul').parent('li').addClass('active');
+        
+        let getHref = $(this).attr('href').substr(1);
+        
+        switch (getHref) {
+            //線上教學策略-教學重點    
+            case "teachingFocus":
+                $('#strategyFocus').show().siblings('.handbook-content').hide();
+                callStrategyFocus(data, getHref);
+                break;
+             
+            //線上教學策略-教學活動及遊戲介紹    
+            case "pinyin":
+            case "vocabulary":
+            case "sentence":
+                $('#strategyAG').show().siblings('.handbook-content').hide();
+                callStrategyAG(data, getHref);
+                break;
+            
+            //教案L1~Lx    
+            default: 
+                $('#lessonPlan').show().siblings('.handbook-content').hide();
+                callPlan(data, getHref);
+                break;
+        }
+        
+        $('html, body').animate({scrollTop:0}, 500);
+    });
+}   
+
+//教案
+function callPlan(data, href){
+    //標題
+    $('#data_topic')
+        .text(data.lesson[href-1].topic + ' ' + data.lesson[href-1].title);
+
+    //右邊內容
+    $('#lessonPlan').append('<iframe class="handbook-pdf-iframe" src="https://drive.google.com/file/d/'+data.lesson[href-1].fileId+'/preview" allow="autoplay"></iframe>');
+}   
+
+    
+//線上教學策略-教學重點
+function callStrategyFocus(data, href) {
+    //標題
+    $('#data_topic').text(data.teachingFocus[0].topic);    
+
+    //右邊內容
+    $('#strategyFocus').append('<iframe class="handbook-pdf-iframe" src="https://drive.google.com/file/d/'+data.teachingFocus[0].fileId+'/preview" allow="autoplay"></iframe>');
+}   
+    
+    
+//線上教學策略-教學活動及遊戲介紹   
+function callStrategyAG(data, href){  
+    let clickArray;
+    switch (href) { 
+        case "pinyin":
+            clickArray = data.pinyin;
+            break;
+            
+        case "vocabulary":
+            clickArray = data.vocabulary;
+            break;
+            
+        case "sentence":
+            clickArray = data.sentence;
+            break;
+ 
+        default: 
+            break;
+    }
+    
+    //標題
+    $('#data_topic').text(clickArray[0].topic); 
+                                    
+    //右邊內容
+    $('#strategyAG').append('<iframe class="handbook-pdf-iframe" src="https://drive.google.com/file/d/'+data.teachingFocus[0].fileId+'/preview" allow="autoplay"></iframe>');       
+}
+</script>
+</body>
+</html>

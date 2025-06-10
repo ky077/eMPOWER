@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/widgets/bootstrap-fileinput-master/css/fileinput-eM.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/bs-stepper-master/src/css/bs-stepper-eM.css">
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-TMindex"><a href="../TEACHERmgt/TMindex.html">管理中心</a></li>
+              <li class="navTab-stuMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">學生管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="../TEACHERmgt/stuMgt__contest.html">設定競賽</a></li>
+                  <li><a href="../TEACHERmgt/stuMgt__student.html">學生資料</a></li>
+                </ul>
+              </li>
+              <li class="navTab-schoolScore"><a href="../TEACHERmgt/schoolScore.html">成績查詢</a></li>
+              <li class="navTab-schoolLibs"><a href="../TEACHERmgt/schoolLibs.html">本校教材</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">張主任</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- page-banner start -->
+  <div class="page-banner classMgt">
+    <div class="container-fluid">
+      <div class="page-banner__text">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10 col-xl-offset-1">
+            <h2 class="text-center">學生資料</h2>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- page-banner end --> 
+  
+  <!--學生名單 start-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-lg-12 col-xl-10 col-xl-offset-1"> 
+        <!--search-panel start-->
+        <div class="search-panel">
+          <div class="form-inline">
+            <div class="form-group"> <label for="">課程/班級：</label>
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <div class="form-group"> <label for="">姓名：</label>
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <button type="submit" class="btn btn-main-blue noRadius" id="btn-search">搜尋</button>
+          </div>
+        </div>
+        <!--search-panel end--> 
+        <!--function-panel start-->
+        <div class="function-panel mb-4"> <a href="#" class="btn btn-main-blue" id="demo-manual-add">新增單一帳號</a> <a href="#" class="btn btn-main-blue" id="demo-batch-add">新增全班帳號</a> <a href="#" class="btn btn-main-blue" id="demo-edit">編輯</a> <a href="#" class="btn btn-main-blue" id="demo-delete">刪除</a> </div>
+        <!--function-panel end--> 
+        <!--table start-->
+        <table class="table table-hover table-style-default table-bordered bg-white" id="demo-table">
+          <thead>
+            <tr class="bg-gray">
+              <th class="td-no">序號<i class="fas sort-btn fa-sort ml-1" data-name="classnumber" data-sort="" style="cursor: pointer"></i></th>
+              <th class="td-class">課程/班級<i class="fas sort-btn fa-sort ml-1" data-name="classnumber" data-sort="" style="cursor: pointer"></i></th>
+              <th class="td-name">教師姓名<i class="fas sort-btn fa-sort ml-1" data-name="classnumber" data-sort="" style="cursor: pointer"></i></th>
+              <th>使用教材</th>
+              <th class="td-sid">學號<i class="fas sort-btn fa-sort ml-1" data-name="classnumber" data-sort="" style="cursor: pointer"></i></th>
+              <th class="td-name">姓名<i class="fas sort-btn fa-sort ml-1" data-name="classnumber" data-sort="" style="cursor: pointer"></i></th>
+              <th class="td-account">帳號<i class="fas sort-btn fa-sort ml-1" data-name="classnumber" data-sort="" style="cursor: pointer"></i></th>
+              <th class="td-password">密碼</th>
+              <th class="td-edit text-center" style="display:none;">修改</th>
+              <th class="td-delete text-center" style="display:none;">刪除
+                <div class="checkbox icheck-main-red checkbox-inline">
+                  <input type="checkbox" id="delete-all-cb">
+                  <label for="delete-all-cb"></label></div></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="td-no">1</td>
+              <td class="td-class"><select class="form-control noRadius form-disabled-noBorder editable" disabled>
+                  <option selected>A01</option>
+                  <option>A02</option>
+                  <option>A03</option>
+                  <option>B01</option>
+                  <option>B02</option>
+                  <option>B03</option>
+                </select></td>
+              <td class="td-name">賈老師</td>
+              <td>全方位中文1, 全方位中文2</td>
+              <td class="td-sid"><input type="text" class="form-control noRadius form-disabled-noBorder editable" value="210531" disabled></td>
+              <td class="td-name"><input type="text" class="form-control noRadius form-disabled-noBorder editable" value="吳珊卓" disabled></td>
+              <td class="td-account"><input type="email" class="form-control noRadius form-disabled-noBorder" value="mst001@gmail.com" disabled></td>
+              <td class="td-password"><input type="text" class="form-control noRadius form-disabled-noBorder editable" value="1234" disabled></td>
+              <td class="td-edit text-center" style="display:none;"><button type="button" class="btn btn-info noRadius btn-xs">修改</button></td>
+              <td class="td-delete text-center" style="display:none;"><div class="checkbox icheck-main-red checkbox-inline">
+                  <input type="checkbox" id="1" name="user-delete-cb">
+                  <label for="1"></label></div></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><select class="form-control noRadius form-disabled-noBorder editable" disabled>
+                  <option>A01</option>
+                  <option>A02</option>
+                  <option selected>A03</option>
+                  <option>B01</option>
+                  <option>B02</option>
+                  <option>B03</option>
+                </select></td>
+              <td>劉老師</td>
+              <td>全方位中文1</td>
+              <td><input type="text" class="form-control noRadius form-disabled-noBorder editable" value="210532" disabled></td>
+              <td><input type="text" class="form-control noRadius form-disabled-noBorder editable" value="陳月美" disabled></td>
+              <td><input type="email" class="form-control noRadius form-disabled-noBorder" value="mst002@gmail.com" disabled></td>
+              <td><input type="text" class="form-control noRadius form-disabled-noBorder editable" value="1234" disabled></td>
+              <td class="text-center" style="display:none;"><button type="button" class="btn btn-info noRadius btn-xs">修改</button></td>
+              <td class="text-center" style="display:none;"><div class="checkbox icheck-main-red checkbox-inline">
+                  <input type="checkbox" id="2" name="user-delete-cb">
+                  <label for="2"></label></div></td>
+            </tr>
+          </tbody>
+        </table>
+        <!--table end--> 
+        <!--editBtns start-->
+        <div class="text-center" id="demo-editBtns" style="display: none;"> <a href="#" class="btn btn-main-blue-white btn-lg" id="demo-edit-cancel">取消</a> <a href="#" class="btn btn-main-blue btn-lg" id="demo-edit-confirm">確定</a> </div>
+        <!--editBtns end--> 
+        
+      </div>
+      <!-- 右邊內容end --> 
+    </div>
+  </div>
+  <!--學生名單 end--> 
+</main>
+<!-- Modal#modal-insertNote start -->
+<div class="modal fade modal-insertNote" id="modal-insertNote" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title">新增單一帳號</h4>
+      </div>
+      <div class="modal-body">
+        <div class="insertNote-content">
+          <div class="row">
+            <div class="col-xs-3" style="text-align: right;"><span class="text-red">*</span>課程/班級</div>
+            <div class="col-xs-8">
+              <select id="new-user-classname" class="form-control">
+                <option value="5A">5A</option>
+                <option value="">其他</option>
+              </select>
+            </div>
+            <br>
+            <br>
+            <div id="new-user-new-classname-section" style="display: none;">
+              <div class="col-xs-3"></div>
+              <div class="col-xs-8">
+                <input id="new-user-new-classname" class="form-control" value="">
+              </div>
+              <br>
+              <br>
+            </div>
+            <div class="col-xs-3" style="text-align: right;">學號</div>
+            <div class="col-xs-8">
+              <input id="new-user-classnumber" class="form-control" value="">
+            </div>
+            <br>
+            <br>
+            <div class="col-xs-3" style="text-align: right;"><span class="text-red">*</span>姓名</div>
+            <div class="col-xs-8">
+              <input id="new-user-name" class="form-control" value="">
+              <span id="msg-user-name" class="text-danger" style="display:none;">請輸入學生姓名！</span> </div>
+            <br>
+            <br>
+            <div class="col-xs-3" style="text-align: right;"><span class="text-red">*</span>帳號</div>
+            <div class="col-xs-8">
+              <input id="new-user-id" class="form-control" value="" placeholder="帳號請使用學生的email。">
+              <span id="msg-user-id" class="text-danger" style="display: none;">請檢查帳號格式！</span> </div>
+            <br>
+            <br>
+            <div class="col-xs-3" style="text-align: right;"><span class="text-red">*</span>密碼</div>
+            <div class="col-xs-8">
+              <input id="new-user-key" class="form-control" value="" placeholder="密碼6到12個字元，且英文和數字混合。">
+              <span id="msg-user-key" class="text-danger" style="display:none;">請檢查密碼格式！密碼必須為6到12個字元，且英數混合。</span> </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div class="text-center"> <a href="#" class="btn btn-main-blue-white" data-dismiss="modal" aria-label="Close">取消</a> <a href="#" id="demo-manual-add-start" class="btn btn-main-blue">確定</a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-insertNote end --> 
+<!-- Modal#modal-insertBat start -->
+<div class="modal fade modal-insertBat" id="modal-insertBat" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title" id="">新增全班帳號</h4>
+      </div>
+      <div class="modal-body">
+        <div class="register-stepper">
+          <div class="stepper">
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="completed active"><a class="persistant-disabled" href="#stepper-step-1" data-toggle="tab" aria-controls="stepper-step-1" role="tab" aria-expanded="true"><span class="round-tab">1</span> 製作學生名單 </a></li>
+              <li role="presentation" class=""><a class="persistant-disabled" href="#stepper-step-2" data-toggle="tab" aria-controls="stepper-step-2" role="tab" aria-expanded="false"><span class="round-tab">2</span> 上傳名單檔案 </a></li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade active in" role="tabpanel" id="stepper-step-1"> 
+                <!-- step 1 start -->
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="insertBat-stepContent step1">
+                      <div class="flex-center">
+                        <div>
+                          <p>請依<a id="HL_DownSampleList" class="link-red link-border" href="file/Sample.xlsx" target="_blank">範例格式</a>製作學生名單，並存成xlsx檔。</p>
+                          <br>
+                          <div class="text-muted">
+                            <p>1. 檔名【Sample】請修改為課程/班級名稱，建議包含學年或年級，例如「112商業華語」、「五年一班」、「5A」。</p>
+                            <p>2. 副檔名必須是xlsx，如：5A.xlsx</p>
+                            <p>3. 必填「姓名」、「帳號」和「密碼」。</p>
+                            <p>4. 帳號請輸入學生email。</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="insertBat-stepContent__btns"> <a href="#" class="btn btn-main-blue next-step">下一步</a> </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- step 1 end --> 
+              </div>
+              <div class="tab-pane fade" role="tabpanel" id="stepper-step-2"> 
+                <!-- step 3 start -->
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <div class="insertBat-stepContent step2">
+                      <div class="flex-center">
+                        <div>
+                          <p>學生名單完成後，上傳檔案。</p>
+                          <form>
+                            <div class="form-group"> 
+                              <!--<input type="text" class="form-control noRadius" placeholder="" value="">
+                                                                    <span class="input-group-btn">
+                                                                    <button class="btn btn-default-gray noRadius" type="button" id="">瀏覽</button>
+                                                                    </span>--> 
+                              <label class="control-label">選擇檔案：<span id="msg-danger" class="text-danger"></span></label>
+                              <div class="file-input file-input-new">
+                                <div class="kv-upload-progress kv-hidden" style="display: none;">
+                                  <div class="progress">
+                                    <div class="progress-bar bg-success progress-bar-success progress-bar-striped active progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"> 0% </div>
+                                  </div>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="file-caption">
+                                  <div class="input-group ">
+                                    <input readonly="" class="file-caption-name form-control  kv-fileinput-caption" placeholder="Select a file ..." title="">
+                                    <span class="file-caption-icon"></span>
+                                    <div class="input-group-btn input-group-append">
+                                      <button type="button" title="Clear all unprocessed files" class="btn btn-default btn-secondary fileinput-remove fileinput-remove-button" tabindex="500"><i class="bi-trash"></i> <span class="">Remove</span></button>
+                                      <button type="button" title="Abort ongoing upload" class="btn btn-default btn-secondary kv-hidden fileinput-cancel fileinput-cancel-button"><i class="bi-slash-circle"></i> <span class="">Cancel</span></button>
+                                      <a href="Handler/FileUploadHandler.ashx" title="Upload selected files" class="btn btn-default btn-secondary fileinput-upload fileinput-upload-button" tabindex="500"><i class="bi-upload"></i> <span class="">Upload</span></a>
+                                      <div class="btn btn-primary btn-file" tabindex="500"><i class="bi-folder2-open"></i> <span class="">Browse …</span>
+                                        <input id="input-id" name="input-id[]" type="file" data-show-preview="false" data-preview-file-type="text">
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                      <div class="insertBat-stepContent__btns"> <a href="#" class="btn btn-main-blue-white" data-dismiss="modal">確定</a> </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- step 3 end --> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-insertBat end --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/fileinput.min.js"></script> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/locales/zh-TW.js"></script> 
+<script src="../Content/widgets/bs-stepper-master/src/js/bs-stepper.min.js">//bs-stepper</script> 
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-stuMgt').addClass('active');
+    
+    // demo [新增單一帳號]
+    $('#demo-manual-add').click(function(){
+        $('#modal-insertNote').modal('show');
+    });
+
+    // demo [新增全班帳號]
+    $('#demo-batch-add').click(function(){
+        $('#modal-insertBat').modal('show');
+    }); 
+
+    // demo [編輯]
+    $('#demo-edit').click(function(){
+        //Search
+        $('#btn-search').addClass('disabled');
+
+        //Table
+        $('#demo-table thead tr th:last-child').prev('th').show();
+        $('#demo-table tbody tr td:last-child').prev('td').show();
+        $('#demo-editBtns').show();
+        $('.sort-btn').hide();
+        $('#classname-select').show();
+
+        //功能列
+        $('#demo-manual-add').hide();
+        $('#demo-batch-add').hide();
+        $('#demo-delete').hide();
+
+        ditMode = "edit";
+    }); 
+
+    // demo [編輯]>[修改]  
+    $('#demo-table tbody tr td:last-child').prev('td').find('.btn').click(function(){
+        var $_nowNo =$(this).parents('tr').find('td:first-child').text();
+
+        $('#demo-table tbody tr:nth-child('+$_nowNo+') td .editable').removeAttr('disabled');
+    });  
+
+    // demo [編輯]>[取消][確定]  
+    $('#demo-edit-cancel, #demo-edit-confirm').click(function(){ 
+        /*var keyword = {
+            'classname': $('#classname-search').val(),
+            'classtime': '',//classtime已停用，故留空白。
+            'name': $('#name-search').val(),
+        }
+
+        searchDataTable(keyword);*/
+
+        $('#classname-select').val("");
+
+        $('#demo-editBtns').hide();
+
+        $('#demo-manual-add').show();
+        $('#demo-batch-add').show();
+        $('#demo-edit').show();
+        $('#demo-delete').show();
+
+        $('#demo-table thead tr th:last-child').hide().prev('th').hide();
+        $('#demo-table tbody tr td:last-child').hide().prev('td').hide();
+
+        $('.sort-btn').show();
+        $('#classname-select').hide();
+
+        $('#btn-search').removeClass('disabled');
+
+        $('#demo-table td .editable').prop('disabled', true);
+
+        editMode = "";
+        $('#delete-all-cb').prop('checked', false);
+    }); 
+
+    // demo [刪除]
+    $('#demo-delete').click(function(){
+        //Search
+        $('#btn-search').addClass('disabled');
+
+        //Table
+        $('#demo-table thead tr th:last-child').show();
+        $('#demo-table tbody tr td:last-child').show();
+        $('#demo-editBtns').show();
+        $('.sort-btn').hide();
+        $('#classname-select').show();
+
+        //功能列
+        $('#demo-manual-add').hide();
+        $('#demo-batch-add').hide();
+        $('#demo-edit').hide();
+
+        editMode = "delete";
+    }); 
+
+    //刪除-全選核選按鈕
+    $('#delete-all-cb').on('click', function () {
+        if ($(this).prop('checked')) {
+            $("#demo-table tbody tr td input[name='user-delete-cb']").prop("checked", true);
+        } else {
+            $("#demo-table tbody tr td input[name='user-delete-cb']").prop("checked", false);
+        }
+    });
+    //刪除-反選核選按鈕    
+    $('input[name="user-delete-cb"]').on('click', function () { 
+        var allBox = $('input[name="user-delete-cb"]:checkbox');  
+        var checkedBox = $('input[name="user-delete-cb"]:checked');  
+        var targetBox = $('input[id="delete-all-cb"]:checkbox');  
+
+        if ( checkedBox.length === allBox.length ) {
+            targetBox.prop({
+                indeterminate: false,
+                checked: true
+            });
+        } else if ( checkedBox.length === 0 ){
+            targetBox.prop({
+                indeterminate: false,
+                checked: false
+            });
+        } else {
+            targetBox.prop({
+                indeterminate: true,
+                checked: false
+            });
+        }
+    });
+
+    //排序點選事件
+    $('.sort-btn').on('click', function () {
+        var sortName = $(this).data('name');
+        var sortType = $(this).data('sort');
+
+        //判斷sort方式
+        switch (sortType) {
+            case "":
+                sortType = "asc";
+                break;
+            case "asc":
+                sortType = "desc";
+                break;
+            case "desc":
+                sortType = "asc";
+                break;
+            default:
+        }
+
+        //更新排序狀態
+        $('.sort-btn').each(function () {
+            $(this).removeClass('fa-sort');
+            $(this).removeClass('fa-sort-up');
+            $(this).removeClass('fa-sort-down');
+
+            if ($(this).data('name') == sortName) {
+                if (sortType == "asc") {
+                    $(this).addClass('fa-sort-down');
+                } else {
+                    $(this).addClass('fa-sort-up');
+                }
+                $(this).data('sort', sortType);
+            } else {
+                $(this).addClass('fa-sort');
+                $(this).data('sort', '');
+            }
+        });
+
+        //dataSort();
+        //renderTable();
+    });
+});
+</script> 
+</body>
+</html>

@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/widgets/bootstrap-fileinput-master/css/fileinput-eM.css">
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar"> <span class="sr-only">展開左側選單</span> <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-left"></i></button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Tindex"><a href="Tindex.html">首頁</a></li>
+              <li class="navTab-smartChinese"><a href="smartChinese.html">全方位中文系列</a></li>
+              <li class="navTab-chineseSeries"><a href="chineseSeries.html">教材資源區</a></li>
+              <li class="navTab-customized"><a href="customized.html">建立自編教材</a></li>
+              <li class="navTab-myLibs"><a href="myLibs.html">我的教材庫</a></li>
+              <li class="navTab-classMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">班級管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="classMgt__students.html">學生名單</a></li>
+                  <li><a href="classMgt__groups.html">指派教材</a></li>
+                  <li><a href="classMgt__learning.html">學習紀錄</a></li>
+                  <li><a href="classMgt__score.html">評量結果</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，張花花！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main>
+  <div class="container-fluid">
+    <div class="row"> 
+      <!-- 左邊選單start -->
+      <div class="col-md-2 sidebar navbar-collapse collapse" id="sidebar">
+        <ul class="nav nav-sidebar">
+          <li><span>我的教材庫清單</span></li>
+          <li><a href="myLibs__content(中文教材系列).html"><img src="../Content/images/eMPOWER-icon-blue.svg" class="eMPOWER-icon" alt="系統教材圖示">漢字積木-字本位學習法I</a></li>
+          <li><a href="myLibs__content.html"><img src="../Content/images/eMPOWER-icon-orange.svg" class="eMPOWER-icon" alt="自編教材圖示">中文真有趣</a></li>
+          <li><a href="myLibs__content.html"><img src="../Content/images/eMPOWER-icon-orange.svg" class="eMPOWER-icon" alt="自編教材圖示">你好 HELLO</a></li>
+          <li><a href="myLibs__content.html"><img src="../Content/images/eMPOWER-icon-orange.svg" class="eMPOWER-icon" alt="自編教材圖示">大家一起來學中文！</a></li>
+          <li><a href="myLibs__content-全方位中文(非原創老師點擊).html"><img src="../Content/images/eMPOWER-icon-orange.svg" class="eMPOWER-icon" alt="自編教材圖示">全方位中文1(非原創老師點擊)</a></li>
+          <li><a href="myLibs__content-全方位中文.html"><img src="../Content/images/eMPOWER-icon-orange.svg" class="eMPOWER-icon" alt="自編教材圖示">全方位中文1(原創老師點擊)</a></li>
+          <li class="active"><a href="myLibs__content-全方位中文.html"><img src="../Content/images/eMPOWER-icon-orange.svg" class="eMPOWER-icon" alt="自編教材圖示">全方位中文2</a></li>
+        </ul>
+        <ul class="nav nav-sidebar sidebar-tools">
+          <li> <a role="button" class="btn btn-main-blue" data-toggle="modal" data-target="#modal-customizedTextbook"><i class="fas fa-plus"></i>&nbsp;建立自編教材</a> </li>
+        </ul>
+      </div>
+      <!-- 左邊選單end --> 
+      <!-- 右邊內容start -->
+      <div class="col-sm-12 col-md-10 col-md-offset-2 sidebar-main">
+        <div class="sidebar-main-block"> 
+          <!-- 自編教材敘述 start -->
+          <div class="textbook-description myLibs__textbook-description py-4">
+            <div class="row">
+              <div class="col-xs-12 col-xsm-4 col-sm-3 col-md-3 col-lg-3 col-xl-2 py-3">
+                <div class="front">
+                  <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/Course/assets/graph/586d4f814f9f4b41b4a64305a1bbe473.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-xsm-8 col-sm-9 col-md-9 col-lg-9 col-xl-10 py-3">
+                <div class="application">
+                  <div class="standard"><label class="label label-std-TBCL">TBCL 1~2</label></div>
+                </div>
+                <h2 class="textbookName"><img src="../Content/images/eMPOWER-icon-orange.svg" alt="自編教材圖示" height="20">新版實用視聽華語1</h2>
+                <div class="info">
+                  <p>字體：<label>正體</label></p>
+                </div>  
+                <div class="introduction"><span>教材簡介：</span> <label></label>
+                  <div class="text-right textbookMore"><a role="button"  data-toggle="modal" data-target="#modal-introduction" class="more more-red">more</a></div>
+                </div>
+              </div>
+            </div>
+            <div id="PanelProgramEdit">
+              <div class="row">
+                <div class="col-xs-12 col-xsm-4 col-sm-3 col-md-3 col-lg-3 col-xl-2">
+                  <button class="btn btn-main-blue btn-block btn-lg noRadius my-2" type="button" data-toggle="modal" data-target="#modal-editedTextbook"><i class="fas fa-pen"></i>&nbsp;修改教材設定</button>
+                </div>
+                <div class="col-xs-12 col-xsm-8 col-sm-9 col-md-9 col-lg-9 col-xl-10">
+                  <button class="btn btn-main-sky btn-lg noRadius my-2 px-5 handbook-customBtn" type="button" id="teacher-handbook" data-uid="84b1ed21063846e8b44035b4f319a96f" data-handbook-type="pdf"><i class="fas fa-book"></i>&nbsp;教案</button>
+                </div>
+              </div>
+            </div>
+            <div class="row"> </div>
+          </div>
+          <!-- 自編教材敘述 end--> 
+          
+          <!-- 自編教材單元(目錄) start-->
+          <div class="mx-n5 px-5 pt-1 pb-4">
+            <div class="pb-1">
+              <h2 class="base-h2">目錄<small>Contents</small></h2>
+            </div>
+            <div class="row"> 
+              <!-- -->
+              <div class="col-xsm-6 col-sm-6 col-md-4 col-lg-3 col-xlg-2_4 px-2">
+                <div class="unit-item myLibs-unitItem"> <a class="unit-item__front" data-hoverTip="預覽單元">
+                  <div class="embed-responsive embed-responsive-16by9"> <img src="https://empowerchinese.net/Course/assets/graph/32d9ae909fe54128887da7f64a4e5cb4.png" class="embed-responsive-item" alt="單元封面"> </div>
+                  </a>
+                  <div class="unit-item__content"> 
+                    <!--<div class="application">
+                      <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                    </div>-->
+                    <h3 class="unitName" title="1-1 您貴姓">1-1 您貴姓
+                      <button type="button" class="editUnit-btn" data-toggle="modal" data-target="#modal-editedUnit" title="修改單元設定"><i class="fas fa-pen"></i></button>
+                    </h3>
+                    <div class="tools text-center"> <a href="editUnit__Warm.html" role="button" class="btn btn-main-green-white editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課前暖身<br><small>（未編輯）</small>"><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示"/></a><a href="editUnit__AHPV.html" role="button" class="btn btn-main-yellow-white editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課文<br><small>（未編輯）</small>"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示"/></a><a href="editUnit__C.html" role="button" class="btn btn-main-purple-white editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="認識字詞<br><small>（未編輯）</small>"><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示"/></a><a href="editUnit__S.html" role="button" class="btn btn-main-orange-white editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="句型練習<br><small>（未編輯）</small>"><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示"/></a><a href="editUnit__Papers.html" role="button" class="btn btn-main-skin-white editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="評量活動<br><small>（未編輯）</small>"><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示"/></a><a href="editUnit__activity.html?activity=0" role="button" class="btn btn-main-cyan-white editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課堂活動<br><small>（未編輯）</small>"><img src="../Content/images/libs/classActivity.svg" alt="課堂活動圖示"/></a> </div>
+                  </div>
+                  <button type="button" class="close" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="刪除單元"><span aria-hidden="true">×</span></button>
+                </div>
+              </div>
+              <!-- -->
+              <div class="col-xsm-6 col-sm-6 col-md-4 col-lg-3 col-xlg-2_4 px-2">
+                <div class="unit-item myLibs-unitItem"> <a class="unit-item__front" data-hoverTip="預覽單元">
+                  <div class="embed-responsive embed-responsive-16by9"> <img src="https://empowerchinese.net/Course/assets/graph/4b1fc2b384b043798155a325788ad8b6.png" class="embed-responsive-item" alt="單元封面"> </div>
+                  </a>
+                  <div class="unit-item__content"> 
+                    <!--<div class="application">
+                      <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                    </div>-->
+                    <h3 class="unitName" title="2-1 早，您好">2-1 早，您好
+                      <button type="button" class="editUnit-btn" data-toggle="modal" data-target="#modal-editedUnit" title="修改單元設定"><i class="fas fa-pen"></i></button>
+                    </h3>
+                    <div class="tools text-center"> <a href="editUnit__Warm.html" role="button" class="btn btn-main-green editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課前暖身<br><small>（已編輯）</small>"><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示"/></a><a href="editUnit__AHPV.html" role="button" class="btn btn-main-yellow editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課文<br><small>（已編輯）</small>"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示"/></a><a href="editUnit__C.html" role="button" class="btn btn-main-purple editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="認識字詞<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示"/></a><a href="editUnit__S.html" role="button" class="btn btn-main-orange editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="句型練習<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示"/></a><a href="editUnit__Papers.html" role="button" class="btn btn-main-skin editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="評量活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示"/></a><a href="editUnit__activity.html?activity=a2a3" role="button" class="btn btn-main-cyan editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課堂活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/classActivity.svg" alt="課堂活動圖示"/></a></div>
+                  </div>
+                  <button type="button" class="close" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="刪除單元"><span aria-hidden="true">×</span></button>
+                </div>
+              </div>
+              <!-- -->
+              <div class="col-xsm-6 col-sm-6 col-md-4 col-lg-3 col-xlg-2_4 px-2">
+                <div class="unit-item myLibs-unitItem"> <a class="unit-item__front" data-hoverTip="預覽單元">
+                  <div class="embed-responsive embed-responsive-16by9"> <img src="https://empowerchinese.net/Course/assets/graph/6c4c80be6dfd4ed1809cccf4a73b6a68.png" class="embed-responsive-item" alt="單元封面"> </div>
+                  </a>
+                  <div class="unit-item__content"> 
+                    <!--<div class="application">
+                      <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                    </div>-->
+                    <h3 class="unitName" title="3-1 我喜歡看電影">3-1 我喜歡看電影
+                      <button type="button" class="editUnit-btn" data-toggle="modal" data-target="#modal-editedUnit" title="修改單元設定"><i class="fas fa-pen"></i></button>
+                    </h3>
+                    <div class="tools text-center"> <a href="editUnit__Warm.html" role="button" class="btn btn-main-green editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課前暖身<br><small>（已編輯）</small>"><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示"/></a><a href="editUnit__AHPV.html" role="button" class="btn btn-main-yellow editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課文<br><small>（已編輯）</small>"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示"/></a><a href="editUnit__C.html" role="button" class="btn btn-main-purple editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="認識字詞<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示"/></a><a href="editUnit__S.html" role="button" class="btn btn-main-orange editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="句型練習<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示"/></a><a href="editUnit__Papers.html" role="button" class="btn btn-main-skin editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="評量活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示"/></a><a href="editUnit__activity.html?activity=a2a3" role="button" class="btn btn-main-cyan editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課堂活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/classActivity.svg" alt="課堂活動圖示"/></a></div>
+                  </div>
+                  <button type="button" class="close" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="刪除單元"><span aria-hidden="true">×</span></button>
+                </div>
+              </div>
+              <!-- -->
+              <div class="col-xsm-6 col-sm-6 col-md-4 col-lg-3 col-xlg-2_4 px-2">
+                <div class="unit-item myLibs-unitItem"> <a class="unit-item__front" data-hoverTip="預覽單元">
+                  <div class="embed-responsive embed-responsive-16by9"> <img src="https://empowerchinese.net/Course/assets/graph/1c1cddbc1e73e33c71b55da0fd06455e.png" class="embed-responsive-item" alt="單元封面"> </div>
+                  </a>
+                  <div class="unit-item__content"> 
+                    <!--<div class="application">
+                      <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                    </div>-->
+                    <h3 class="unitName" title="4-1 這枝筆多少錢？">4-1 這枝筆多少錢？
+                      <button type="button" class="editUnit-btn" data-toggle="modal" data-target="#modal-editedUnit" title="修改單元設定"><i class="fas fa-pen"></i></button>
+                    </h3>
+                    <div class="tools text-center"> <a href="editUnit__Warm.html" role="button" class="btn btn-main-green editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課前暖身<br><small>（已編輯）</small>"><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示"/></a><a href="editUnit__AHPV.html" role="button" class="btn btn-main-yellow editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課文<br><small>（已編輯）</small>"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示"/></a><a href="editUnit__C.html" role="button" class="btn btn-main-purple editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="認識字詞<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示"/></a><a href="editUnit__S.html" role="button" class="btn btn-main-orange editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="句型練習<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示"/></a><a href="editUnit__Papers.html" role="button" class="btn btn-main-skin editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="評量活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示"/></a><a href="editUnit__activity.html?activity=a2a3" role="button" class="btn btn-main-cyan editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課堂活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/classActivity.svg" alt="課堂活動圖示"/></a></div>
+                  </div>
+                  <button type="button" class="close" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="刪除單元"><span aria-hidden="true">×</span></button>
+                </div>
+              </div>
+              <!-- -->
+              <div class="col-xsm-6 col-sm-6 col-md-4 col-lg-3 col-xlg-2_4 px-2">
+                <div class="unit-item myLibs-unitItem"> <a class="unit-item__front" data-hoverTip="預覽單元">
+                  <div class="embed-responsive embed-responsive-16by9"> <img src="https://empowerchinese.net/Course/assets/graph/ed50e73f0afd42668f4da3d0738b9f29.png" class="embed-responsive-item" alt="單元封面"> </div>
+                  </a>
+                  <div class="unit-item__content"> 
+                    <!--<div class="application">
+                      <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                    </div>-->
+                    <h3 class="unitName" title="5-1 我家有五個人">5-1 我家有五個人
+                      <button type="button" class="editUnit-btn" data-toggle="modal" data-target="#modal-editedUnit" title="修改單元設定"><i class="fas fa-pen"></i></button>
+                    </h3>
+                    <div class="tools text-center"> <a href="editUnit__Warm.html" role="button" class="btn btn-main-green editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課前暖身<br><small>（已編輯）</small>"><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示"/></a><a href="editUnit__AHPV.html" role="button" class="btn btn-main-yellow editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課文<br><small>（已編輯）</small>"><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示"/></a><a href="editUnit__C.html" role="button" class="btn btn-main-purple editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="認識字詞<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示"/></a><a href="editUnit__S.html" role="button" class="btn btn-main-orange editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="句型練習<br><small>（已編輯）</small>"><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示"/></a><a href="editUnit__Papers.html" role="button" class="btn btn-main-skin editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="評量活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示"/></a><a href="editUnit__activity.html?activity=a2a3" role="button" class="btn btn-main-cyan editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課堂活動<br><small>（已編輯）</small>"><img src="../Content/images/libs/classActivity.svg" alt="課堂活動圖示"/></a></div>
+                  </div>
+                  <button type="button" class="close" aria-label="Close" data-toggle="tooltip" data-placement="bottom" title="刪除單元"><span aria-hidden="true">×</span></button>
+                </div>
+              </div>
+              <!-- --> 
+              
+              <!-- -->
+              <div class="col-xsm-6 col-sm-6 col-md-4 col-lg-3 col-xlg-2_4 px-2"> <a class="unit-item myLibs-unitItem" role="button" data-toggle="modal" data-target="#modal-insertUnit">
+                <div class="unit-item__front" data-hoverTip="建立單元">
+                  <div class="embed-responsive embed-responsive-16by9"> <img src="../Content/images/plus.png" class="embed-responsive-item" alt="建立單元"> </div>
+                </div>
+                <div class="unit-item__content"> 
+                  <!--<div class="application">
+                    <div class="standard"><label class="label label-std-HSK disabled">HSK ?</label><label class="label label-std-TBCL disabled">TBCL ?</label></div>
+                  </div>-->
+                  <h3 class="unitName" title="建立單元">建立單元</h3>
+                  <div class="tools text-center"> <span href="editUnit__Warm.html" role="button" class="btn btn-main-green editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課前暖身<br><small>（未編輯）</small>" disabled><img src="../Content/images/libs/book-reader-solid.svg" alt="課前暖身圖示"/></span><span href="editUnit__AHPV.html" role="button" class="btn btn-main-yellow editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課文<br><small>（未編輯）</small>" disabled><img src="../Content/images/libs/readme-brands.svg" alt="課文圖示"/></span><span href="editUnit__C.html" role="button" class="btn btn-main-purple editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="認識字詞<br><small>（未編輯）</small>" disabled><img src="../Content/images/libs/custom-i-CW.svg" alt="認識字詞圖示"/></span><span href="editUnit__S.html" role="button" class="btn btn-main-orange editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="句型練習<br><small>（未編輯）</small>" disabled><img src="../Content/images/libs/custom-i-S.svg" alt="句型練習圖示"/></span><span href="editUnit__Papers.html" role="button" class="btn btn-main-skin editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="評量活動<br><small>（未編輯）</small>" disabled><img src="../Content/images/libs/tasks-solid.svg" alt="評量活動圖示"/></span><span href="editUnit__Papers.html" role="button" class="btn btn-main-cyan editUnit-icon" data-toggle="tooltip" data-placement="bottom" title="課堂活動<br><small>（未編輯）</small>" disabled><img src="../Content/images/libs/classActivity.svg" alt="課堂活動圖示"/></span> </div>
+                </div>
+                </a> </div>
+              <!-- --> 
+            </div>
+          </div>
+          <!-- 自編教材單元(目錄) end--> 
+        </div>
+      </div>
+      <!-- 右邊內容end --> 
+    </div>
+  </div>
+</main>
+
+<!-- Modal#modal-introduction start -->
+<div class="modal fade modal-introduction" id="modal-introduction" tabindex="-1" role="dialog" aria-labelledby="modal-introductionLabel">
+  <div class="modal-dialog modal-lg modal-xl" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-blue" id="">教材簡介</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- -->
+        <div class="modal-body-text">新版實用視聽華語針對母語非華語的外籍人士，訓練學生的基本發音語法及常用字彙，透過系統性的引導，日常生活會話的練習，達到語言流利、溝通無障礙的效果，更能領略中華文化的特質。本套教材將第一冊與第二冊定位為初級程度，著重「組詞成句」能力的養成。第一冊共12課，教學目標是建構初學華語者聽、說、讀、寫所需的基礎能力,使其 能成句表達與理解,達成日常生活中基本的溝通目的。本冊共有生詞 461 個,語法 49 則。</div>
+        <!-- --> 
+      </div>
+      <div class="modal-footer">
+        <div class="text-center">
+          <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-introduction end --> 
+
+<!-- Modal#modal-customizedTextbook start -->
+<div class="modal fade modal-customizedTextbook" id="modal-customizedTextbook" tabindex="-1" role="dialog" aria-labelledby="modal-customizedTextbookLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">建立自編教材</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- -->
+        <div class="form-horizontal form-style-2">
+          <div class="form-group"> <label for="" class="col-sm-3 control-label pr-sm-0"><span class="text-red">*</span>教材名稱</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">教材封面</label>
+            <div class="col-sm-8">
+              <input id="file-front-insertTextbook" name="file-front-insertTextbook" type="file" class="fileUpload-pic">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">圖檔格式為jpg/png，大小上限500KB，建議以直立長寬比例為5:4的圖像為主。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">教材權限</label>
+            <div class="col-sm-8">
+              <select id="program-status" class="form-control noRadius input-inline">
+                <option value=""><i class="fas fa-link"></i>公開</option>
+                <option value=""><i class="fas fa-unlink"></i>不公開</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">適用程度</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">多個標籤可使用,或;分隔。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">教材簡介</label>
+            <div class="col-sm-8">
+              <textarea class="form-control noRadius" rows="5"></textarea>
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+        </div>
+        <!-- --> 
+      </div>
+      <div class="modal-footer noBorder">
+        <div class="text-center">
+          <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+          <button id="program-done" type="button" class="btn btn-main-blue" onClick="alert('成功建立自編教材，立即前往編輯我的教材。');window.location='myLibs__content.html'">送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-customizedTextbook end --> 
+
+<!-- Modal#modal-editedTextbook start -->
+<div class="modal fade modal-editedTextbook" id="modal-editedTextbook" tabindex="-1" role="dialog" aria-labelledby="modal-editedTextbookLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">修改教材設定</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- -->
+        <div class="form-horizontal form-style-2">
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0"><span class="text-red">*</span>教材名稱</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="" value="全方位中文2(原創老師點擊)">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">教材封面</label>
+            <div class="col-sm-8">
+              <input id="file-front-editTextbook" name="file-front-editTextbook" type="file" class="fileUpload-pic">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">圖檔格式為jpg/png，大小上限500KB，建議以直立長寬比例為5:4的圖像為主。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">教材權限</label>
+            <div class="col-sm-8">
+              <select id="" class="form-control noRadius input-inline">
+                <option value=""><i class="fas fa-link"></i>公開</option>
+                <option value=""><i class="fas fa-unlink"></i>不公開</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">適用程度</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="" value="HSK 1; TBCL 1">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">多個標籤可使用,或;分隔。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">教材簡介</label>
+            <div class="col-sm-8">
+              <textarea class="form-control noRadius" rows="5">
+				</textarea>
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+        </div>
+        <!-- --> 
+      </div>
+      <div class="modal-footer noBorder">
+        <div class="text-center">
+          <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+          <button id="" type="button" class="btn btn-main-blue" onClick="alert('成功修改教材設定。');window.location='myLibs__content.html'">送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-editedTextbook end --> 
+
+<!-- Modal#modal-insertUnit start -->
+<div class="modal fade modal-insertUnit" id="modal-insertUnit" tabindex="-1" role="dialog" aria-labelledby="modal-insertUnitLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">建立單元</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- -->
+        <div class="form-horizontal form-style-2">
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">單元名稱</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">單元封面</label>
+            <div class="col-sm-8"> 
+              <!-- 預覽區 -->
+              <input id="file-front-insertUnit" name="file-front-insertUnit" type="file" class="fileUpload-pic">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">圖檔格式為jpg/png，大小上限500KB，建議以橫式長寬比例為16:9的圖像為主。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">單元權限</label>
+            <div class="col-sm-8">
+              <select id="" class="form-control noRadius input-inline">
+                <option value="3" selected>公開</option>
+                <option value="3">不公開</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- --> 
+      </div>
+      <div class="modal-footer noBorder">
+        <div class="text-center">
+          <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+          <button id="" type="button" class="btn btn-main-blue" onClick="alert('成功建立單元。')" data-dismiss="modal">送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-insertUnit end --> 
+
+<!-- Modal#modal-editedUnit start -->
+<div class="modal fade" id="modal-editedUnit" tabindex="-1" role="dialog" aria-labelledby="modal-editedUnitLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content noRadius">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">修改單元設定</h4>
+      </div>
+      <div class="modal-body"> 
+        <!-- -->
+        <div class="form-horizontal form-style-2">
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">單元名稱</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius" id="" placeholder="" value="第一課 問好">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block"></div>
+          </div>
+          <div class="form-group"> <label for="program-name" class="col-sm-3 control-label pr-sm-0">單元封面</label>
+            <div class="col-sm-8"> 
+              <!-- 預覽區 -->
+              <input id="file-front-edittUnit" name="file-front-editUnit" type="file" class="fileUpload-pic">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3 mark-block">圖檔格式為jpg/png，大小上限500KB，建議以橫式長寬比例為19:6的圖像為主。</div>
+          </div>
+          <div class="form-group"> <label for="program-status" class="col-sm-3 control-label pr-sm-0">單元權限</label>
+            <div class="col-sm-8">
+              <select id="" class="form-control noRadius input-inline">
+                <option value="3">公開</option>
+                <option value="3">不公開</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- --> 
+      </div>
+      <div class="modal-footer noBorder">
+        <div class="text-center">
+          <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+          <button id="" type="button" class="btn btn-main-blue" onClick="alert('成功修改單元設定。');window.location='myLibs__content.html'">送出</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-editedUnit end --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/fileinput.min.js"></script> 
+<script src="../Content/widgets/bootstrap-fileinput-master/js/locales/zh-TW.js"></script> 
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-myLibs').addClass('active');
+	
+	//取得modal簡介內文及計算標題padding
+	var _descriptionHTML=$('#modal-introduction .modal-body-text').html();
+	$('.textbook-description .introduction > label').html( _descriptionHTML )
+		                                     .css('padding-left', $('.textbook-description .introduction > span').width());
+	if(_descriptionHTML.length == 0){//空值=>more隱藏
+		$('.textbook-description .introduction').find('.more').hide();
+	}
+
+	//單元活動按鈕tooltip
+	$('.editUnit-icon').tooltip({
+		html : true,
+		template:'<div class="tooltip editCourse-tooltip" role="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>',
+	});
+	
+	//上傳圖片
+	$(".fileUpload-pic").fileinput({
+		language: 'zh-TW',
+		allowedFileExtensions : ['jpg', 'png','jpeg'],
+		maxFileSize : 500,
+		maxFilesNum : 1,
+		dropZoneEnabled: false,
+		previewClass: "file-eMstyle noRadius", 			//預覽區class
+		showClose: false, 								//預覽區close
+		mainClass: "file-caption-eMstyle",				//按鈕欄位class
+		captionClass: "noRadius",						//檔案標題欄位class
+		browseClass: "btn btn-default-gray noRadius", 	//按鈕class
+		layoutTemplates :{
+			footer: '', 								//預覽區footer資訊
+		},
+	});
+    
+    //教師手冊
+    $('#teacher-handbook').on('click', function (){
+        let uid = $(this).attr('data-uid');
+        let type = $(this).attr('data-handbook-type');
+        let bookName = $(this).parents('.textbook-description').find('.textbookName').text();
+        let bookImg = $(this).parents('.textbook-description').find('.front img').attr('src');
+        
+        let handbookPage = 'handbook.html';
+        if( type == 'pdf'){
+            handbookPage = 'handbook-pdf.html';
+        }
+        
+        let html = `<div class="modal fade modal-handbook" id="modal-handbook" tabindex="-1" role="dialog" aria-labelledby="handbookLabel" data-backdrop="static" data-keyboard="false">
+                        <div class="modal-dialog modal-full" role="document">
+                            <div class="modal-content">
+                              <div class="modal-body p-0">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <iframe id="iframe-handbook" src="` + handbookPage + `?uid=` + uid + `" width="100%" scrolling="no" frameborder="0"> </iframe>
+                              </div>
+                            </div>
+                        </div>
+                    </div>`;
+
+        $('body').append(html);
+        $('#modal-handbook').modal('show');
+        
+        $('#iframe-handbook').load(function(){ 
+            //iframe navbar-fixed-top、sidebar fixed
+            let $iframe = $(this), 
+                $contents = $iframe.contents();
+
+            $(window).trigger('resize');
+            
+            //sidebar click iframe scroll to top
+            $contents.find('.nav-sidebar-theme a:not(.disabled)').click(function(){
+                $contents.find('.sidebar-main').animate({ scrollTop:0 }, 500);
+            });
+            
+            //書名&書封
+            $contents.find('.navbar-header h1 > span').text(bookName);
+            $contents.find('.navbar-header [alt="cover"]').attr('src', bookImg);
+        });
+        
+        $('#modal-handbook').on('hidden.bs.modal', function (e) {
+            $(this).remove();  
+        });
+    });
+});  
+$(window).on('resize',function() {	
+	let modalH = $('#modal-handbook .modal-body').outerHeight();  
+	$('#iframe-handbook').css('height', modalH);
+    
+    $('#iframe-handbook').contents().find('.sidebar-main').css({
+        'height':     modalH - 97,
+        'overflow-y': 'scroll'
+    });
+});    
+</script> 
+<script src="../Content/js/defaultText.js">//預設圖片+名稱</script> 
+
+<!-- 中文小天才 -->
+<link rel="stylesheet" type="text/css" href="../Content/css/chineseGenius.css">
+<script src="../Content/js/chineseGenius.js">//中文小天才</script> 
+<script> 
+$(document).ready(function() {
+    const CGData = ["1", "01020304050607080910"];
+        
+    //中文小天才 標籤
+    chineseGeniusBtn(CGData);
+});
+</script>
+</body>
+</html>

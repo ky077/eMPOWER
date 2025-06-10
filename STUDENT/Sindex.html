@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS --> 
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Sindex"><a href="Sindex.html">首頁</a></li>
+              <li class="navTab-myCourse"><a href="myCourse.html">我的課本</a></li>
+              <li class="navTab-learning"><a href="learning.html">學習紀錄</a></li>
+              <li class="navTab-score"><a href="score.html">評量結果</a></li>
+              <li class="navTab-classAct"><a href="classAct.html">課堂活動</a></li>  
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，HUANGDADA！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- 基本資料 start -->
+  <div class="Sdata">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xl-10 col-xl-offset-1">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <div class="Sdata__photo">HUANGDADA 
+              <!--<img src="../Content/images/temp/team-Tphoto.jpg">--> 
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <div class="Sdata__data">
+              <h2>基本資料
+                <button type="button" class="btn btn-main-blue pull-right Tdata__btn" data-toggle="modal" data-target="#modal-editTData"> 編輯基本資料 </button>
+              </h2>
+              <div class="form-horizontal">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <div class="control-label col-sm-4 col-md-3 col-lg-2"> 帳號 </div>
+                      <div class=" col-sm-8 col-md-9 col-lg-10">
+                        <label>HUANGDADA012345@student.net</label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="control-label col-sm-4 col-md-3 col-lg-2"> 姓名 </div>
+                      <div class="col-sm-8 col-md-9 col-lg-10">
+                        <label>HUANGDADA012345</label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="control-label col-sm-4 col-md-3 col-lg-2">群組</div>
+                      <div class=" col-sm-8 col-md-9 col-lg-10">
+                        <label>5A增能組; 5A全班</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <div class="control-label col-sm-4 col-md-3 col-lg-4 col-xl-3">學校課名/班級</div>
+                      <div class="col-sm-8 col-md-9 col-lg-8 col-xl-9">
+                        <label>5A</label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="control-label col-sm-4 col-md-3 col-lg-4 col-xl-3">上課時間 </div>
+                      <div class="col-sm-8 col-md-9 col-lg-8 col-xl-9">
+                        <label>三12</label>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="control-label col-sm-4 col-md-3 col-lg-4 col-xl-3">學號</div>
+                      <div class="col-sm-8 col-md-9 col-lg-8 col-xl-9">
+                        <label>001</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 基本資料 end --> 
+  <!-- 最新課程 start -->
+  <div class="Trecommended pt-4 pb-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xl-10 col-xl-offset-1">
+          <div class="px-1">
+            <h2 class="base-h2">最新課程<small>Newly courses</small></h2>
+          </div>
+          <div class="row px-2"> 
+            <!-- -->
+            <div class="col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-2"> <a class="textbooks-item Tindex__textbooks-item" href="myCourse__content.html?uid=1">
+              <div class="textbooks-item__front" data-hoverTip="瀏覽課程">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="../Content/images/textbooks/chinese-characters-1/bookFront.jpg" class="embed-responsive-item" alt="課程封面"> </div>
+              </div>
+              <div class="textbooks-item__content">
+                <!--<div class="application">
+                  <div class="standard"><label class="label label-std-ACTFL">ACTFL 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                </div>-->
+                <div class="application"><div class="standard">適用程度：<label>TBCL1~2</label></div> </div> 
+                <h3 class="textbookName" title="漢字積木-字本位學習法I"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">漢字積木-字本位學習法I</h3>
+                <div class="info">
+                  <p><label>6</label>個單元</p>
+                  <p>正體</p>
+                 </div>   
+              </div>
+              </a> </div>
+            <!-- -->
+            <div class="col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-2"> <a class="textbooks-item Tindex__textbooks-item" href="myCourse__content.html?uid=2">
+              <div class="textbooks-item__front" data-hoverTip="瀏覽課程">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="../Content/images/textbooks/chinese-characters-2/bookFront.jpg" class="embed-responsive-item" alt="課程封面"> </div>
+              </div>
+              <div class="textbooks-item__content">
+                <div class="application">
+                  <div class="standard"><label class="label label-std-ACTFL">ACTFL 1</label><label class="label label-std-TBCL">TBCL 1</label></div>
+                </div>
+                <h3 class="textbookName" title="漢字積木-字本位學習法II"><img src="../Content/images/eMPOWER-icon-orange.svg" alt="自編教材" height="20">漢字積木-字本位學習法I(複製)</h3>
+                <div class="info">
+                  <p><label>6</label>個單元</p>
+                  <p>正體</p>
+                </div>
+              </div>
+              </a> </div>
+            <!-- -->
+            <div class="col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-2"> <a class="textbooks-item Tindex__textbooks-item" href="myCourse__content.html?uid=01020304050607080910">
+              <div class="textbooks-item__front" data-hoverTip="瀏覽課程">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="../Content/images/default-textBook.png" class="embed-responsive-item" alt="課程封面"> </div>
+              </div>
+              <div class="textbooks-item__content">
+                <div class="application">
+                  <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 2</label></div>
+                </div>
+                <h3 class="textbookName" title="中文真有趣(進階)"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="自編教材" height="20">中文真有趣(進階)</h3>
+                <div class="info">
+                    <p><label>6</label>個單元</p>
+                    <p>正體</p>
+                </div>
+              </div>
+              </a> </div>
+            <!-- -->
+            <div class="col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-2 hidden-xs hidden-sm visible-md visible-lg visible-xl"> <a class="textbooks-item Tindex__textbooks-item" href="myCourse__content.html?uid=4">
+              <div class="textbooks-item__front" data-hoverTip="瀏覽教材">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="../Content/images/textbooks/audio-visual-2/bookFront.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+              </div>
+              <div class="textbooks-item__content">
+                <div class="application">
+                    <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 2</label></div>
+                  </div>
+                <h3 class="textbookName" title="實用視聽華語2實用視聽華語2實用視聽華語2"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">實用視聽華語2實用視聽華語2實用視聽華語2</h3>
+                <div class="info">
+                  <p><label>6</label>個單元</p>  
+                  <p>正體</p>  
+                </div>
+              </div>
+              </a> </div>
+            <!-- -->
+            <div class="col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-2 hidden-xs hidden-sm hidden-md visible-lg visible-xl"> <a class="textbooks-item Tindex__textbooks-item" href="myCourse__content.html?uid=5">
+              <div class="textbooks-item__front" data-hoverTip="瀏覽教材">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="../Content/images/textbooks/audio-visual-3/bookFront.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+              </div>
+              <div class="textbooks-item__content">
+                <div class="application">
+                    <div class="standard"><label class="label label-std-HSK">HSK 2</label><label class="label label-std-TBCL">TBCL 3</label></div>
+                  </div>
+                <h3 class="textbookName" title="實用視聽華語3"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">實用視聽華語3</h3>
+                <div class="info">
+                  <p><label>6</label>個單元</p> 
+                  <p>正體</p>  
+                </div>
+              </div>
+              </a> </div>
+            <!-- -->
+            <div class="col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-2 hidden-xs hidden-sm hidden-md hidden-lg visible-xl"> <a class="textbooks-item Tindex__textbooks-item" href="myCourse__content.html?uid=6">
+              <div class="textbooks-item__front" data-hoverTip="瀏覽教材">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://bk.empowerchinese.net/course/assets/graph/586d4f814f9f4b41b4a64305a1bbe473.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+              </div>
+              <div class="textbooks-item__content">
+                <div class="application">
+                    <div class="standard"><label class="label label-std-HSK">HSK 1</label><label class="label label-std-TBCL">TBCL 2</label></div>
+                  </div>
+                <h3 class="textbookName" title="實用視聽華語4"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">實用視聽華語4</h3>
+                <div class="info">
+                  <p><label>6</label>個單元</p>  
+                  <p>正體</p>   
+                </div>
+              </div>
+              </a> </div>
+            <!-- --> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 最新課程 end -->
+</main>
+<!-- Modal#modal-editTData start-->
+<div class="modal fade modal-style1" id="modal-editTData" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+      </div>
+      <div class="modal-body">
+        <div class="form-horizontal form-style-1">
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red">*</span>帳號</label>
+            <div class="col-sm-8">
+              <input type="email" class="form-control noRadius input-lg" id="" placeholder="請輸入信箱" value="HUANGDADA@student.net" disabled>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red">*</span>密碼</label>
+            <div class="col-sm-8">
+              <div class="input-group show_hide_password">
+                <input type="password" class="form-control input-lg noRadius hidePD" id="" placeholder="請輸入密碼" value="00000000">
+                <div class="input-group-addon noRadius"> <a role="button"><i class="fas fa-eye-slash"></i></a> </div>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-3">
+              <div class="has-error help-block" style="display: none;">請輸入8~12為英數字混和的密碼。</div>
+              <!-- 建議搭配<div class="form-group has-error"> 或 <div class="col-sm-8 col-sm-offset-3 has-error"> --> 
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red">*</span>確認密碼</label>
+            <div class="col-sm-8">
+              <input type="password" class="form-control noRadius input-lg" id="" placeholder="請再次輸入密碼">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3">
+              <div class="help-block" style="display: none;">確認密碼與密碼需相同。</div>
+              <!-- 建議搭配<div class="form-group has-error"> 或 <div class="col-sm-8 col-sm-offset-3 has-error"> --> 
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red">*</span>名稱</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control noRadius input-lg" id="" placeholder="請輸入您的名稱" value="黃大大" disabled="disabled">
+            </div>
+            <div class="col-sm-8 col-sm-offset-3">
+              <div class="help-block" style="display: none;">名稱請勿超過x字。</div>
+              <!-- 建議搭配<div class="form-group has-error"> 或 <div class="col-sm-8 col-sm-offset-3 has-error"> --> 
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red">*</span>身份</label>
+            <div class="col-sm-8">
+              <div class="for-Dradio">
+                <div class="Dradio-main-blue radio-inline">
+                  <input type="radio" id="student" name="identity" checked="checked" disabled="disabled">
+                  <label for="student">學生</label>
+                </div>
+                <div class="Dradio-main-blue radio-inline">
+                  <input type="radio" id="teacher" name="identity" disabled="disabled">
+                  <label for="teacher">老師</label>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-3">
+              <div class="help-block" style="display: none;"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red">*</span>學校</label>
+            <div class="col-sm-8">
+              <div class="row">
+                <div class="col-sm-6 pr-sm-1">
+                  <input type="text" class="form-control noRadius input-lg" id="" placeholder="國家" value="臺灣" disabled="disabled">
+                </div>
+                <div class="col-sm-6 pl-sm-1">
+                  <input type="text" class="form-control noRadius input-lg" id="" placeholder="校名" value="國立臺灣師範大學" disabled="disabled">
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8 col-sm-offset-3">
+              <div class="help-block" style="display: none;"></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="" class="col-sm-3 control-label"><span class="text-red"></span></label>
+            <div class="col-sm-8">
+              <div class="help-block text-red">學生僅可修改密碼。<br>
+                以上資料如有錯誤，請洽老師修正。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-main-blue-white" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-main-blue">確定修改</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal#modal-editTData end--> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-Sindex').addClass('active');
+});
+</script> 
+<script src="../Content/js/show_hide_password.js">//密碼顯示/隱藏</script> 
+<script src="../Content/js/defaultText.js">//預設圖片+名稱</script>
+    
+<!-- 中文小天才 -->
+<link rel="stylesheet" type="text/css" href="../Content/css/chineseGenius.css">
+<script src="../Content/js/chineseGenius.js">//中文小天才</script> 
+<script> 
+$(document).ready(function() {
+	const CGData = ["1", "01020304050607080910"];
+        
+    //中文小天才 標籤
+    chineseGeniusTag(CGData, '.textbooks-item');
+});    
+</script>   
+</body>
+</html>

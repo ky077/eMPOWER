@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="zh-tw">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="eMPOWER華語文字詞句教學平台">
+<meta name="author" content="eMPOWER華語文字詞句教學平台">
+<title>eMPOWER華語文字詞句教學平台</title>
+<link rel="shortcut icon" type="image/x-icon" href="../Content/images/eMPOWER.ico">
+<link rel="stylesheet" type="text/css" href="../Content/css/bootstrap-lg.min.css">
+<link rel="stylesheet" type="text/css" href="../Content/css/ie10-viewport-bug-workaround.css">
+<link rel="stylesheet" type="text/css" href="../Content/widgets/fontawesome-free-5.15.3-web/css/all.css">
+
+<!-- this page widgets CSS --> 
+
+<!-- my core CSS -->
+<link rel="stylesheet" type="text/css" href="../Content/css/eMPOWERstyles.css">
+</head>
+
+<body>
+<header>
+  <nav class="navbar navi-main navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">展開上方主選單</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar" aria-expanded="false" aria-controls="sidebar"> <span class="sr-only">展開左側選單</span> <i class="fas fa-chevron-right"></i><i class="fas fa-chevron-left"></i></button>--> 
+            <a class="navbar-brand" href="#"> <img src="../Content/images/eMPOWER-img.svg" alt="eMPOWER華語文字詞句教學平台" class="img-responsive"> </a>
+            <h1>eMPOWER華語文字詞句教學平台</h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="navTab-Tindex"><a href="Tindex.html">首頁</a></li>
+              <li class="navTab-smartChinese"><a href="smartChinese.html">全方位中文系列</a></li>  
+              <li class="navTab-chineseSeries"><a href="chineseSeries.html">教材資源區</a></li>
+              <li class="navTab-customized"><a href="customized.html">建立自編教材</a></li>
+              <li class="navTab-myLibs"><a href="myLibs.html">我的教材庫</a></li>
+              <li class="navTab-classMgt dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">班級管理&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="classMgt__students.html">學生名單</a></li>
+                  <li><a href="classMgt__groups.html">指派教材</a></li>
+                  <li><a href="classMgt__learning.html">學習紀錄</a></li>
+                  <li><a href="classMgt__score.html">評量結果</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown"><a class="navi-main__loginedBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">你好，張花花！</a>
+                <ul class="dropdown-menu navi-main__userMenu">
+                  <li><a href="../index.html" class="btn navi-main__logoutBtn">登出</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"><a class="navi-main__languageBtn" data-target="#" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">中文(正體)&nbsp;<span class="caret"></span></a>
+                <ul class="dropdown-menu navi-main__languageMenu">
+                  <li><a href="" check="checked"><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(正體)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;中文(简体)</a></li>
+                  <li><a href=""><span class="language-icon"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span></span>&nbsp;English(United States)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<main> 
+  <!-- 標題/搜尋start -->
+  <div class="chineseSeriesHeader">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-xl-10 col-xl-offset-1">
+          <div class="row chineseSeriesDiv">
+            <div class="imgDiv col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-2"><img src="../Content/images/chineseSeries/booksLight.png" class="img-responsive" alt=""/></div>
+            <div class="nameDiv col-xs-9 col-sm-9 col-md-10 col-lg-2 col-xl-2">
+              <h2>教材資源區</h2>
+            </div>
+            <div class="searchDiv col-xs-12 col-sm-9 col-md-10 col-lg-7 col-xl-6">
+              <div class="input-group input-group-lg">
+                <input type="text" class="form-control noRadius" placeholder="請輸入書名關鍵字...">
+                <span class="input-group-btn">
+                <button class="btn btn-main-blue noRadius px-5" type="button">搜尋</button>
+                </span> </div>
+            </div>
+            <div class="checkboxDiv col-xs-12 col-lg-10 col-xl-9">
+              <div class="form-group"> <label class="col-md-4 col-xl-3 control-label">字體：</label>
+                <div class="col-md-8 col-xl-9">
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="lang" id="checkAll-lang0">
+                    <label for="checkAll-lang0">全部</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="lang" id="checkItem-lang1">
+                    <label for="checkItem-lang1">正體</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="lang" id="checkItem-lang2">
+                    <label for="checkItem-lang2"> 簡體</label> </div>
+                </div>
+              </div>
+              <div class="form-group"> <label class="col-md-4 col-xl-3 control-label">類別：</label>
+                <div class="col-md-8 col-xl-9">
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="type" id="checkAll-type0">
+                    <label for="checkAll-type0">全部</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="type" id="checkItem-type1">
+                    <label for="checkItem-type1">一般華語教材</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="type" id="checkItem-type2">
+                    <label for="checkItem-type2">漢字教材</label> </div>
+                </div>
+              </div>
+              <div class="form-group"> <label class="col-md-4 col-xl-3 control-label">適用程度：</label>
+                <div class="col-md-8 col-xl-9">
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="applicability" id="checkAll-app0">
+                    <label for="checkAll-app0">全部</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="applicability" id="checkItem-app1">
+                    <label for="checkItem-app1">初級</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="applicability" id="checkItem-app2">
+                    <label for="checkItem-app2">中級</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="applicability" id="checkItem-app3">
+                    <label for="checkItem-app3">高級</label> </div>
+                </div>
+              </div>
+              <div class="form-group"> <label class="col-md-4 col-xl-3 control-label">語言標準：</label>
+                <div class="col-md-8 col-xl-9">
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="standard" id="checkAll-all">
+                    <label for="checkAll-all">全部</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="standard" id="checkItem-CEFR">
+                    <label for="checkItem-CEFR">CEFR</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="standard" id="checkItem-ACTFL">
+                    <label for="checkItem-ACTFL">ACTFL</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="standard" id="checkItem-TOCFL">
+                    <label for="checkItem-TOCFL">TOCFL</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="standard" id="checkItem-TBCL">
+                    <label for="checkItem-TBCL">TBCL</label> </div>
+                  <div class="checkbox checkbox-inline icheck-main-blue">
+                    <input type="checkbox" name="standard" id="checkItem-HSK">
+                    <label for="checkItem-HSK">HSK</label> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 標題/搜尋end --> 
+  
+  <!-- 華語教材系列 start -->
+  <div class="chineseSeries py-5">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-xl-10 col-xl-offset-1"> 
+          <!-- 排序&頁碼資訊 start -->
+          <div class="row px-3 mt-4 mb-5">
+            <div class="col-xl-8 px-2"> <a href="#" class="btn btn-main-blue-white btn-sort chineseSeries-sort__btn" role="button">書名&nbsp;<span class="btn-sort-icon"><i class="fas fa-sort-up"></i><i class="fas fa-sort-down"></i></span></a> <a href="#" class="btn btn-main-blue-white btn-sort chineseSeries-sort__btn" role="button">適用程度&nbsp;<span class="btn-sort-icon"><i class="fas fa-sort-up"></i><i class="fas fa-sort-down"></i></span></a> </div>
+            <div class="col-xl-4 px-2 text-right"> <span class="mr-5">共<label class="mx-1">22</label>本書</span> <span><label class="mx-1 text-red">1</label>/<label class="mx-1">2</label></span>
+              <button class="btn btn-default-gray-white btn-xs" type="button"><i class="fas fa-chevron-left"></i></button>
+              <button class="btn btn-default-gray-white btn-xs" type="button"><i class="fas fa-chevron-right"></i></button>
+            </div>
+          </div>
+          <!-- 排序&頁碼資訊  end  -->
+          
+          <div class="row px-3 chineseSeries-items"> 
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/57cf27de4a004117aee223264e18d793.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-CEFR" title="CEFR">A1</label> <label class="label label-std-TOCFL" title="TOCFL">入門</label> <label class="label label-std-TBCL" title="TBCL">TBCL 1~2</label></div>
+                  </div>
+                  <h3 class="textbookName" title="來！學華語（一）"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">來！學華語（一）</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/3d0d4c9903fe4b109129cd000749b7cf.jpg" class="embed-responsive-item" alt="實用視聽華語1"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-CEFR" title="CEFR">A1</label> <label class="label label-std-TOCFL" title="TOCFL">入門~基礎</label> <label class="label label-std-HSK" title="TBCL">TBCL 2</label></div>
+                  </div>
+                  <h3 class="textbookName" title="來！學華語（二）"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">來！學華語（二）</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/586d4f814f9f4b41b4a64305a1bbe473.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-TOCFL" title="TOCFL">準備~入門</label></div>
+                  </div>
+                  <h3 class="textbookName" title="新版實用視聽華語1"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">新版實用視聽華語1</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/dc38956dbf2d4017af8ddc926aef7e16.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-TOCFL" title="TOCFL">入門~基礎</label></div>
+                  </div>
+                  <h3 class="textbookName" title="新版實用視聽華語2"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">新版實用視聽華語2</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/d1347ebea1514019b1b2ee0aaebf3992.png" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-TOCFL" title="TOCFL">入門</label> <label class="label label-std-CEFR" title="CEFR">A1</label></div>
+                  </div>
+                  <h3 class="textbookName" title="學華語向前走（基礎）"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">學華語向前走（基礎）</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/cdc754786f594aab9848660d248604c3.png" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-TOCFL" title="TOCFL">入門</label> <label class="label label-std-CEFR" title="CEFR">A1</label></div>
+                  </div>
+                  <h3 class="textbookName" title="學華語向前走（1）"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">學華語向前走（1）</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/72c5754d94e14d3a9508fe7a9026e2f6.png" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"><label class="label label-std-TOCFL" title="TOCFL">入門</label> <label class="label label-std-CEFR" title="CEFR">A1</label></div>
+                  </div>
+                  <h3 class="textbookName" title="學華語向前走（2）"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">學華語向前走（2）</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/4d4637a39c51425a9a4efc6206efe09b.png" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"> <label class="label label-std-TOCFL" title="TOCFL">基礎</label> <label class="label label-std-CEFR" title="CEFR">A2</label></div>
+                  </div>
+                  <h3 class="textbookName" title="學華語向前走（3）"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">學華語向前走（3）</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/0a0e9f4785034e05a674caaaeb9453ad.png" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"> <label class="label label-std-TOCFL" title="TOCFL">基礎</label> <label class="label label-std-CEFR" title="CEFR">A2</label></div>
+                  </div>
+                  <h3 class="textbookName" title="學華語向前走 (4)"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">學華語向前走 (4)</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <!-- --> 
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/chinese-characters-1/bookFront.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"> <label class="label label-std-CEFR" title="CEFR">A2~B1</label> <label class="label label-std-TBCL" title="TBCL">TBCL 3~5</label></div>
+                  </div>
+                  <h3 class="textbookName" title="漢字積木-字本位學習法"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">漢字積木-字本位學習法</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->   
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/74f49a889adf4286a14bcb28a8d91120.jpg" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"> <label class="label label-std-CEFR" title="CEFR">A2~B1</label> <label class="label label-std-TBCL" title="TBCL">TBCL 3~5</label></div>
+                  </div>
+                  <h3 class="textbookName" title="漢字積木-字本位學習法 II"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">漢字積木-字本位學習法 II</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->  
+            <div class="col-xs-12 col-xsm-6 col-sm-4 col-md-3 col-lg-2_4 col-xl-2 px-1">
+              <div class="textbooks-item"> <a class="textbooks-item__front" title="瀏覽教材" href="chineseSeries__content.html">
+                <div class="embed-responsive embed-responsive-125pre"> <img src="https://empowerchinese.net/v2/Content/images/textbooks/pintoo.png" class="embed-responsive-item" alt="教材封面"> </div>
+                </a>
+                <div class="textbooks-item__content">
+                  <div class="application">
+                    <div class="standard"> <label class="label label-std-CEFR" title="CEFR">A1</label> <label class="label label-std-TBCL" title="TBCL">TBCL 1~2</label></div>
+                  </div>
+                  <h3 class="textbookName" title="漢字拼圖"><img src="../Content/images/eMPOWER-icon-blue.svg" alt="系统教材" height="20">漢字拼圖</h3>
+                  <div class="info">
+                    <p><label>正體</label></p>
+                    <p><label>一般華語教材</label></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- -->   
+          </div>
+          
+          <!-- 頁碼 start -->
+          <div class="text-center">
+            <ul class="pagination em-pagination">
+              <li class="disabled"><a href="#" aria-label="Previous"><i class="fas fa-chevron-left"></i></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><span>...</span></li>
+              <li><a href="#">10</a></li>
+              <li><a href="#">11</a></li>
+              <li><a href="#" aria-label="Next"><i class="fas fa-chevron-right"></i></a></li>
+            </ul>
+          </div>
+          <!-- 頁碼 end --> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 華語教材系列 end --> 
+  
+</main>
+<!-- ------- ------- ------- ------- ------- ------- ------- -->
+<footer class="footer"> </footer>
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<!-- ------- ------- ------- ------- ------- ------- ------- --> 
+<script src="../Script/jquery.min.js"></script> 
+<script src="../Script/bootstrap.min.js"></script> 
+<script src="../Script/ie10-viewport-bug-workaround.js"></script> 
+<!-- widgets js --> 
+<script src="../Content/js/checkAll.js">//全選反選</script> 
+<script>
+$(document).ready(function() {
+	//nowPage 
+	$('.navTab-chineseSeries').addClass('active');
+    
+    //for demo 排序按鈕
+	var _clickTime = 0;
+	$('.btn-sort').click(function(){
+		_clickTime++;
+		if(_clickTime == 1){
+			$(this).removeClass('active down').addClass('active up');
+			//& do something...
+		}else if(_clickTime == 2){
+			$(this).removeClass('active up').addClass('active down');
+			//& do something...
+		}else{
+			$(this).removeClass('active up down');
+			_clickTime = 0;
+		}
+	});
+    
+    //[加入我的教材庫] => [已加入我的教材庫]
+    $('.chineseSeries__addLibs').click(function(){
+        $(this).html('<i class="fas fa-check"></i>&nbsp;已加入我的教材庫')
+               .attr('disabled', 'disabled')
+               .removeClass('btn-main-blue-white')
+               .addClass('btn-main-blue');
+    });
+});
+</script>
+</body>
+</html>
